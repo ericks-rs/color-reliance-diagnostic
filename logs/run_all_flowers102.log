@@ -1,0 +1,1336 @@
+[18:09:36] INFO dataset=flowers102 models=['resnet50'] seeds=[0] epochs=2
+[18:09:36] INFO ==== flowers102 / resnet50 / seed0 ====
+[18:09:38] INFO [train] flowers102/resnet50/seed0 epochs=2 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[18:10:08] INFO   ep1: train_loss=4.6251 val_acc=0.0108 val_f1=0.0038 val_uar=0.0108 lr=4.00e-05
+[18:10:11] INFO   ep2: train_loss=4.6148 val_acc=0.0108 val_f1=0.0051 val_uar=0.0108 lr=6.00e-05
+[18:10:11] INFO [done] best_val_acc=0.0108 ckpt=checkpoints\flowers102_resnet50_seed0.pt time=0.6min
+[18:10:12] INFO   [E1] eval clean + per colorfulness bin
+[18:10:39] INFO   [E2] eval perturbasi warna
+[18:15:56] INFO   done resnet50 seed0
+[18:15:56] INFO ALL DONE
+[18:21:53] INFO dataset=flowers102 models=['resnet50', 'convnext_tiny', 'vit_small', 'swin_tiny'] seeds=[0] epochs=None
+[18:21:53] INFO ==== flowers102 / resnet50 / seed0 ====
+[18:21:55] INFO [train] flowers102/resnet50/seed0 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[18:22:27] INFO   ep1: train_loss=4.6251 val_acc=0.0108 val_f1=0.0038 val_uar=0.0108 lr=4.00e-05
+[18:22:30] INFO   ep2: train_loss=4.6148 val_acc=0.0108 val_f1=0.0051 val_uar=0.0108 lr=6.00e-05
+[18:22:32] INFO   ep3: train_loss=4.5959 val_acc=0.0255 val_f1=0.0158 val_uar=0.0255 lr=8.00e-05
+[18:22:35] INFO   ep4: train_loss=4.5685 val_acc=0.0510 val_f1=0.0388 val_uar=0.0510 lr=1.00e-04
+[18:22:38] INFO   ep5: train_loss=4.5351 val_acc=0.1029 val_f1=0.0935 val_uar=0.1029 lr=1.00e-04
+[18:22:41] INFO   ep6: train_loss=4.4849 val_acc=0.1539 val_f1=0.1425 val_uar=0.1539 lr=9.99e-05
+[18:22:43] INFO   ep7: train_loss=4.4225 val_acc=0.2529 val_f1=0.2409 val_uar=0.2529 lr=9.97e-05
+[18:22:46] INFO   ep8: train_loss=4.3482 val_acc=0.3529 val_f1=0.3433 val_uar=0.3529 lr=9.93e-05
+[18:22:49] INFO   ep9: train_loss=4.2541 val_acc=0.4206 val_f1=0.4218 val_uar=0.4206 lr=9.87e-05
+[18:22:52] INFO   ep10: train_loss=4.1343 val_acc=0.4902 val_f1=0.4958 val_uar=0.4902 lr=9.80e-05
+[18:22:54] INFO   ep11: train_loss=3.9785 val_acc=0.5490 val_f1=0.5512 val_uar=0.5490 lr=9.71e-05
+[18:22:57] INFO   ep12: train_loss=3.7785 val_acc=0.6235 val_f1=0.6184 val_uar=0.6235 lr=9.61e-05
+[18:23:00] INFO   ep13: train_loss=3.5578 val_acc=0.6627 val_f1=0.6491 val_uar=0.6627 lr=9.49e-05
+[18:23:02] INFO   ep14: train_loss=3.3122 val_acc=0.6775 val_f1=0.6593 val_uar=0.6775 lr=9.35e-05
+[18:23:05] INFO   ep15: train_loss=3.0339 val_acc=0.7020 val_f1=0.6792 val_uar=0.7020 lr=9.21e-05
+[18:23:08] INFO   ep16: train_loss=2.7863 val_acc=0.7127 val_f1=0.6891 val_uar=0.7127 lr=9.05e-05
+[18:23:10] INFO   ep17: train_loss=2.5482 val_acc=0.7147 val_f1=0.6915 val_uar=0.7147 lr=8.87e-05
+[18:23:13] INFO   ep18: train_loss=2.3175 val_acc=0.7402 val_f1=0.7181 val_uar=0.7402 lr=8.68e-05
+[18:23:16] INFO   ep19: train_loss=2.1371 val_acc=0.7510 val_f1=0.7372 val_uar=0.7510 lr=8.48e-05
+[18:23:18] INFO   ep20: train_loss=1.9504 val_acc=0.7784 val_f1=0.7632 val_uar=0.7784 lr=8.27e-05
+[18:23:21] INFO   ep21: train_loss=1.8163 val_acc=0.7882 val_f1=0.7774 val_uar=0.7882 lr=8.05e-05
+[18:23:24] INFO   ep22: train_loss=1.6731 val_acc=0.7961 val_f1=0.7820 val_uar=0.7961 lr=7.82e-05
+[18:23:27] INFO   ep23: train_loss=1.5586 val_acc=0.8108 val_f1=0.8017 val_uar=0.8108 lr=7.58e-05
+[18:23:29] INFO   ep24: train_loss=1.4846 val_acc=0.8206 val_f1=0.8123 val_uar=0.8206 lr=7.33e-05
+[18:23:32] INFO   ep25: train_loss=1.3901 val_acc=0.8235 val_f1=0.8177 val_uar=0.8235 lr=7.08e-05
+[18:23:35] INFO   ep26: train_loss=1.3431 val_acc=0.8294 val_f1=0.8240 val_uar=0.8294 lr=6.81e-05
+[18:23:37] INFO   ep27: train_loss=1.2849 val_acc=0.8422 val_f1=0.8389 val_uar=0.8422 lr=6.55e-05
+[18:23:40] INFO   ep28: train_loss=1.2266 val_acc=0.8382 val_f1=0.8357 val_uar=0.8382 lr=6.27e-05
+[18:23:43] INFO   ep29: train_loss=1.1877 val_acc=0.8500 val_f1=0.8477 val_uar=0.8500 lr=5.99e-05
+[18:23:45] INFO   ep30: train_loss=1.1575 val_acc=0.8510 val_f1=0.8488 val_uar=0.8510 lr=5.71e-05
+[18:23:48] INFO   ep31: train_loss=1.1358 val_acc=0.8529 val_f1=0.8512 val_uar=0.8529 lr=5.43e-05
+[18:23:51] INFO   ep32: train_loss=1.1088 val_acc=0.8578 val_f1=0.8553 val_uar=0.8578 lr=5.14e-05
+[18:23:54] INFO   ep33: train_loss=1.0972 val_acc=0.8588 val_f1=0.8583 val_uar=0.8588 lr=4.86e-05
+[18:23:56] INFO   ep34: train_loss=1.0680 val_acc=0.8696 val_f1=0.8676 val_uar=0.8696 lr=4.57e-05
+[18:23:59] INFO   ep35: train_loss=1.0375 val_acc=0.8676 val_f1=0.8659 val_uar=0.8676 lr=4.29e-05
+[18:24:02] INFO   ep36: train_loss=1.0344 val_acc=0.8725 val_f1=0.8705 val_uar=0.8725 lr=4.01e-05
+[18:24:04] INFO   ep37: train_loss=1.0275 val_acc=0.8696 val_f1=0.8670 val_uar=0.8696 lr=3.73e-05
+[18:24:07] INFO   ep38: train_loss=1.0103 val_acc=0.8725 val_f1=0.8699 val_uar=0.8725 lr=3.45e-05
+[18:24:09] INFO   ep39: train_loss=1.0078 val_acc=0.8745 val_f1=0.8723 val_uar=0.8745 lr=3.19e-05
+[18:24:12] INFO   ep40: train_loss=1.0014 val_acc=0.8735 val_f1=0.8718 val_uar=0.8735 lr=2.92e-05
+[18:24:15] INFO   ep41: train_loss=0.9941 val_acc=0.8745 val_f1=0.8722 val_uar=0.8745 lr=2.67e-05
+[18:24:17] INFO   ep42: train_loss=0.9869 val_acc=0.8784 val_f1=0.8774 val_uar=0.8784 lr=2.42e-05
+[18:24:20] INFO   ep43: train_loss=0.9864 val_acc=0.8814 val_f1=0.8800 val_uar=0.8814 lr=2.18e-05
+[18:24:23] INFO   ep44: train_loss=0.9750 val_acc=0.8794 val_f1=0.8778 val_uar=0.8794 lr=1.95e-05
+[18:24:25] INFO   ep45: train_loss=0.9768 val_acc=0.8784 val_f1=0.8767 val_uar=0.8784 lr=1.73e-05
+[18:24:28] INFO   ep46: train_loss=0.9734 val_acc=0.8794 val_f1=0.8776 val_uar=0.8794 lr=1.52e-05
+[18:24:30] INFO   ep47: train_loss=0.9676 val_acc=0.8794 val_f1=0.8778 val_uar=0.8794 lr=1.32e-05
+[18:24:33] INFO   ep48: train_loss=0.9653 val_acc=0.8814 val_f1=0.8802 val_uar=0.8814 lr=1.13e-05
+[18:24:35] INFO   ep49: train_loss=0.9648 val_acc=0.8794 val_f1=0.8780 val_uar=0.8794 lr=9.55e-06
+[18:24:38] INFO   ep50: train_loss=0.9593 val_acc=0.8824 val_f1=0.8807 val_uar=0.8824 lr=7.94e-06
+[18:24:41] INFO   ep51: train_loss=0.9590 val_acc=0.8824 val_f1=0.8805 val_uar=0.8824 lr=6.46e-06
+[18:24:43] INFO   ep52: train_loss=0.9578 val_acc=0.8784 val_f1=0.8770 val_uar=0.8784 lr=5.13e-06
+[18:24:46] INFO   ep53: train_loss=0.9601 val_acc=0.8784 val_f1=0.8775 val_uar=0.8784 lr=3.94e-06
+[18:24:48] INFO   ep54: train_loss=0.9536 val_acc=0.8814 val_f1=0.8799 val_uar=0.8814 lr=2.91e-06
+[18:24:51] INFO   ep55: train_loss=0.9526 val_acc=0.8804 val_f1=0.8791 val_uar=0.8804 lr=2.03e-06
+[18:24:53] INFO   ep56: train_loss=0.9473 val_acc=0.8824 val_f1=0.8811 val_uar=0.8824 lr=1.30e-06
+[18:24:56] INFO   ep57: train_loss=0.9552 val_acc=0.8824 val_f1=0.8802 val_uar=0.8824 lr=7.32e-07
+[18:24:59] INFO   ep58: train_loss=0.9506 val_acc=0.8824 val_f1=0.8804 val_uar=0.8824 lr=3.26e-07
+[18:25:01] INFO   ep59: train_loss=0.9592 val_acc=0.8833 val_f1=0.8812 val_uar=0.8833 lr=8.15e-08
+[18:25:04] INFO   ep60: train_loss=0.9609 val_acc=0.8775 val_f1=0.8757 val_uar=0.8775 lr=0.00e+00
+[18:25:04] INFO [done] best_val_acc=0.8833 ckpt=checkpoints\flowers102_resnet50_seed0.pt time=3.2min
+[18:25:05] INFO   [E1] eval clean + per colorfulness bin
+[18:25:25] INFO   [E2] eval perturbasi warna
+[18:30:53] INFO   done resnet50 seed0
+[18:30:53] INFO ==== flowers102 / convnext_tiny / seed0 ====
+[18:31:00] INFO [train] flowers102/convnext_tiny/seed0 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[18:31:38] INFO   ep1: train_loss=4.6622 val_acc=0.1069 val_f1=0.0707 val_uar=0.1069 lr=4.00e-05
+[18:31:41] INFO   ep2: train_loss=3.3610 val_acc=0.7755 val_f1=0.7567 val_uar=0.7755 lr=6.00e-05
+[18:31:44] INFO   ep3: train_loss=1.4144 val_acc=0.9598 val_f1=0.9596 val_uar=0.9598 lr=8.00e-05
+[18:31:47] INFO   ep4: train_loss=0.9002 val_acc=0.9696 val_f1=0.9679 val_uar=0.9696 lr=1.00e-04
+[18:31:50] INFO   ep5: train_loss=0.8541 val_acc=0.9775 val_f1=0.9774 val_uar=0.9775 lr=1.00e-04
+[18:31:52] INFO   ep6: train_loss=0.8321 val_acc=0.9794 val_f1=0.9794 val_uar=0.9794 lr=9.99e-05
+[18:31:55] INFO   ep7: train_loss=0.8212 val_acc=0.9833 val_f1=0.9833 val_uar=0.9833 lr=9.97e-05
+[18:31:58] INFO   ep8: train_loss=0.8149 val_acc=0.9853 val_f1=0.9853 val_uar=0.9853 lr=9.93e-05
+[18:32:01] INFO   ep9: train_loss=0.8105 val_acc=0.9853 val_f1=0.9853 val_uar=0.9853 lr=9.87e-05
+[18:32:03] INFO   ep10: train_loss=0.8078 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=9.80e-05
+[18:32:06] INFO   ep11: train_loss=0.8051 val_acc=0.9882 val_f1=0.9880 val_uar=0.9882 lr=9.71e-05
+[18:32:09] INFO   ep12: train_loss=0.8027 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=9.61e-05
+[18:32:12] INFO   ep13: train_loss=0.8008 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=9.49e-05
+[18:32:15] INFO   ep14: train_loss=0.7993 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=9.35e-05
+[18:32:18] INFO   ep15: train_loss=0.7987 val_acc=0.9873 val_f1=0.9872 val_uar=0.9873 lr=9.21e-05
+[18:32:20] INFO   ep16: train_loss=0.7974 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=9.05e-05
+[18:32:23] INFO   ep17: train_loss=0.7967 val_acc=0.9853 val_f1=0.9852 val_uar=0.9853 lr=8.87e-05
+[18:32:26] INFO   ep18: train_loss=0.7955 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=8.68e-05
+[18:32:28] INFO   ep19: train_loss=0.7947 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=8.48e-05
+[18:32:31] INFO   ep20: train_loss=0.7943 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=8.27e-05
+[18:32:34] INFO   ep21: train_loss=0.7934 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=8.05e-05
+[18:32:37] INFO   ep22: train_loss=0.7931 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=7.82e-05
+[18:32:39] INFO   ep23: train_loss=0.7924 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=7.58e-05
+[18:32:42] INFO   ep24: train_loss=0.7918 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=7.33e-05
+[18:32:45] INFO   ep25: train_loss=0.7913 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=7.08e-05
+[18:32:48] INFO   ep26: train_loss=0.7912 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=6.81e-05
+[18:32:50] INFO   ep27: train_loss=0.7904 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=6.55e-05
+[18:32:53] INFO   ep28: train_loss=0.7900 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=6.27e-05
+[18:32:56] INFO   ep29: train_loss=0.7901 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=5.99e-05
+[18:32:58] INFO   ep30: train_loss=0.7897 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=5.71e-05
+[18:33:01] INFO   ep31: train_loss=0.7892 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=5.43e-05
+[18:33:04] INFO   ep32: train_loss=0.7888 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=5.14e-05
+[18:33:07] INFO   ep33: train_loss=0.7887 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=4.86e-05
+[18:33:09] INFO   ep34: train_loss=0.7884 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=4.57e-05
+[18:33:12] INFO   ep35: train_loss=0.7881 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=4.29e-05
+[18:33:15] INFO   ep36: train_loss=0.7878 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=4.01e-05
+[18:33:18] INFO   ep37: train_loss=0.7877 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=3.73e-05
+[18:33:20] INFO   ep38: train_loss=0.7876 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=3.45e-05
+[18:33:23] INFO   ep39: train_loss=0.7879 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=3.19e-05
+[18:33:26] INFO   ep40: train_loss=0.7874 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=2.92e-05
+[18:33:28] INFO   ep41: train_loss=0.7873 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=2.67e-05
+[18:33:31] INFO   ep42: train_loss=0.7870 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=2.42e-05
+[18:33:34] INFO   ep43: train_loss=0.7868 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=2.18e-05
+[18:33:36] INFO   ep44: train_loss=0.7866 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=1.95e-05
+[18:33:39] INFO   ep45: train_loss=0.7866 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=1.73e-05
+[18:33:42] INFO   ep46: train_loss=0.7864 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=1.52e-05
+[18:33:45] INFO   ep47: train_loss=0.7865 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=1.32e-05
+[18:33:47] INFO   ep48: train_loss=0.7865 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=1.13e-05
+[18:33:50] INFO   ep49: train_loss=0.7862 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=9.55e-06
+[18:33:53] INFO   ep50: train_loss=0.7863 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=7.94e-06
+[18:33:55] INFO   ep51: train_loss=0.7862 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=6.46e-06
+[18:33:58] INFO   ep52: train_loss=0.7862 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=5.13e-06
+[18:34:01] INFO   ep53: train_loss=0.7861 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=3.94e-06
+[18:34:04] INFO   ep54: train_loss=0.7861 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=2.91e-06
+[18:34:06] INFO   ep55: train_loss=0.7861 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=2.03e-06
+[18:34:09] INFO   ep56: train_loss=0.7860 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=1.30e-06
+[18:34:12] INFO   ep57: train_loss=0.7861 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=7.32e-07
+[18:34:14] INFO   ep58: train_loss=0.7861 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=3.26e-07
+[18:34:17] INFO   ep59: train_loss=0.7860 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=8.15e-08
+[18:34:20] INFO   ep60: train_loss=0.7861 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=0.00e+00
+[18:34:20] INFO [done] best_val_acc=0.9902 ckpt=checkpoints\flowers102_convnext_tiny_seed0.pt time=3.4min
+[18:34:21] INFO   [E1] eval clean + per colorfulness bin
+[18:34:43] INFO   [E2] eval perturbasi warna
+[18:40:08] INFO   done convnext_tiny seed0
+[18:40:08] INFO ==== flowers102 / vit_small / seed0 ====
+[18:40:14] INFO [train] flowers102/vit_small/seed0 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[18:40:43] INFO   ep1: train_loss=4.8377 val_acc=0.0137 val_f1=0.0054 val_uar=0.0137 lr=4.00e-05
+[18:40:45] INFO   ep2: train_loss=4.5269 val_acc=0.1137 val_f1=0.0833 val_uar=0.1137 lr=6.00e-05
+[18:40:47] INFO   ep3: train_loss=3.5625 val_acc=0.5451 val_f1=0.5089 val_uar=0.5451 lr=8.00e-05
+[18:40:49] INFO   ep4: train_loss=1.9879 val_acc=0.8755 val_f1=0.8665 val_uar=0.8755 lr=1.00e-04
+[18:40:51] INFO   ep5: train_loss=1.1017 val_acc=0.9480 val_f1=0.9466 val_uar=0.9480 lr=1.00e-04
+[18:40:54] INFO   ep6: train_loss=0.8892 val_acc=0.9627 val_f1=0.9629 val_uar=0.9627 lr=9.99e-05
+[18:40:56] INFO   ep7: train_loss=0.8538 val_acc=0.9725 val_f1=0.9721 val_uar=0.9725 lr=9.97e-05
+[18:40:58] INFO   ep8: train_loss=0.8418 val_acc=0.9696 val_f1=0.9692 val_uar=0.9696 lr=9.93e-05
+[18:41:00] INFO   ep9: train_loss=0.8344 val_acc=0.9725 val_f1=0.9720 val_uar=0.9725 lr=9.87e-05
+[18:41:02] INFO   ep10: train_loss=0.8302 val_acc=0.9706 val_f1=0.9700 val_uar=0.9706 lr=9.80e-05
+[18:41:04] INFO   ep11: train_loss=0.8263 val_acc=0.9735 val_f1=0.9732 val_uar=0.9735 lr=9.71e-05
+[18:41:07] INFO   ep12: train_loss=0.8244 val_acc=0.9755 val_f1=0.9750 val_uar=0.9755 lr=9.61e-05
+[18:41:09] INFO   ep13: train_loss=0.8212 val_acc=0.9725 val_f1=0.9720 val_uar=0.9725 lr=9.49e-05
+[18:41:11] INFO   ep14: train_loss=0.8193 val_acc=0.9735 val_f1=0.9730 val_uar=0.9735 lr=9.35e-05
+[18:41:13] INFO   ep15: train_loss=0.8177 val_acc=0.9745 val_f1=0.9741 val_uar=0.9745 lr=9.21e-05
+[18:41:15] INFO   ep16: train_loss=0.8165 val_acc=0.9765 val_f1=0.9761 val_uar=0.9765 lr=9.05e-05
+[18:41:18] INFO   ep17: train_loss=0.8145 val_acc=0.9755 val_f1=0.9750 val_uar=0.9755 lr=8.87e-05
+[18:41:20] INFO   ep18: train_loss=0.8131 val_acc=0.9755 val_f1=0.9751 val_uar=0.9755 lr=8.68e-05
+[18:41:22] INFO   ep19: train_loss=0.8115 val_acc=0.9735 val_f1=0.9730 val_uar=0.9735 lr=8.48e-05
+[18:41:24] INFO   ep20: train_loss=0.8102 val_acc=0.9745 val_f1=0.9742 val_uar=0.9745 lr=8.27e-05
+[18:41:26] INFO   ep21: train_loss=0.8089 val_acc=0.9735 val_f1=0.9733 val_uar=0.9735 lr=8.05e-05
+[18:41:28] INFO   ep22: train_loss=0.8081 val_acc=0.9765 val_f1=0.9761 val_uar=0.9765 lr=7.82e-05
+[18:41:30] INFO   ep23: train_loss=0.8074 val_acc=0.9745 val_f1=0.9742 val_uar=0.9745 lr=7.58e-05
+[18:41:33] INFO   ep24: train_loss=0.8069 val_acc=0.9745 val_f1=0.9742 val_uar=0.9745 lr=7.33e-05
+[18:41:35] INFO   ep25: train_loss=0.8057 val_acc=0.9745 val_f1=0.9742 val_uar=0.9745 lr=7.08e-05
+[18:41:37] INFO   ep26: train_loss=0.8052 val_acc=0.9765 val_f1=0.9761 val_uar=0.9765 lr=6.81e-05
+[18:41:39] INFO   ep27: train_loss=0.8039 val_acc=0.9745 val_f1=0.9743 val_uar=0.9745 lr=6.55e-05
+[18:41:41] INFO   ep28: train_loss=0.8037 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=6.27e-05
+[18:41:43] INFO   ep29: train_loss=0.8030 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=5.99e-05
+[18:41:46] INFO   ep30: train_loss=0.8024 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=5.71e-05
+[18:41:48] INFO   ep31: train_loss=0.8017 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=5.43e-05
+[18:41:50] INFO   ep32: train_loss=0.8012 val_acc=0.9765 val_f1=0.9761 val_uar=0.9765 lr=5.14e-05
+[18:41:52] INFO   ep33: train_loss=0.8012 val_acc=0.9775 val_f1=0.9774 val_uar=0.9775 lr=4.86e-05
+[18:41:54] INFO   ep34: train_loss=0.8005 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=4.57e-05
+[18:41:56] INFO   ep35: train_loss=0.8001 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=4.29e-05
+[18:41:59] INFO   ep36: train_loss=0.7998 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=4.01e-05
+[18:42:01] INFO   ep37: train_loss=0.7993 val_acc=0.9765 val_f1=0.9761 val_uar=0.9765 lr=3.73e-05
+[18:42:03] INFO   ep38: train_loss=0.7988 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=3.45e-05
+[18:42:05] INFO   ep39: train_loss=0.7988 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=3.19e-05
+[18:42:07] INFO   ep40: train_loss=0.7986 val_acc=0.9765 val_f1=0.9762 val_uar=0.9765 lr=2.92e-05
+[18:42:09] INFO   ep41: train_loss=0.7982 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=2.67e-05
+[18:42:12] INFO   ep42: train_loss=0.7982 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=2.42e-05
+[18:42:14] INFO   ep43: train_loss=0.7980 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=2.18e-05
+[18:42:16] INFO   ep44: train_loss=0.7975 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=1.95e-05
+[18:42:18] INFO   ep45: train_loss=0.7978 val_acc=0.9775 val_f1=0.9774 val_uar=0.9775 lr=1.73e-05
+[18:42:20] INFO   ep46: train_loss=0.7974 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=1.52e-05
+[18:42:22] INFO   ep47: train_loss=0.7970 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=1.32e-05
+[18:42:24] INFO   ep48: train_loss=0.7970 val_acc=0.9775 val_f1=0.9774 val_uar=0.9775 lr=1.13e-05
+[18:42:27] INFO   ep49: train_loss=0.7968 val_acc=0.9775 val_f1=0.9774 val_uar=0.9775 lr=9.55e-06
+[18:42:29] INFO   ep50: train_loss=0.7968 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=7.94e-06
+[18:42:31] INFO   ep51: train_loss=0.7967 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=6.46e-06
+[18:42:33] INFO   ep52: train_loss=0.7967 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=5.13e-06
+[18:42:35] INFO   ep53: train_loss=0.7967 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=3.94e-06
+[18:42:37] INFO   ep54: train_loss=0.7966 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=2.91e-06
+[18:42:40] INFO   ep55: train_loss=0.7969 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=2.03e-06
+[18:42:42] INFO   ep56: train_loss=0.7969 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=1.30e-06
+[18:42:44] INFO   ep57: train_loss=0.7966 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=7.32e-07
+[18:42:46] INFO   ep58: train_loss=0.7965 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=3.26e-07
+[18:42:48] INFO   ep59: train_loss=0.7964 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=8.15e-08
+[18:42:50] INFO   ep60: train_loss=0.7965 val_acc=0.9765 val_f1=0.9764 val_uar=0.9765 lr=0.00e+00
+[18:42:50] INFO [done] best_val_acc=0.9775 ckpt=checkpoints\flowers102_vit_small_seed0.pt time=2.7min
+[18:42:52] INFO   [E1] eval clean + per colorfulness bin
+[18:43:11] INFO   [E2] eval perturbasi warna
+[18:48:28] INFO   done vit_small seed0
+[18:48:28] INFO ==== flowers102 / swin_tiny / seed0 ====
+[18:48:35] INFO [train] flowers102/swin_tiny/seed0 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[18:49:04] INFO   ep1: train_loss=4.6146 val_acc=0.0451 val_f1=0.0308 val_uar=0.0451 lr=4.00e-05
+[18:49:07] INFO   ep2: train_loss=4.3760 val_acc=0.1980 val_f1=0.1601 val_uar=0.1980 lr=6.00e-05
+[18:49:10] INFO   ep3: train_loss=3.5811 val_acc=0.5510 val_f1=0.5153 val_uar=0.5510 lr=8.00e-05
+[18:49:13] INFO   ep4: train_loss=2.3308 val_acc=0.7990 val_f1=0.7866 val_uar=0.7990 lr=1.00e-04
+[18:49:16] INFO   ep5: train_loss=1.5224 val_acc=0.8569 val_f1=0.8558 val_uar=0.8569 lr=1.00e-04
+[18:49:19] INFO   ep6: train_loss=1.1721 val_acc=0.9010 val_f1=0.9010 val_uar=0.9010 lr=9.99e-05
+[18:49:22] INFO   ep7: train_loss=1.0284 val_acc=0.9078 val_f1=0.9077 val_uar=0.9078 lr=9.97e-05
+[18:49:26] INFO   ep8: train_loss=0.9795 val_acc=0.9118 val_f1=0.9123 val_uar=0.9118 lr=9.93e-05
+[18:49:29] INFO   ep9: train_loss=0.9652 val_acc=0.9235 val_f1=0.9235 val_uar=0.9235 lr=9.87e-05
+[18:49:32] INFO   ep10: train_loss=0.9550 val_acc=0.9235 val_f1=0.9234 val_uar=0.9235 lr=9.80e-05
+[18:49:35] INFO   ep11: train_loss=0.9318 val_acc=0.9294 val_f1=0.9288 val_uar=0.9294 lr=9.71e-05
+[18:49:38] INFO   ep12: train_loss=0.9133 val_acc=0.9333 val_f1=0.9325 val_uar=0.9333 lr=9.61e-05
+[18:49:41] INFO   ep13: train_loss=0.8984 val_acc=0.9294 val_f1=0.9290 val_uar=0.9294 lr=9.49e-05
+[18:49:44] INFO   ep14: train_loss=0.8845 val_acc=0.9343 val_f1=0.9341 val_uar=0.9343 lr=9.35e-05
+[18:49:47] INFO   ep15: train_loss=0.8862 val_acc=0.9343 val_f1=0.9342 val_uar=0.9343 lr=9.21e-05
+[18:49:50] INFO   ep16: train_loss=0.8782 val_acc=0.9412 val_f1=0.9409 val_uar=0.9412 lr=9.05e-05
+[18:49:53] INFO   ep17: train_loss=0.8771 val_acc=0.9382 val_f1=0.9379 val_uar=0.9382 lr=8.87e-05
+[18:49:56] INFO   ep18: train_loss=0.8672 val_acc=0.9422 val_f1=0.9415 val_uar=0.9422 lr=8.68e-05
+[18:49:59] INFO   ep19: train_loss=0.8652 val_acc=0.9402 val_f1=0.9397 val_uar=0.9402 lr=8.48e-05
+[18:50:02] INFO   ep20: train_loss=0.8622 val_acc=0.9412 val_f1=0.9404 val_uar=0.9412 lr=8.27e-05
+[18:50:05] INFO   ep21: train_loss=0.8534 val_acc=0.9461 val_f1=0.9455 val_uar=0.9461 lr=8.05e-05
+[18:50:08] INFO   ep22: train_loss=0.8469 val_acc=0.9471 val_f1=0.9464 val_uar=0.9471 lr=7.82e-05
+[18:50:12] INFO   ep23: train_loss=0.8490 val_acc=0.9382 val_f1=0.9373 val_uar=0.9382 lr=7.58e-05
+[18:50:15] INFO   ep24: train_loss=0.8449 val_acc=0.9422 val_f1=0.9416 val_uar=0.9422 lr=7.33e-05
+[18:50:18] INFO   ep25: train_loss=0.8454 val_acc=0.9412 val_f1=0.9406 val_uar=0.9412 lr=7.08e-05
+[18:50:21] INFO   ep26: train_loss=0.8404 val_acc=0.9392 val_f1=0.9380 val_uar=0.9392 lr=6.81e-05
+[18:50:24] INFO   ep27: train_loss=0.8432 val_acc=0.9392 val_f1=0.9383 val_uar=0.9392 lr=6.55e-05
+[18:50:27] INFO   ep28: train_loss=0.8314 val_acc=0.9431 val_f1=0.9423 val_uar=0.9431 lr=6.27e-05
+[18:50:30] INFO   ep29: train_loss=0.8342 val_acc=0.9412 val_f1=0.9409 val_uar=0.9412 lr=5.99e-05
+[18:50:33] INFO   ep30: train_loss=0.8388 val_acc=0.9451 val_f1=0.9446 val_uar=0.9451 lr=5.71e-05
+[18:50:36] INFO   ep31: train_loss=0.8281 val_acc=0.9431 val_f1=0.9429 val_uar=0.9431 lr=5.43e-05
+[18:50:39] INFO   ep32: train_loss=0.8270 val_acc=0.9412 val_f1=0.9408 val_uar=0.9412 lr=5.14e-05
+[18:50:42] INFO   ep33: train_loss=0.8282 val_acc=0.9441 val_f1=0.9435 val_uar=0.9441 lr=4.86e-05
+[18:50:45] INFO   ep34: train_loss=0.8273 val_acc=0.9471 val_f1=0.9465 val_uar=0.9471 lr=4.57e-05
+[18:50:48] INFO   ep35: train_loss=0.8241 val_acc=0.9441 val_f1=0.9434 val_uar=0.9441 lr=4.29e-05
+[18:50:51] INFO   ep36: train_loss=0.8237 val_acc=0.9461 val_f1=0.9455 val_uar=0.9461 lr=4.01e-05
+[18:50:54] INFO   ep37: train_loss=0.8181 val_acc=0.9500 val_f1=0.9496 val_uar=0.9500 lr=3.73e-05
+[18:50:57] INFO   ep38: train_loss=0.8244 val_acc=0.9461 val_f1=0.9453 val_uar=0.9461 lr=3.45e-05
+[18:51:00] INFO   ep39: train_loss=0.8223 val_acc=0.9451 val_f1=0.9442 val_uar=0.9451 lr=3.19e-05
+[18:51:03] INFO   ep40: train_loss=0.8165 val_acc=0.9451 val_f1=0.9443 val_uar=0.9451 lr=2.92e-05
+[18:51:06] INFO   ep41: train_loss=0.8184 val_acc=0.9471 val_f1=0.9466 val_uar=0.9471 lr=2.67e-05
+[18:51:09] INFO   ep42: train_loss=0.8195 val_acc=0.9461 val_f1=0.9455 val_uar=0.9461 lr=2.42e-05
+[18:51:12] INFO   ep43: train_loss=0.8163 val_acc=0.9480 val_f1=0.9479 val_uar=0.9480 lr=2.18e-05
+[18:51:15] INFO   ep44: train_loss=0.8190 val_acc=0.9451 val_f1=0.9447 val_uar=0.9451 lr=1.95e-05
+[18:51:18] INFO   ep45: train_loss=0.8174 val_acc=0.9451 val_f1=0.9446 val_uar=0.9451 lr=1.73e-05
+[18:51:21] INFO   ep46: train_loss=0.8182 val_acc=0.9441 val_f1=0.9436 val_uar=0.9441 lr=1.52e-05
+[18:51:24] INFO   ep47: train_loss=0.8144 val_acc=0.9490 val_f1=0.9484 val_uar=0.9490 lr=1.32e-05
+[18:51:27] INFO   ep48: train_loss=0.8165 val_acc=0.9510 val_f1=0.9503 val_uar=0.9510 lr=1.13e-05
+[18:51:31] INFO   ep49: train_loss=0.8181 val_acc=0.9461 val_f1=0.9455 val_uar=0.9461 lr=9.55e-06
+[18:51:34] INFO   ep50: train_loss=0.8153 val_acc=0.9471 val_f1=0.9465 val_uar=0.9471 lr=7.94e-06
+[18:51:37] INFO   ep51: train_loss=0.8191 val_acc=0.9461 val_f1=0.9454 val_uar=0.9461 lr=6.46e-06
+[18:51:40] INFO   ep52: train_loss=0.8156 val_acc=0.9441 val_f1=0.9436 val_uar=0.9441 lr=5.13e-06
+[18:51:43] INFO   ep53: train_loss=0.8194 val_acc=0.9441 val_f1=0.9436 val_uar=0.9441 lr=3.94e-06
+[18:51:46] INFO   ep54: train_loss=0.8141 val_acc=0.9441 val_f1=0.9436 val_uar=0.9441 lr=2.91e-06
+[18:51:49] INFO   ep55: train_loss=0.8144 val_acc=0.9422 val_f1=0.9416 val_uar=0.9422 lr=2.03e-06
+[18:51:52] INFO   ep56: train_loss=0.8138 val_acc=0.9412 val_f1=0.9406 val_uar=0.9412 lr=1.30e-06
+[18:51:55] INFO   ep57: train_loss=0.8153 val_acc=0.9412 val_f1=0.9406 val_uar=0.9412 lr=7.32e-07
+[18:51:58] INFO   ep58: train_loss=0.8156 val_acc=0.9422 val_f1=0.9417 val_uar=0.9422 lr=3.26e-07
+[18:52:01] INFO   ep59: train_loss=0.8120 val_acc=0.9422 val_f1=0.9417 val_uar=0.9422 lr=8.15e-08
+[18:52:04] INFO   ep60: train_loss=0.8180 val_acc=0.9422 val_f1=0.9417 val_uar=0.9422 lr=0.00e+00
+[18:52:04] INFO [done] best_val_acc=0.9510 ckpt=checkpoints\flowers102_swin_tiny_seed0.pt time=3.6min
+[18:52:05] INFO   [E1] eval clean + per colorfulness bin
+[18:52:25] INFO   [E2] eval perturbasi warna
+[18:57:47] INFO   done swin_tiny seed0
+[18:57:47] INFO ALL DONE
+[19:16:02] INFO dataset=flowers102 models=['resnet50', 'convnext_tiny', 'vit_small', 'swin_tiny'] seeds=[1, 2] epochs=None
+[19:16:02] INFO ==== flowers102 / resnet50 / seed1 ====
+[19:16:03] INFO [train] flowers102/resnet50/seed1 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[19:16:35] INFO   ep1: train_loss=4.6315 val_acc=0.0127 val_f1=0.0056 val_uar=0.0127 lr=4.00e-05
+[19:16:37] INFO   ep2: train_loss=4.6186 val_acc=0.0127 val_f1=0.0071 val_uar=0.0127 lr=6.00e-05
+[19:16:40] INFO   ep3: train_loss=4.6004 val_acc=0.0235 val_f1=0.0164 val_uar=0.0235 lr=8.00e-05
+[19:16:43] INFO   ep4: train_loss=4.5731 val_acc=0.0480 val_f1=0.0410 val_uar=0.0480 lr=1.00e-04
+[19:16:45] INFO   ep5: train_loss=4.5351 val_acc=0.0912 val_f1=0.0803 val_uar=0.0912 lr=1.00e-04
+[19:16:48] INFO   ep6: train_loss=4.4882 val_acc=0.1667 val_f1=0.1691 val_uar=0.1667 lr=9.99e-05
+[19:16:50] INFO   ep7: train_loss=4.4293 val_acc=0.2363 val_f1=0.2419 val_uar=0.2363 lr=9.97e-05
+[19:16:53] INFO   ep8: train_loss=4.3583 val_acc=0.3137 val_f1=0.3184 val_uar=0.3137 lr=9.93e-05
+[19:16:55] INFO   ep9: train_loss=4.2611 val_acc=0.4137 val_f1=0.4132 val_uar=0.4137 lr=9.87e-05
+[19:16:58] INFO   ep10: train_loss=4.1362 val_acc=0.4902 val_f1=0.4860 val_uar=0.4902 lr=9.80e-05
+[19:17:00] INFO   ep11: train_loss=3.9808 val_acc=0.5431 val_f1=0.5344 val_uar=0.5431 lr=9.71e-05
+[19:17:03] INFO   ep12: train_loss=3.7842 val_acc=0.5765 val_f1=0.5701 val_uar=0.5765 lr=9.61e-05
+[19:17:05] INFO   ep13: train_loss=3.5591 val_acc=0.6098 val_f1=0.5944 val_uar=0.6098 lr=9.49e-05
+[19:17:08] INFO   ep14: train_loss=3.3076 val_acc=0.6490 val_f1=0.6310 val_uar=0.6490 lr=9.35e-05
+[19:17:11] INFO   ep15: train_loss=3.0539 val_acc=0.6833 val_f1=0.6699 val_uar=0.6833 lr=9.21e-05
+[19:17:13] INFO   ep16: train_loss=2.8041 val_acc=0.7010 val_f1=0.6869 val_uar=0.7010 lr=9.05e-05
+[19:17:16] INFO   ep17: train_loss=2.5593 val_acc=0.7245 val_f1=0.7064 val_uar=0.7245 lr=8.87e-05
+[19:17:18] INFO   ep18: train_loss=2.3344 val_acc=0.7363 val_f1=0.7209 val_uar=0.7363 lr=8.68e-05
+[19:17:21] INFO   ep19: train_loss=2.1289 val_acc=0.7696 val_f1=0.7559 val_uar=0.7696 lr=8.48e-05
+[19:17:23] INFO   ep20: train_loss=1.9444 val_acc=0.7902 val_f1=0.7782 val_uar=0.7902 lr=8.27e-05
+[19:17:26] INFO   ep21: train_loss=1.7992 val_acc=0.7961 val_f1=0.7850 val_uar=0.7961 lr=8.05e-05
+[19:17:28] INFO   ep22: train_loss=1.6657 val_acc=0.8078 val_f1=0.7967 val_uar=0.8078 lr=7.82e-05
+[19:17:31] INFO   ep23: train_loss=1.5487 val_acc=0.8147 val_f1=0.8059 val_uar=0.8147 lr=7.58e-05
+[19:17:34] INFO   ep24: train_loss=1.4554 val_acc=0.8225 val_f1=0.8155 val_uar=0.8225 lr=7.33e-05
+[19:17:36] INFO   ep25: train_loss=1.3931 val_acc=0.8324 val_f1=0.8266 val_uar=0.8324 lr=7.08e-05
+[19:17:39] INFO   ep26: train_loss=1.3296 val_acc=0.8422 val_f1=0.8364 val_uar=0.8422 lr=6.81e-05
+[19:17:41] INFO   ep27: train_loss=1.2779 val_acc=0.8461 val_f1=0.8404 val_uar=0.8461 lr=6.55e-05
+[19:17:44] INFO   ep28: train_loss=1.2128 val_acc=0.8451 val_f1=0.8408 val_uar=0.8451 lr=6.27e-05
+[19:17:46] INFO   ep29: train_loss=1.1764 val_acc=0.8549 val_f1=0.8502 val_uar=0.8549 lr=5.99e-05
+[19:17:49] INFO   ep30: train_loss=1.1494 val_acc=0.8490 val_f1=0.8448 val_uar=0.8490 lr=5.71e-05
+[19:17:51] INFO   ep31: train_loss=1.1238 val_acc=0.8627 val_f1=0.8585 val_uar=0.8627 lr=5.43e-05
+[19:17:54] INFO   ep32: train_loss=1.1104 val_acc=0.8637 val_f1=0.8603 val_uar=0.8637 lr=5.14e-05
+[19:17:57] INFO   ep33: train_loss=1.0783 val_acc=0.8618 val_f1=0.8589 val_uar=0.8618 lr=4.86e-05
+[19:17:59] INFO   ep34: train_loss=1.0607 val_acc=0.8735 val_f1=0.8701 val_uar=0.8735 lr=4.57e-05
+[19:18:02] INFO   ep35: train_loss=1.0471 val_acc=0.8706 val_f1=0.8668 val_uar=0.8706 lr=4.29e-05
+[19:18:04] INFO   ep36: train_loss=1.0321 val_acc=0.8735 val_f1=0.8696 val_uar=0.8735 lr=4.01e-05
+[19:18:06] INFO   ep37: train_loss=1.0145 val_acc=0.8755 val_f1=0.8724 val_uar=0.8755 lr=3.73e-05
+[19:18:09] INFO   ep38: train_loss=1.0176 val_acc=0.8755 val_f1=0.8728 val_uar=0.8755 lr=3.45e-05
+[19:18:12] INFO   ep39: train_loss=1.0115 val_acc=0.8745 val_f1=0.8716 val_uar=0.8745 lr=3.19e-05
+[19:18:14] INFO   ep40: train_loss=1.0047 val_acc=0.8775 val_f1=0.8750 val_uar=0.8775 lr=2.92e-05
+[19:18:16] INFO   ep41: train_loss=0.9820 val_acc=0.8775 val_f1=0.8738 val_uar=0.8775 lr=2.67e-05
+[19:18:19] INFO   ep42: train_loss=0.9852 val_acc=0.8784 val_f1=0.8759 val_uar=0.8784 lr=2.42e-05
+[19:18:22] INFO   ep43: train_loss=0.9851 val_acc=0.8794 val_f1=0.8770 val_uar=0.8794 lr=2.18e-05
+[19:18:24] INFO   ep44: train_loss=0.9757 val_acc=0.8804 val_f1=0.8778 val_uar=0.8804 lr=1.95e-05
+[19:18:27] INFO   ep45: train_loss=0.9756 val_acc=0.8814 val_f1=0.8780 val_uar=0.8814 lr=1.73e-05
+[19:18:29] INFO   ep46: train_loss=0.9677 val_acc=0.8794 val_f1=0.8763 val_uar=0.8794 lr=1.52e-05
+[19:18:31] INFO   ep47: train_loss=0.9605 val_acc=0.8814 val_f1=0.8780 val_uar=0.8814 lr=1.32e-05
+[19:18:34] INFO   ep48: train_loss=0.9631 val_acc=0.8814 val_f1=0.8784 val_uar=0.8814 lr=1.13e-05
+[19:18:36] INFO   ep49: train_loss=0.9521 val_acc=0.8794 val_f1=0.8763 val_uar=0.8794 lr=9.55e-06
+[19:18:39] INFO   ep50: train_loss=0.9521 val_acc=0.8843 val_f1=0.8817 val_uar=0.8843 lr=7.94e-06
+[19:18:41] INFO   ep51: train_loss=0.9538 val_acc=0.8843 val_f1=0.8816 val_uar=0.8843 lr=6.46e-06
+[19:18:44] INFO   ep52: train_loss=0.9529 val_acc=0.8833 val_f1=0.8811 val_uar=0.8833 lr=5.13e-06
+[19:18:46] INFO   ep53: train_loss=0.9580 val_acc=0.8814 val_f1=0.8788 val_uar=0.8814 lr=3.94e-06
+[19:18:49] INFO   ep54: train_loss=0.9554 val_acc=0.8863 val_f1=0.8840 val_uar=0.8863 lr=2.91e-06
+[19:18:51] INFO   ep55: train_loss=0.9535 val_acc=0.8853 val_f1=0.8829 val_uar=0.8853 lr=2.03e-06
+[19:18:54] INFO   ep56: train_loss=0.9582 val_acc=0.8833 val_f1=0.8807 val_uar=0.8833 lr=1.30e-06
+[19:18:56] INFO   ep57: train_loss=0.9652 val_acc=0.8892 val_f1=0.8868 val_uar=0.8892 lr=7.32e-07
+[19:18:59] INFO   ep58: train_loss=0.9502 val_acc=0.8843 val_f1=0.8818 val_uar=0.8843 lr=3.26e-07
+[19:19:02] INFO   ep59: train_loss=0.9617 val_acc=0.8863 val_f1=0.8841 val_uar=0.8863 lr=8.15e-08
+[19:19:04] INFO   ep60: train_loss=0.9589 val_acc=0.8863 val_f1=0.8839 val_uar=0.8863 lr=0.00e+00
+[19:19:04] INFO [done] best_val_acc=0.8892 ckpt=checkpoints\flowers102_resnet50_seed1.pt time=3.0min
+[19:19:06] INFO   [E1] eval clean + per colorfulness bin
+[19:19:26] INFO   [E2] eval perturbasi warna
+[19:24:55] INFO   done resnet50 seed1
+[19:24:55] INFO ==== flowers102 / resnet50 / seed2 ====
+[19:24:56] INFO [train] flowers102/resnet50/seed2 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[19:25:26] INFO   ep1: train_loss=4.6296 val_acc=0.0039 val_f1=0.0012 val_uar=0.0039 lr=4.00e-05
+[19:25:29] INFO   ep2: train_loss=4.6177 val_acc=0.0118 val_f1=0.0062 val_uar=0.0118 lr=6.00e-05
+[19:25:31] INFO   ep3: train_loss=4.5997 val_acc=0.0284 val_f1=0.0137 val_uar=0.0284 lr=8.00e-05
+[19:25:34] INFO   ep4: train_loss=4.5734 val_acc=0.0461 val_f1=0.0324 val_uar=0.0461 lr=1.00e-04
+[19:25:37] INFO   ep5: train_loss=4.5367 val_acc=0.0931 val_f1=0.0840 val_uar=0.0931 lr=1.00e-04
+[19:25:39] INFO   ep6: train_loss=4.4892 val_acc=0.1627 val_f1=0.1485 val_uar=0.1627 lr=9.99e-05
+[19:25:42] INFO   ep7: train_loss=4.4293 val_acc=0.2608 val_f1=0.2567 val_uar=0.2608 lr=9.97e-05
+[19:25:44] INFO   ep8: train_loss=4.3552 val_acc=0.3304 val_f1=0.3260 val_uar=0.3304 lr=9.93e-05
+[19:25:47] INFO   ep9: train_loss=4.2618 val_acc=0.4000 val_f1=0.3929 val_uar=0.4000 lr=9.87e-05
+[19:25:50] INFO   ep10: train_loss=4.1444 val_acc=0.5000 val_f1=0.4815 val_uar=0.5000 lr=9.80e-05
+[19:25:52] INFO   ep11: train_loss=3.9839 val_acc=0.5294 val_f1=0.5075 val_uar=0.5294 lr=9.71e-05
+[19:25:55] INFO   ep12: train_loss=3.7966 val_acc=0.5804 val_f1=0.5499 val_uar=0.5804 lr=9.61e-05
+[19:25:58] INFO   ep13: train_loss=3.5715 val_acc=0.5912 val_f1=0.5588 val_uar=0.5912 lr=9.49e-05
+[19:26:00] INFO   ep14: train_loss=3.3236 val_acc=0.6363 val_f1=0.6085 val_uar=0.6363 lr=9.35e-05
+[19:26:03] INFO   ep15: train_loss=3.0562 val_acc=0.6529 val_f1=0.6231 val_uar=0.6529 lr=9.21e-05
+[19:26:05] INFO   ep16: train_loss=2.7982 val_acc=0.6814 val_f1=0.6612 val_uar=0.6814 lr=9.05e-05
+[19:26:08] INFO   ep17: train_loss=2.5558 val_acc=0.7137 val_f1=0.6950 val_uar=0.7137 lr=8.87e-05
+[19:26:11] INFO   ep18: train_loss=2.3284 val_acc=0.7275 val_f1=0.7090 val_uar=0.7275 lr=8.68e-05
+[19:26:13] INFO   ep19: train_loss=2.1434 val_acc=0.7461 val_f1=0.7325 val_uar=0.7461 lr=8.48e-05
+[19:26:16] INFO   ep20: train_loss=1.9718 val_acc=0.7696 val_f1=0.7577 val_uar=0.7696 lr=8.27e-05
+[19:26:18] INFO   ep21: train_loss=1.7975 val_acc=0.7892 val_f1=0.7797 val_uar=0.7892 lr=8.05e-05
+[19:26:21] INFO   ep22: train_loss=1.6924 val_acc=0.7990 val_f1=0.7880 val_uar=0.7990 lr=7.82e-05
+[19:26:24] INFO   ep23: train_loss=1.5711 val_acc=0.8108 val_f1=0.8019 val_uar=0.8108 lr=7.58e-05
+[19:26:26] INFO   ep24: train_loss=1.4787 val_acc=0.8216 val_f1=0.8134 val_uar=0.8216 lr=7.33e-05
+[19:26:29] INFO   ep25: train_loss=1.4070 val_acc=0.8216 val_f1=0.8145 val_uar=0.8216 lr=7.08e-05
+[19:26:31] INFO   ep26: train_loss=1.3258 val_acc=0.8284 val_f1=0.8221 val_uar=0.8284 lr=6.81e-05
+[19:26:34] INFO   ep27: train_loss=1.2834 val_acc=0.8304 val_f1=0.8252 val_uar=0.8304 lr=6.55e-05
+[19:26:37] INFO   ep28: train_loss=1.2503 val_acc=0.8402 val_f1=0.8347 val_uar=0.8402 lr=6.27e-05
+[19:26:39] INFO   ep29: train_loss=1.1979 val_acc=0.8422 val_f1=0.8375 val_uar=0.8422 lr=5.99e-05
+[19:26:42] INFO   ep30: train_loss=1.1704 val_acc=0.8461 val_f1=0.8423 val_uar=0.8461 lr=5.71e-05
+[19:26:44] INFO   ep31: train_loss=1.1388 val_acc=0.8500 val_f1=0.8465 val_uar=0.8500 lr=5.43e-05
+[19:26:47] INFO   ep32: train_loss=1.1169 val_acc=0.8549 val_f1=0.8508 val_uar=0.8549 lr=5.14e-05
+[19:26:50] INFO   ep33: train_loss=1.0849 val_acc=0.8500 val_f1=0.8467 val_uar=0.8500 lr=4.86e-05
+[19:26:52] INFO   ep34: train_loss=1.0762 val_acc=0.8510 val_f1=0.8461 val_uar=0.8510 lr=4.57e-05
+[19:26:55] INFO   ep35: train_loss=1.0559 val_acc=0.8569 val_f1=0.8531 val_uar=0.8569 lr=4.29e-05
+[19:26:57] INFO   ep36: train_loss=1.0421 val_acc=0.8578 val_f1=0.8541 val_uar=0.8578 lr=4.01e-05
+[19:27:00] INFO   ep37: train_loss=1.0280 val_acc=0.8647 val_f1=0.8615 val_uar=0.8647 lr=3.73e-05
+[19:27:03] INFO   ep38: train_loss=1.0213 val_acc=0.8608 val_f1=0.8572 val_uar=0.8608 lr=3.45e-05
+[19:27:05] INFO   ep39: train_loss=1.0105 val_acc=0.8676 val_f1=0.8646 val_uar=0.8676 lr=3.19e-05
+[19:27:08] INFO   ep40: train_loss=1.0121 val_acc=0.8667 val_f1=0.8627 val_uar=0.8667 lr=2.92e-05
+[19:27:10] INFO   ep41: train_loss=1.0002 val_acc=0.8667 val_f1=0.8633 val_uar=0.8667 lr=2.67e-05
+[19:27:13] INFO   ep42: train_loss=0.9967 val_acc=0.8657 val_f1=0.8626 val_uar=0.8657 lr=2.42e-05
+[19:27:16] INFO   ep43: train_loss=0.9870 val_acc=0.8657 val_f1=0.8619 val_uar=0.8657 lr=2.18e-05
+[19:27:18] INFO   ep44: train_loss=0.9843 val_acc=0.8686 val_f1=0.8651 val_uar=0.8686 lr=1.95e-05
+[19:27:21] INFO   ep45: train_loss=0.9773 val_acc=0.8676 val_f1=0.8637 val_uar=0.8676 lr=1.73e-05
+[19:27:23] INFO   ep46: train_loss=0.9761 val_acc=0.8706 val_f1=0.8673 val_uar=0.8706 lr=1.52e-05
+[19:27:26] INFO   ep47: train_loss=0.9657 val_acc=0.8706 val_f1=0.8672 val_uar=0.8706 lr=1.32e-05
+[19:27:29] INFO   ep48: train_loss=0.9688 val_acc=0.8725 val_f1=0.8693 val_uar=0.8725 lr=1.13e-05
+[19:27:31] INFO   ep49: train_loss=0.9710 val_acc=0.8706 val_f1=0.8672 val_uar=0.8706 lr=9.55e-06
+[19:27:34] INFO   ep50: train_loss=0.9600 val_acc=0.8716 val_f1=0.8679 val_uar=0.8716 lr=7.94e-06
+[19:27:36] INFO   ep51: train_loss=0.9597 val_acc=0.8725 val_f1=0.8687 val_uar=0.8725 lr=6.46e-06
+[19:27:39] INFO   ep52: train_loss=0.9638 val_acc=0.8765 val_f1=0.8731 val_uar=0.8765 lr=5.13e-06
+[19:27:41] INFO   ep53: train_loss=0.9623 val_acc=0.8735 val_f1=0.8703 val_uar=0.8735 lr=3.94e-06
+[19:27:44] INFO   ep54: train_loss=0.9556 val_acc=0.8706 val_f1=0.8666 val_uar=0.8706 lr=2.91e-06
+[19:27:47] INFO   ep55: train_loss=0.9602 val_acc=0.8696 val_f1=0.8660 val_uar=0.8696 lr=2.03e-06
+[19:27:49] INFO   ep56: train_loss=0.9596 val_acc=0.8716 val_f1=0.8687 val_uar=0.8716 lr=1.30e-06
+[19:27:52] INFO   ep57: train_loss=0.9580 val_acc=0.8676 val_f1=0.8644 val_uar=0.8676 lr=7.32e-07
+[19:27:54] INFO   ep58: train_loss=0.9568 val_acc=0.8735 val_f1=0.8702 val_uar=0.8735 lr=3.26e-07
+[19:27:57] INFO   ep59: train_loss=0.9681 val_acc=0.8706 val_f1=0.8672 val_uar=0.8706 lr=8.15e-08
+[19:27:59] INFO   ep60: train_loss=0.9641 val_acc=0.8725 val_f1=0.8696 val_uar=0.8725 lr=0.00e+00
+[19:27:59] INFO [done] best_val_acc=0.8765 ckpt=checkpoints\flowers102_resnet50_seed2.pt time=3.1min
+[19:28:01] INFO   [E1] eval clean + per colorfulness bin
+[19:28:21] INFO   [E2] eval perturbasi warna
+[19:33:51] INFO   done resnet50 seed2
+[19:33:51] INFO ==== flowers102 / convnext_tiny / seed1 ====
+[19:33:51] INFO [train] flowers102/convnext_tiny/seed1 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[19:34:30] INFO   ep1: train_loss=4.6265 val_acc=0.1765 val_f1=0.1405 val_uar=0.1765 lr=4.00e-05
+[19:34:33] INFO   ep2: train_loss=3.1715 val_acc=0.7804 val_f1=0.7581 val_uar=0.7804 lr=6.00e-05
+[19:34:35] INFO   ep3: train_loss=1.3240 val_acc=0.9578 val_f1=0.9592 val_uar=0.9578 lr=8.00e-05
+[19:34:38] INFO   ep4: train_loss=0.8953 val_acc=0.9676 val_f1=0.9669 val_uar=0.9676 lr=1.00e-04
+[19:34:41] INFO   ep5: train_loss=0.8561 val_acc=0.9784 val_f1=0.9778 val_uar=0.9784 lr=1.00e-04
+[19:34:44] INFO   ep6: train_loss=0.8355 val_acc=0.9843 val_f1=0.9840 val_uar=0.9843 lr=9.99e-05
+[19:34:46] INFO   ep7: train_loss=0.8255 val_acc=0.9814 val_f1=0.9809 val_uar=0.9814 lr=9.97e-05
+[19:34:49] INFO   ep8: train_loss=0.8163 val_acc=0.9853 val_f1=0.9851 val_uar=0.9853 lr=9.93e-05
+[19:34:52] INFO   ep9: train_loss=0.8110 val_acc=0.9863 val_f1=0.9860 val_uar=0.9863 lr=9.87e-05
+[19:34:54] INFO   ep10: train_loss=0.8074 val_acc=0.9824 val_f1=0.9819 val_uar=0.9824 lr=9.80e-05
+[19:34:57] INFO   ep11: train_loss=0.8043 val_acc=0.9853 val_f1=0.9850 val_uar=0.9853 lr=9.71e-05
+[19:35:00] INFO   ep12: train_loss=0.8019 val_acc=0.9853 val_f1=0.9851 val_uar=0.9853 lr=9.61e-05
+[19:35:02] INFO   ep13: train_loss=0.8004 val_acc=0.9843 val_f1=0.9842 val_uar=0.9843 lr=9.49e-05
+[19:35:05] INFO   ep14: train_loss=0.7994 val_acc=0.9843 val_f1=0.9840 val_uar=0.9843 lr=9.35e-05
+[19:35:08] INFO   ep15: train_loss=0.7980 val_acc=0.9843 val_f1=0.9841 val_uar=0.9843 lr=9.21e-05
+[19:35:10] INFO   ep16: train_loss=0.7970 val_acc=0.9863 val_f1=0.9860 val_uar=0.9863 lr=9.05e-05
+[19:35:13] INFO   ep17: train_loss=0.7965 val_acc=0.9863 val_f1=0.9861 val_uar=0.9863 lr=8.87e-05
+[19:35:16] INFO   ep18: train_loss=0.7957 val_acc=0.9863 val_f1=0.9861 val_uar=0.9863 lr=8.68e-05
+[19:35:19] INFO   ep19: train_loss=0.7947 val_acc=0.9882 val_f1=0.9880 val_uar=0.9882 lr=8.48e-05
+[19:35:21] INFO   ep20: train_loss=0.7939 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=8.27e-05
+[19:35:24] INFO   ep21: train_loss=0.7930 val_acc=0.9863 val_f1=0.9859 val_uar=0.9863 lr=8.05e-05
+[19:35:27] INFO   ep22: train_loss=0.7928 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=7.82e-05
+[19:35:29] INFO   ep23: train_loss=0.7920 val_acc=0.9902 val_f1=0.9900 val_uar=0.9902 lr=7.58e-05
+[19:35:32] INFO   ep24: train_loss=0.7914 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=7.33e-05
+[19:35:35] INFO   ep25: train_loss=0.7913 val_acc=0.9882 val_f1=0.9880 val_uar=0.9882 lr=7.08e-05
+[19:35:37] INFO   ep26: train_loss=0.7908 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=6.81e-05
+[19:35:40] INFO   ep27: train_loss=0.7904 val_acc=0.9873 val_f1=0.9869 val_uar=0.9873 lr=6.55e-05
+[19:35:43] INFO   ep28: train_loss=0.7899 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=6.27e-05
+[19:35:46] INFO   ep29: train_loss=0.7897 val_acc=0.9882 val_f1=0.9879 val_uar=0.9882 lr=5.99e-05
+[19:35:48] INFO   ep30: train_loss=0.7896 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=5.71e-05
+[19:35:51] INFO   ep31: train_loss=0.7889 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=5.43e-05
+[19:35:54] INFO   ep32: train_loss=0.7890 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=5.14e-05
+[19:35:56] INFO   ep33: train_loss=0.7885 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=4.86e-05
+[19:35:59] INFO   ep34: train_loss=0.7881 val_acc=0.9863 val_f1=0.9859 val_uar=0.9863 lr=4.57e-05
+[19:36:01] INFO   ep35: train_loss=0.7879 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=4.29e-05
+[19:36:04] INFO   ep36: train_loss=0.7876 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=4.01e-05
+[19:36:07] INFO   ep37: train_loss=0.7874 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=3.73e-05
+[19:36:09] INFO   ep38: train_loss=0.7873 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=3.45e-05
+[19:36:12] INFO   ep39: train_loss=0.7872 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=3.19e-05
+[19:36:15] INFO   ep40: train_loss=0.7870 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=2.92e-05
+[19:36:18] INFO   ep41: train_loss=0.7869 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=2.67e-05
+[19:36:20] INFO   ep42: train_loss=0.7867 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=2.42e-05
+[19:36:23] INFO   ep43: train_loss=0.7865 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=2.18e-05
+[19:36:26] INFO   ep44: train_loss=0.7864 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=1.95e-05
+[19:36:28] INFO   ep45: train_loss=0.7864 val_acc=0.9873 val_f1=0.9871 val_uar=0.9873 lr=1.73e-05
+[19:36:31] INFO   ep46: train_loss=0.7865 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=1.52e-05
+[19:36:34] INFO   ep47: train_loss=0.7863 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=1.32e-05
+[19:36:36] INFO   ep48: train_loss=0.7862 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=1.13e-05
+[19:36:39] INFO   ep49: train_loss=0.7860 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=9.55e-06
+[19:36:42] INFO   ep50: train_loss=0.7860 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=7.94e-06
+[19:36:44] INFO   ep51: train_loss=0.7861 val_acc=0.9902 val_f1=0.9900 val_uar=0.9902 lr=6.46e-06
+[19:36:47] INFO   ep52: train_loss=0.7860 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=5.13e-06
+[19:36:50] INFO   ep53: train_loss=0.7860 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=3.94e-06
+[19:36:52] INFO   ep54: train_loss=0.7858 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=2.91e-06
+[19:36:55] INFO   ep55: train_loss=0.7859 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=2.03e-06
+[19:36:58] INFO   ep56: train_loss=0.7859 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=1.30e-06
+[19:37:00] INFO   ep57: train_loss=0.7858 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=7.32e-07
+[19:37:03] INFO   ep58: train_loss=0.7859 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=3.26e-07
+[19:37:06] INFO   ep59: train_loss=0.7860 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=8.15e-08
+[19:37:08] INFO   ep60: train_loss=0.7858 val_acc=0.9892 val_f1=0.9890 val_uar=0.9892 lr=0.00e+00
+[19:37:08] INFO [done] best_val_acc=0.9902 ckpt=checkpoints\flowers102_convnext_tiny_seed1.pt time=3.3min
+[19:37:10] INFO   [E1] eval clean + per colorfulness bin
+[19:37:31] INFO   [E2] eval perturbasi warna
+[19:42:55] INFO   done convnext_tiny seed1
+[19:42:55] INFO ==== flowers102 / convnext_tiny / seed2 ====
+[19:42:55] INFO [train] flowers102/convnext_tiny/seed2 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[19:43:24] INFO   ep1: train_loss=4.6055 val_acc=0.1814 val_f1=0.1360 val_uar=0.1814 lr=4.00e-05
+[19:43:27] INFO   ep2: train_loss=3.1270 val_acc=0.8392 val_f1=0.8282 val_uar=0.8392 lr=6.00e-05
+[19:43:30] INFO   ep3: train_loss=1.2921 val_acc=0.9578 val_f1=0.9571 val_uar=0.9578 lr=8.00e-05
+[19:43:32] INFO   ep4: train_loss=0.8879 val_acc=0.9804 val_f1=0.9803 val_uar=0.9804 lr=1.00e-04
+[19:43:35] INFO   ep5: train_loss=0.8483 val_acc=0.9873 val_f1=0.9873 val_uar=0.9873 lr=1.00e-04
+[19:43:38] INFO   ep6: train_loss=0.8321 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=9.99e-05
+[19:43:40] INFO   ep7: train_loss=0.8211 val_acc=0.9843 val_f1=0.9842 val_uar=0.9843 lr=9.97e-05
+[19:43:43] INFO   ep8: train_loss=0.8135 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=9.93e-05
+[19:43:46] INFO   ep9: train_loss=0.8101 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=9.87e-05
+[19:43:48] INFO   ep10: train_loss=0.8071 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.80e-05
+[19:43:51] INFO   ep11: train_loss=0.8049 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=9.71e-05
+[19:43:54] INFO   ep12: train_loss=0.8025 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=9.61e-05
+[19:43:56] INFO   ep13: train_loss=0.8008 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=9.49e-05
+[19:43:59] INFO   ep14: train_loss=0.7991 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=9.35e-05
+[19:44:02] INFO   ep15: train_loss=0.7985 val_acc=0.9912 val_f1=0.9911 val_uar=0.9912 lr=9.21e-05
+[19:44:04] INFO   ep16: train_loss=0.7980 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=9.05e-05
+[19:44:07] INFO   ep17: train_loss=0.7971 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=8.87e-05
+[19:44:10] INFO   ep18: train_loss=0.7957 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=8.68e-05
+[19:44:12] INFO   ep19: train_loss=0.7950 val_acc=0.9951 val_f1=0.9951 val_uar=0.9951 lr=8.48e-05
+[19:44:15] INFO   ep20: train_loss=0.7942 val_acc=0.9931 val_f1=0.9932 val_uar=0.9931 lr=8.27e-05
+[19:44:18] INFO   ep21: train_loss=0.7937 val_acc=0.9931 val_f1=0.9932 val_uar=0.9931 lr=8.05e-05
+[19:44:20] INFO   ep22: train_loss=0.7929 val_acc=0.9941 val_f1=0.9942 val_uar=0.9941 lr=7.82e-05
+[19:44:23] INFO   ep23: train_loss=0.7922 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=7.58e-05
+[19:44:25] INFO   ep24: train_loss=0.7920 val_acc=0.9922 val_f1=0.9923 val_uar=0.9922 lr=7.33e-05
+[19:44:28] INFO   ep25: train_loss=0.7916 val_acc=0.9941 val_f1=0.9941 val_uar=0.9941 lr=7.08e-05
+[19:44:31] INFO   ep26: train_loss=0.7911 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=6.81e-05
+[19:44:33] INFO   ep27: train_loss=0.7906 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=6.55e-05
+[19:44:36] INFO   ep28: train_loss=0.7900 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=6.27e-05
+[19:44:38] INFO   ep29: train_loss=0.7899 val_acc=0.9941 val_f1=0.9942 val_uar=0.9941 lr=5.99e-05
+[19:44:41] INFO   ep30: train_loss=0.7895 val_acc=0.9951 val_f1=0.9951 val_uar=0.9951 lr=5.71e-05
+[19:44:44] INFO   ep31: train_loss=0.7891 val_acc=0.9931 val_f1=0.9932 val_uar=0.9931 lr=5.43e-05
+[19:44:46] INFO   ep32: train_loss=0.7886 val_acc=0.9931 val_f1=0.9932 val_uar=0.9931 lr=5.14e-05
+[19:44:49] INFO   ep33: train_loss=0.7883 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=4.86e-05
+[19:44:52] INFO   ep34: train_loss=0.7881 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=4.57e-05
+[19:44:54] INFO   ep35: train_loss=0.7878 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=4.29e-05
+[19:44:57] INFO   ep36: train_loss=0.7877 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=4.01e-05
+[19:45:00] INFO   ep37: train_loss=0.7875 val_acc=0.9941 val_f1=0.9940 val_uar=0.9941 lr=3.73e-05
+[19:45:02] INFO   ep38: train_loss=0.7873 val_acc=0.9941 val_f1=0.9941 val_uar=0.9941 lr=3.45e-05
+[19:45:05] INFO   ep39: train_loss=0.7871 val_acc=0.9931 val_f1=0.9932 val_uar=0.9931 lr=3.19e-05
+[19:45:07] INFO   ep40: train_loss=0.7869 val_acc=0.9931 val_f1=0.9932 val_uar=0.9931 lr=2.92e-05
+[19:45:10] INFO   ep41: train_loss=0.7867 val_acc=0.9941 val_f1=0.9941 val_uar=0.9941 lr=2.67e-05
+[19:45:13] INFO   ep42: train_loss=0.7868 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=2.42e-05
+[19:45:15] INFO   ep43: train_loss=0.7866 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=2.18e-05
+[19:45:18] INFO   ep44: train_loss=0.7864 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=1.95e-05
+[19:45:21] INFO   ep45: train_loss=0.7863 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=1.73e-05
+[19:45:23] INFO   ep46: train_loss=0.7862 val_acc=0.9931 val_f1=0.9932 val_uar=0.9931 lr=1.52e-05
+[19:45:26] INFO   ep47: train_loss=0.7861 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=1.32e-05
+[19:45:29] INFO   ep48: train_loss=0.7860 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=1.13e-05
+[19:45:31] INFO   ep49: train_loss=0.7860 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=9.55e-06
+[19:45:34] INFO   ep50: train_loss=0.7860 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=7.94e-06
+[19:45:36] INFO   ep51: train_loss=0.7860 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=6.46e-06
+[19:45:39] INFO   ep52: train_loss=0.7860 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=5.13e-06
+[19:45:42] INFO   ep53: train_loss=0.7858 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=3.94e-06
+[19:45:44] INFO   ep54: train_loss=0.7859 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=2.91e-06
+[19:45:47] INFO   ep55: train_loss=0.7858 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=2.03e-06
+[19:45:50] INFO   ep56: train_loss=0.7860 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=1.30e-06
+[19:45:52] INFO   ep57: train_loss=0.7859 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=7.32e-07
+[19:45:55] INFO   ep58: train_loss=0.7858 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=3.26e-07
+[19:45:57] INFO   ep59: train_loss=0.7858 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=8.15e-08
+[19:46:00] INFO   ep60: train_loss=0.7857 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=0.00e+00
+[19:46:00] INFO [done] best_val_acc=0.9951 ckpt=checkpoints\flowers102_convnext_tiny_seed2.pt time=3.1min
+[19:46:02] INFO   [E1] eval clean + per colorfulness bin
+[19:46:21] INFO   [E2] eval perturbasi warna
+[19:51:48] INFO   done convnext_tiny seed2
+[19:51:48] INFO ==== flowers102 / vit_small / seed1 ====
+[19:51:49] INFO [train] flowers102/vit_small/seed1 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[19:52:18] INFO   ep1: train_loss=5.0106 val_acc=0.0147 val_f1=0.0054 val_uar=0.0147 lr=4.00e-05
+[19:52:21] INFO   ep2: train_loss=4.4520 val_acc=0.1324 val_f1=0.1082 val_uar=0.1324 lr=6.00e-05
+[19:52:23] INFO   ep3: train_loss=3.3284 val_acc=0.5902 val_f1=0.5545 val_uar=0.5902 lr=8.00e-05
+[19:52:25] INFO   ep4: train_loss=1.9055 val_acc=0.8461 val_f1=0.8406 val_uar=0.8461 lr=1.00e-04
+[19:52:27] INFO   ep5: train_loss=1.1042 val_acc=0.9412 val_f1=0.9405 val_uar=0.9412 lr=1.00e-04
+[19:52:30] INFO   ep6: train_loss=0.8983 val_acc=0.9549 val_f1=0.9545 val_uar=0.9549 lr=9.99e-05
+[19:52:32] INFO   ep7: train_loss=0.8550 val_acc=0.9539 val_f1=0.9536 val_uar=0.9539 lr=9.97e-05
+[19:52:34] INFO   ep8: train_loss=0.8447 val_acc=0.9559 val_f1=0.9556 val_uar=0.9559 lr=9.93e-05
+[19:52:37] INFO   ep9: train_loss=0.8362 val_acc=0.9578 val_f1=0.9574 val_uar=0.9578 lr=9.87e-05
+[19:52:39] INFO   ep10: train_loss=0.8317 val_acc=0.9618 val_f1=0.9615 val_uar=0.9618 lr=9.80e-05
+[19:52:41] INFO   ep11: train_loss=0.8287 val_acc=0.9598 val_f1=0.9593 val_uar=0.9598 lr=9.71e-05
+[19:52:44] INFO   ep12: train_loss=0.8256 val_acc=0.9637 val_f1=0.9637 val_uar=0.9637 lr=9.61e-05
+[19:52:46] INFO   ep13: train_loss=0.8232 val_acc=0.9627 val_f1=0.9627 val_uar=0.9627 lr=9.49e-05
+[19:52:48] INFO   ep14: train_loss=0.8209 val_acc=0.9637 val_f1=0.9637 val_uar=0.9637 lr=9.35e-05
+[19:52:50] INFO   ep15: train_loss=0.8193 val_acc=0.9667 val_f1=0.9665 val_uar=0.9667 lr=9.21e-05
+[19:52:53] INFO   ep16: train_loss=0.8174 val_acc=0.9647 val_f1=0.9642 val_uar=0.9647 lr=9.05e-05
+[19:52:55] INFO   ep17: train_loss=0.8156 val_acc=0.9696 val_f1=0.9696 val_uar=0.9696 lr=8.87e-05
+[19:52:57] INFO   ep18: train_loss=0.8141 val_acc=0.9706 val_f1=0.9706 val_uar=0.9706 lr=8.68e-05
+[19:52:59] INFO   ep19: train_loss=0.8134 val_acc=0.9657 val_f1=0.9654 val_uar=0.9657 lr=8.48e-05
+[19:53:01] INFO   ep20: train_loss=0.8121 val_acc=0.9676 val_f1=0.9674 val_uar=0.9676 lr=8.27e-05
+[19:53:04] INFO   ep21: train_loss=0.8107 val_acc=0.9676 val_f1=0.9675 val_uar=0.9676 lr=8.05e-05
+[19:53:06] INFO   ep22: train_loss=0.8098 val_acc=0.9667 val_f1=0.9667 val_uar=0.9667 lr=7.82e-05
+[19:53:08] INFO   ep23: train_loss=0.8090 val_acc=0.9667 val_f1=0.9665 val_uar=0.9667 lr=7.58e-05
+[19:53:10] INFO   ep24: train_loss=0.8080 val_acc=0.9696 val_f1=0.9696 val_uar=0.9696 lr=7.33e-05
+[19:53:12] INFO   ep25: train_loss=0.8075 val_acc=0.9696 val_f1=0.9697 val_uar=0.9696 lr=7.08e-05
+[19:53:15] INFO   ep26: train_loss=0.8065 val_acc=0.9696 val_f1=0.9696 val_uar=0.9696 lr=6.81e-05
+[19:53:17] INFO   ep27: train_loss=0.8056 val_acc=0.9676 val_f1=0.9676 val_uar=0.9676 lr=6.55e-05
+[19:53:19] INFO   ep28: train_loss=0.8049 val_acc=0.9676 val_f1=0.9676 val_uar=0.9676 lr=6.27e-05
+[19:53:21] INFO   ep29: train_loss=0.8044 val_acc=0.9706 val_f1=0.9706 val_uar=0.9706 lr=5.99e-05
+[19:53:24] INFO   ep30: train_loss=0.8038 val_acc=0.9686 val_f1=0.9688 val_uar=0.9686 lr=5.71e-05
+[19:53:26] INFO   ep31: train_loss=0.8035 val_acc=0.9686 val_f1=0.9685 val_uar=0.9686 lr=5.43e-05
+[19:53:28] INFO   ep32: train_loss=0.8024 val_acc=0.9676 val_f1=0.9675 val_uar=0.9676 lr=5.14e-05
+[19:53:30] INFO   ep33: train_loss=0.8022 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=4.86e-05
+[19:53:32] INFO   ep34: train_loss=0.8020 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=4.57e-05
+[19:53:35] INFO   ep35: train_loss=0.8013 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=4.29e-05
+[19:53:37] INFO   ep36: train_loss=0.8010 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=4.01e-05
+[19:53:39] INFO   ep37: train_loss=0.8004 val_acc=0.9676 val_f1=0.9675 val_uar=0.9676 lr=3.73e-05
+[19:53:41] INFO   ep38: train_loss=0.8000 val_acc=0.9676 val_f1=0.9675 val_uar=0.9676 lr=3.45e-05
+[19:53:43] INFO   ep39: train_loss=0.8000 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=3.19e-05
+[19:53:46] INFO   ep40: train_loss=0.7999 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=2.92e-05
+[19:53:48] INFO   ep41: train_loss=0.7995 val_acc=0.9686 val_f1=0.9684 val_uar=0.9686 lr=2.67e-05
+[19:53:50] INFO   ep42: train_loss=0.7990 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=2.42e-05
+[19:53:52] INFO   ep43: train_loss=0.7991 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=2.18e-05
+[19:53:55] INFO   ep44: train_loss=0.7995 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=1.95e-05
+[19:53:57] INFO   ep45: train_loss=0.7985 val_acc=0.9686 val_f1=0.9685 val_uar=0.9686 lr=1.73e-05
+[19:53:59] INFO   ep46: train_loss=0.7984 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=1.52e-05
+[19:54:01] INFO   ep47: train_loss=0.7983 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=1.32e-05
+[19:54:03] INFO   ep48: train_loss=0.7982 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=1.13e-05
+[19:54:06] INFO   ep49: train_loss=0.7980 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=9.55e-06
+[19:54:08] INFO   ep50: train_loss=0.7981 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=7.94e-06
+[19:54:10] INFO   ep51: train_loss=0.7979 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=6.46e-06
+[19:54:12] INFO   ep52: train_loss=0.7979 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=5.13e-06
+[19:54:15] INFO   ep53: train_loss=0.7977 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=3.94e-06
+[19:54:17] INFO   ep54: train_loss=0.7978 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=2.91e-06
+[19:54:19] INFO   ep55: train_loss=0.7977 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=2.03e-06
+[19:54:22] INFO   ep56: train_loss=0.7976 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=1.30e-06
+[19:54:24] INFO   ep57: train_loss=0.7976 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=7.32e-07
+[19:54:26] INFO   ep58: train_loss=0.7975 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=3.26e-07
+[19:54:28] INFO   ep59: train_loss=0.7976 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=8.15e-08
+[19:54:31] INFO   ep60: train_loss=0.7976 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=0.00e+00
+[19:54:31] INFO [done] best_val_acc=0.9706 ckpt=checkpoints\flowers102_vit_small_seed1.pt time=2.7min
+[19:54:32] INFO   [E1] eval clean + per colorfulness bin
+[19:54:53] INFO   [E2] eval perturbasi warna
+[20:00:15] INFO   done vit_small seed1
+[20:00:15] INFO ==== flowers102 / vit_small / seed2 ====
+[20:00:15] INFO [train] flowers102/vit_small/seed2 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[20:00:44] INFO   ep1: train_loss=4.8033 val_acc=0.0186 val_f1=0.0172 val_uar=0.0186 lr=4.00e-05
+[20:00:46] INFO   ep2: train_loss=4.0892 val_acc=0.2637 val_f1=0.2157 val_uar=0.2637 lr=6.00e-05
+[20:00:48] INFO   ep3: train_loss=2.8695 val_acc=0.7127 val_f1=0.6859 val_uar=0.7127 lr=8.00e-05
+[20:00:50] INFO   ep4: train_loss=1.5986 val_acc=0.9059 val_f1=0.8987 val_uar=0.9059 lr=1.00e-04
+[20:00:53] INFO   ep5: train_loss=1.0211 val_acc=0.9490 val_f1=0.9484 val_uar=0.9490 lr=1.00e-04
+[20:00:55] INFO   ep6: train_loss=0.8753 val_acc=0.9627 val_f1=0.9626 val_uar=0.9627 lr=9.99e-05
+[20:00:57] INFO   ep7: train_loss=0.8453 val_acc=0.9696 val_f1=0.9699 val_uar=0.9696 lr=9.97e-05
+[20:00:59] INFO   ep8: train_loss=0.8382 val_acc=0.9686 val_f1=0.9685 val_uar=0.9686 lr=9.93e-05
+[20:01:01] INFO   ep9: train_loss=0.8311 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=9.87e-05
+[20:01:04] INFO   ep10: train_loss=0.8270 val_acc=0.9696 val_f1=0.9697 val_uar=0.9696 lr=9.80e-05
+[20:01:06] INFO   ep11: train_loss=0.8254 val_acc=0.9716 val_f1=0.9715 val_uar=0.9716 lr=9.71e-05
+[20:01:08] INFO   ep12: train_loss=0.8224 val_acc=0.9745 val_f1=0.9746 val_uar=0.9745 lr=9.61e-05
+[20:01:10] INFO   ep13: train_loss=0.8196 val_acc=0.9725 val_f1=0.9725 val_uar=0.9725 lr=9.49e-05
+[20:01:12] INFO   ep14: train_loss=0.8181 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=9.35e-05
+[20:01:15] INFO   ep15: train_loss=0.8164 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=9.21e-05
+[20:01:17] INFO   ep16: train_loss=0.8147 val_acc=0.9716 val_f1=0.9713 val_uar=0.9716 lr=9.05e-05
+[20:01:19] INFO   ep17: train_loss=0.8135 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=8.87e-05
+[20:01:21] INFO   ep18: train_loss=0.8128 val_acc=0.9755 val_f1=0.9752 val_uar=0.9755 lr=8.68e-05
+[20:01:23] INFO   ep19: train_loss=0.8111 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=8.48e-05
+[20:01:25] INFO   ep20: train_loss=0.8102 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=8.27e-05
+[20:01:28] INFO   ep21: train_loss=0.8090 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=8.05e-05
+[20:01:30] INFO   ep22: train_loss=0.8082 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=7.82e-05
+[20:01:32] INFO   ep23: train_loss=0.8072 val_acc=0.9725 val_f1=0.9724 val_uar=0.9725 lr=7.58e-05
+[20:01:34] INFO   ep24: train_loss=0.8069 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=7.33e-05
+[20:01:36] INFO   ep25: train_loss=0.8054 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=7.08e-05
+[20:01:38] INFO   ep26: train_loss=0.8046 val_acc=0.9765 val_f1=0.9762 val_uar=0.9765 lr=6.81e-05
+[20:01:41] INFO   ep27: train_loss=0.8039 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=6.55e-05
+[20:01:43] INFO   ep28: train_loss=0.8034 val_acc=0.9784 val_f1=0.9783 val_uar=0.9784 lr=6.27e-05
+[20:01:45] INFO   ep29: train_loss=0.8027 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=5.99e-05
+[20:01:47] INFO   ep30: train_loss=0.8022 val_acc=0.9745 val_f1=0.9743 val_uar=0.9745 lr=5.71e-05
+[20:01:49] INFO   ep31: train_loss=0.8021 val_acc=0.9765 val_f1=0.9762 val_uar=0.9765 lr=5.43e-05
+[20:01:52] INFO   ep32: train_loss=0.8014 val_acc=0.9784 val_f1=0.9783 val_uar=0.9784 lr=5.14e-05
+[20:01:54] INFO   ep33: train_loss=0.8009 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=4.86e-05
+[20:01:56] INFO   ep34: train_loss=0.8005 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=4.57e-05
+[20:01:58] INFO   ep35: train_loss=0.8000 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=4.29e-05
+[20:02:00] INFO   ep36: train_loss=0.7998 val_acc=0.9765 val_f1=0.9762 val_uar=0.9765 lr=4.01e-05
+[20:02:02] INFO   ep37: train_loss=0.7997 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=3.73e-05
+[20:02:05] INFO   ep38: train_loss=0.7992 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=3.45e-05
+[20:02:07] INFO   ep39: train_loss=0.7989 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=3.19e-05
+[20:02:09] INFO   ep40: train_loss=0.7986 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=2.92e-05
+[20:02:11] INFO   ep41: train_loss=0.7984 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=2.67e-05
+[20:02:13] INFO   ep42: train_loss=0.7980 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=2.42e-05
+[20:02:15] INFO   ep43: train_loss=0.7979 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=2.18e-05
+[20:02:18] INFO   ep44: train_loss=0.7979 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=1.95e-05
+[20:02:20] INFO   ep45: train_loss=0.7976 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=1.73e-05
+[20:02:22] INFO   ep46: train_loss=0.7975 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=1.52e-05
+[20:02:24] INFO   ep47: train_loss=0.7973 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=1.32e-05
+[20:02:26] INFO   ep48: train_loss=0.7974 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=1.13e-05
+[20:02:28] INFO   ep49: train_loss=0.7971 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=9.55e-06
+[20:02:31] INFO   ep50: train_loss=0.7971 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=7.94e-06
+[20:02:33] INFO   ep51: train_loss=0.7968 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=6.46e-06
+[20:02:35] INFO   ep52: train_loss=0.7969 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=5.13e-06
+[20:02:37] INFO   ep53: train_loss=0.7969 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=3.94e-06
+[20:02:39] INFO   ep54: train_loss=0.7967 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=2.91e-06
+[20:02:41] INFO   ep55: train_loss=0.7969 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=2.03e-06
+[20:02:44] INFO   ep56: train_loss=0.7968 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=1.30e-06
+[20:02:46] INFO   ep57: train_loss=0.7968 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=7.32e-07
+[20:02:48] INFO   ep58: train_loss=0.7969 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=3.26e-07
+[20:02:50] INFO   ep59: train_loss=0.7974 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=8.15e-08
+[20:02:52] INFO   ep60: train_loss=0.7968 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=0.00e+00
+[20:02:52] INFO [done] best_val_acc=0.9784 ckpt=checkpoints\flowers102_vit_small_seed2.pt time=2.6min
+[20:02:54] INFO   [E1] eval clean + per colorfulness bin
+[20:03:13] INFO   [E2] eval perturbasi warna
+[20:08:29] INFO   done vit_small seed2
+[20:08:29] INFO ==== flowers102 / swin_tiny / seed1 ====
+[20:08:30] INFO [train] flowers102/swin_tiny/seed1 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[20:08:59] INFO   ep1: train_loss=4.6164 val_acc=0.0333 val_f1=0.0191 val_uar=0.0333 lr=4.00e-05
+[20:09:02] INFO   ep2: train_loss=4.3862 val_acc=0.1814 val_f1=0.1489 val_uar=0.1814 lr=6.00e-05
+[20:09:05] INFO   ep3: train_loss=3.6373 val_acc=0.5176 val_f1=0.4721 val_uar=0.5176 lr=8.00e-05
+[20:09:09] INFO   ep4: train_loss=2.4553 val_acc=0.7392 val_f1=0.7210 val_uar=0.7392 lr=1.00e-04
+[20:09:12] INFO   ep5: train_loss=1.5919 val_acc=0.8676 val_f1=0.8625 val_uar=0.8676 lr=1.00e-04
+[20:09:15] INFO   ep6: train_loss=1.2056 val_acc=0.8892 val_f1=0.8867 val_uar=0.8892 lr=9.99e-05
+[20:09:18] INFO   ep7: train_loss=1.0525 val_acc=0.9118 val_f1=0.9112 val_uar=0.9118 lr=9.97e-05
+[20:09:21] INFO   ep8: train_loss=0.9975 val_acc=0.9137 val_f1=0.9128 val_uar=0.9137 lr=9.93e-05
+[20:09:24] INFO   ep9: train_loss=0.9759 val_acc=0.9235 val_f1=0.9242 val_uar=0.9235 lr=9.87e-05
+[20:09:27] INFO   ep10: train_loss=0.9465 val_acc=0.9275 val_f1=0.9270 val_uar=0.9275 lr=9.80e-05
+[20:09:30] INFO   ep11: train_loss=0.9370 val_acc=0.9225 val_f1=0.9217 val_uar=0.9225 lr=9.71e-05
+[20:09:33] INFO   ep12: train_loss=0.9125 val_acc=0.9343 val_f1=0.9338 val_uar=0.9343 lr=9.61e-05
+[20:09:36] INFO   ep13: train_loss=0.8997 val_acc=0.9304 val_f1=0.9292 val_uar=0.9304 lr=9.49e-05
+[20:09:39] INFO   ep14: train_loss=0.8834 val_acc=0.9402 val_f1=0.9399 val_uar=0.9402 lr=9.35e-05
+[20:09:42] INFO   ep15: train_loss=0.8817 val_acc=0.9392 val_f1=0.9383 val_uar=0.9392 lr=9.21e-05
+[20:09:45] INFO   ep16: train_loss=0.8809 val_acc=0.9333 val_f1=0.9333 val_uar=0.9333 lr=9.05e-05
+[20:09:48] INFO   ep17: train_loss=0.8740 val_acc=0.9373 val_f1=0.9375 val_uar=0.9373 lr=8.87e-05
+[20:09:51] INFO   ep18: train_loss=0.8629 val_acc=0.9402 val_f1=0.9399 val_uar=0.9402 lr=8.68e-05
+[20:09:55] INFO   ep19: train_loss=0.8562 val_acc=0.9441 val_f1=0.9440 val_uar=0.9441 lr=8.48e-05
+[20:09:58] INFO   ep20: train_loss=0.8575 val_acc=0.9461 val_f1=0.9461 val_uar=0.9461 lr=8.27e-05
+[20:10:01] INFO   ep21: train_loss=0.8492 val_acc=0.9412 val_f1=0.9414 val_uar=0.9412 lr=8.05e-05
+[20:10:04] INFO   ep22: train_loss=0.8467 val_acc=0.9412 val_f1=0.9410 val_uar=0.9412 lr=7.82e-05
+[20:10:07] INFO   ep23: train_loss=0.8479 val_acc=0.9480 val_f1=0.9479 val_uar=0.9480 lr=7.58e-05
+[20:10:10] INFO   ep24: train_loss=0.8452 val_acc=0.9461 val_f1=0.9459 val_uar=0.9461 lr=7.33e-05
+[20:10:13] INFO   ep25: train_loss=0.8407 val_acc=0.9461 val_f1=0.9460 val_uar=0.9461 lr=7.08e-05
+[20:10:16] INFO   ep26: train_loss=0.8372 val_acc=0.9490 val_f1=0.9488 val_uar=0.9490 lr=6.81e-05
+[20:10:19] INFO   ep27: train_loss=0.8364 val_acc=0.9480 val_f1=0.9476 val_uar=0.9480 lr=6.55e-05
+[20:10:22] INFO   ep28: train_loss=0.8292 val_acc=0.9471 val_f1=0.9468 val_uar=0.9471 lr=6.27e-05
+[20:10:25] INFO   ep29: train_loss=0.8312 val_acc=0.9480 val_f1=0.9474 val_uar=0.9480 lr=5.99e-05
+[20:10:28] INFO   ep30: train_loss=0.8287 val_acc=0.9549 val_f1=0.9547 val_uar=0.9549 lr=5.71e-05
+[20:10:31] INFO   ep31: train_loss=0.8272 val_acc=0.9559 val_f1=0.9554 val_uar=0.9559 lr=5.43e-05
+[20:10:34] INFO   ep32: train_loss=0.8332 val_acc=0.9529 val_f1=0.9524 val_uar=0.9529 lr=5.14e-05
+[20:10:37] INFO   ep33: train_loss=0.8295 val_acc=0.9490 val_f1=0.9490 val_uar=0.9490 lr=4.86e-05
+[20:10:40] INFO   ep34: train_loss=0.8290 val_acc=0.9520 val_f1=0.9519 val_uar=0.9520 lr=4.57e-05
+[20:10:43] INFO   ep35: train_loss=0.8232 val_acc=0.9529 val_f1=0.9525 val_uar=0.9529 lr=4.29e-05
+[20:10:46] INFO   ep36: train_loss=0.8250 val_acc=0.9539 val_f1=0.9536 val_uar=0.9539 lr=4.01e-05
+[20:10:49] INFO   ep37: train_loss=0.8222 val_acc=0.9539 val_f1=0.9535 val_uar=0.9539 lr=3.73e-05
+[20:10:52] INFO   ep38: train_loss=0.8173 val_acc=0.9569 val_f1=0.9568 val_uar=0.9569 lr=3.45e-05
+[20:10:56] INFO   ep39: train_loss=0.8201 val_acc=0.9578 val_f1=0.9580 val_uar=0.9578 lr=3.19e-05
+[20:10:59] INFO   ep40: train_loss=0.8193 val_acc=0.9539 val_f1=0.9540 val_uar=0.9539 lr=2.92e-05
+[20:11:02] INFO   ep41: train_loss=0.8153 val_acc=0.9549 val_f1=0.9545 val_uar=0.9549 lr=2.67e-05
+[20:11:05] INFO   ep42: train_loss=0.8166 val_acc=0.9569 val_f1=0.9567 val_uar=0.9569 lr=2.42e-05
+[20:11:08] INFO   ep43: train_loss=0.8160 val_acc=0.9529 val_f1=0.9530 val_uar=0.9529 lr=2.18e-05
+[20:11:11] INFO   ep44: train_loss=0.8200 val_acc=0.9549 val_f1=0.9551 val_uar=0.9549 lr=1.95e-05
+[20:11:14] INFO   ep45: train_loss=0.8195 val_acc=0.9578 val_f1=0.9579 val_uar=0.9578 lr=1.73e-05
+[20:11:17] INFO   ep46: train_loss=0.8265 val_acc=0.9588 val_f1=0.9591 val_uar=0.9588 lr=1.52e-05
+[20:11:20] INFO   ep47: train_loss=0.8160 val_acc=0.9588 val_f1=0.9589 val_uar=0.9588 lr=1.32e-05
+[20:11:23] INFO   ep48: train_loss=0.8132 val_acc=0.9578 val_f1=0.9580 val_uar=0.9578 lr=1.13e-05
+[20:11:26] INFO   ep49: train_loss=0.8224 val_acc=0.9588 val_f1=0.9590 val_uar=0.9588 lr=9.55e-06
+[20:11:29] INFO   ep50: train_loss=0.8123 val_acc=0.9608 val_f1=0.9607 val_uar=0.9608 lr=7.94e-06
+[20:11:32] INFO   ep51: train_loss=0.8116 val_acc=0.9618 val_f1=0.9616 val_uar=0.9618 lr=6.46e-06
+[20:11:35] INFO   ep52: train_loss=0.8205 val_acc=0.9618 val_f1=0.9616 val_uar=0.9618 lr=5.13e-06
+[20:11:39] INFO   ep53: train_loss=0.8153 val_acc=0.9627 val_f1=0.9626 val_uar=0.9627 lr=3.94e-06
+[20:11:42] INFO   ep54: train_loss=0.8104 val_acc=0.9608 val_f1=0.9608 val_uar=0.9608 lr=2.91e-06
+[20:11:45] INFO   ep55: train_loss=0.8158 val_acc=0.9598 val_f1=0.9599 val_uar=0.9598 lr=2.03e-06
+[20:11:48] INFO   ep56: train_loss=0.8110 val_acc=0.9598 val_f1=0.9598 val_uar=0.9598 lr=1.30e-06
+[20:11:51] INFO   ep57: train_loss=0.8137 val_acc=0.9598 val_f1=0.9598 val_uar=0.9598 lr=7.32e-07
+[20:11:54] INFO   ep58: train_loss=0.8161 val_acc=0.9598 val_f1=0.9598 val_uar=0.9598 lr=3.26e-07
+[20:11:57] INFO   ep59: train_loss=0.8131 val_acc=0.9598 val_f1=0.9598 val_uar=0.9598 lr=8.15e-08
+[20:12:00] INFO   ep60: train_loss=0.8106 val_acc=0.9598 val_f1=0.9598 val_uar=0.9598 lr=0.00e+00
+[20:12:00] INFO [done] best_val_acc=0.9627 ckpt=checkpoints\flowers102_swin_tiny_seed1.pt time=3.5min
+[20:12:01] INFO   [E1] eval clean + per colorfulness bin
+[20:12:21] INFO   [E2] eval perturbasi warna
+[20:17:43] INFO   done swin_tiny seed1
+[20:17:43] INFO ==== flowers102 / swin_tiny / seed2 ====
+[20:17:43] INFO [train] flowers102/swin_tiny/seed2 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[20:18:12] INFO   ep1: train_loss=4.6240 val_acc=0.0294 val_f1=0.0236 val_uar=0.0294 lr=4.00e-05
+[20:18:15] INFO   ep2: train_loss=4.4219 val_acc=0.1461 val_f1=0.1151 val_uar=0.1461 lr=6.00e-05
+[20:18:19] INFO   ep3: train_loss=3.7134 val_acc=0.5098 val_f1=0.4830 val_uar=0.5098 lr=8.00e-05
+[20:18:22] INFO   ep4: train_loss=2.4275 val_acc=0.7520 val_f1=0.7378 val_uar=0.7520 lr=1.00e-04
+[20:18:25] INFO   ep5: train_loss=1.5442 val_acc=0.8598 val_f1=0.8551 val_uar=0.8598 lr=1.00e-04
+[20:18:28] INFO   ep6: train_loss=1.2090 val_acc=0.8902 val_f1=0.8878 val_uar=0.8902 lr=9.99e-05
+[20:18:31] INFO   ep7: train_loss=1.0703 val_acc=0.9059 val_f1=0.9047 val_uar=0.9059 lr=9.97e-05
+[20:18:34] INFO   ep8: train_loss=1.0056 val_acc=0.9186 val_f1=0.9187 val_uar=0.9186 lr=9.93e-05
+[20:18:37] INFO   ep9: train_loss=0.9536 val_acc=0.9176 val_f1=0.9173 val_uar=0.9176 lr=9.87e-05
+[20:18:40] INFO   ep10: train_loss=0.9386 val_acc=0.9186 val_f1=0.9170 val_uar=0.9186 lr=9.80e-05
+[20:18:43] INFO   ep11: train_loss=0.9251 val_acc=0.9314 val_f1=0.9305 val_uar=0.9314 lr=9.71e-05
+[20:18:46] INFO   ep12: train_loss=0.9126 val_acc=0.9275 val_f1=0.9275 val_uar=0.9275 lr=9.61e-05
+[20:18:49] INFO   ep13: train_loss=0.8905 val_acc=0.9294 val_f1=0.9289 val_uar=0.9294 lr=9.49e-05
+[20:18:52] INFO   ep14: train_loss=0.8804 val_acc=0.9431 val_f1=0.9427 val_uar=0.9431 lr=9.35e-05
+[20:18:55] INFO   ep15: train_loss=0.8702 val_acc=0.9324 val_f1=0.9323 val_uar=0.9324 lr=9.21e-05
+[20:18:58] INFO   ep16: train_loss=0.8728 val_acc=0.9363 val_f1=0.9353 val_uar=0.9363 lr=9.05e-05
+[20:19:02] INFO   ep17: train_loss=0.8704 val_acc=0.9353 val_f1=0.9347 val_uar=0.9353 lr=8.87e-05
+[20:19:05] INFO   ep18: train_loss=0.8614 val_acc=0.9392 val_f1=0.9383 val_uar=0.9392 lr=8.68e-05
+[20:19:08] INFO   ep19: train_loss=0.8606 val_acc=0.9382 val_f1=0.9371 val_uar=0.9382 lr=8.48e-05
+[20:19:11] INFO   ep20: train_loss=0.8562 val_acc=0.9392 val_f1=0.9380 val_uar=0.9392 lr=8.27e-05
+[20:19:14] INFO   ep21: train_loss=0.8450 val_acc=0.9451 val_f1=0.9441 val_uar=0.9451 lr=8.05e-05
+[20:19:17] INFO   ep22: train_loss=0.8535 val_acc=0.9471 val_f1=0.9463 val_uar=0.9471 lr=7.82e-05
+[20:19:20] INFO   ep23: train_loss=0.8399 val_acc=0.9461 val_f1=0.9458 val_uar=0.9461 lr=7.58e-05
+[20:19:23] INFO   ep24: train_loss=0.8471 val_acc=0.9451 val_f1=0.9444 val_uar=0.9451 lr=7.33e-05
+[20:19:26] INFO   ep25: train_loss=0.8422 val_acc=0.9441 val_f1=0.9437 val_uar=0.9441 lr=7.08e-05
+[20:19:29] INFO   ep26: train_loss=0.8364 val_acc=0.9441 val_f1=0.9432 val_uar=0.9441 lr=6.81e-05
+[20:19:32] INFO   ep27: train_loss=0.8347 val_acc=0.9412 val_f1=0.9406 val_uar=0.9412 lr=6.55e-05
+[20:19:35] INFO   ep28: train_loss=0.8312 val_acc=0.9382 val_f1=0.9374 val_uar=0.9382 lr=6.27e-05
+[20:19:38] INFO   ep29: train_loss=0.8314 val_acc=0.9441 val_f1=0.9436 val_uar=0.9441 lr=5.99e-05
+[20:19:41] INFO   ep30: train_loss=0.8286 val_acc=0.9461 val_f1=0.9457 val_uar=0.9461 lr=5.71e-05
+[20:19:44] INFO   ep31: train_loss=0.8254 val_acc=0.9490 val_f1=0.9483 val_uar=0.9490 lr=5.43e-05
+[20:19:47] INFO   ep32: train_loss=0.8287 val_acc=0.9480 val_f1=0.9471 val_uar=0.9480 lr=5.14e-05
+[20:19:50] INFO   ep33: train_loss=0.8303 val_acc=0.9480 val_f1=0.9480 val_uar=0.9480 lr=4.86e-05
+[20:19:53] INFO   ep34: train_loss=0.8255 val_acc=0.9431 val_f1=0.9430 val_uar=0.9431 lr=4.57e-05
+[20:19:56] INFO   ep35: train_loss=0.8263 val_acc=0.9471 val_f1=0.9467 val_uar=0.9471 lr=4.29e-05
+[20:19:59] INFO   ep36: train_loss=0.8211 val_acc=0.9480 val_f1=0.9473 val_uar=0.9480 lr=4.01e-05
+[20:20:02] INFO   ep37: train_loss=0.8270 val_acc=0.9471 val_f1=0.9466 val_uar=0.9471 lr=3.73e-05
+[20:20:05] INFO   ep38: train_loss=0.8211 val_acc=0.9520 val_f1=0.9517 val_uar=0.9520 lr=3.45e-05
+[20:20:08] INFO   ep39: train_loss=0.8212 val_acc=0.9520 val_f1=0.9515 val_uar=0.9520 lr=3.19e-05
+[20:20:11] INFO   ep40: train_loss=0.8172 val_acc=0.9539 val_f1=0.9537 val_uar=0.9539 lr=2.92e-05
+[20:20:14] INFO   ep41: train_loss=0.8193 val_acc=0.9500 val_f1=0.9495 val_uar=0.9500 lr=2.67e-05
+[20:20:17] INFO   ep42: train_loss=0.8192 val_acc=0.9529 val_f1=0.9524 val_uar=0.9529 lr=2.42e-05
+[20:20:20] INFO   ep43: train_loss=0.8179 val_acc=0.9529 val_f1=0.9523 val_uar=0.9529 lr=2.18e-05
+[20:20:23] INFO   ep44: train_loss=0.8177 val_acc=0.9510 val_f1=0.9506 val_uar=0.9510 lr=1.95e-05
+[20:20:26] INFO   ep45: train_loss=0.8223 val_acc=0.9490 val_f1=0.9484 val_uar=0.9490 lr=1.73e-05
+[20:20:29] INFO   ep46: train_loss=0.8159 val_acc=0.9471 val_f1=0.9465 val_uar=0.9471 lr=1.52e-05
+[20:20:32] INFO   ep47: train_loss=0.8150 val_acc=0.9500 val_f1=0.9495 val_uar=0.9500 lr=1.32e-05
+[20:20:35] INFO   ep48: train_loss=0.8152 val_acc=0.9500 val_f1=0.9496 val_uar=0.9500 lr=1.13e-05
+[20:20:38] INFO   ep49: train_loss=0.8195 val_acc=0.9480 val_f1=0.9476 val_uar=0.9480 lr=9.55e-06
+[20:20:41] INFO   ep50: train_loss=0.8144 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=7.94e-06
+[20:20:44] INFO   ep51: train_loss=0.8143 val_acc=0.9500 val_f1=0.9497 val_uar=0.9500 lr=6.46e-06
+[20:20:47] INFO   ep52: train_loss=0.8116 val_acc=0.9500 val_f1=0.9497 val_uar=0.9500 lr=5.13e-06
+[20:20:50] INFO   ep53: train_loss=0.8143 val_acc=0.9500 val_f1=0.9497 val_uar=0.9500 lr=3.94e-06
+[20:20:53] INFO   ep54: train_loss=0.8197 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=2.91e-06
+[20:20:56] INFO   ep55: train_loss=0.8177 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=2.03e-06
+[20:20:59] INFO   ep56: train_loss=0.8143 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=1.30e-06
+[20:21:02] INFO   ep57: train_loss=0.8121 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=7.32e-07
+[20:21:06] INFO   ep58: train_loss=0.8132 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=3.26e-07
+[20:21:09] INFO   ep59: train_loss=0.8163 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=8.15e-08
+[20:21:12] INFO   ep60: train_loss=0.8124 val_acc=0.9490 val_f1=0.9486 val_uar=0.9490 lr=0.00e+00
+[20:21:12] INFO [done] best_val_acc=0.9539 ckpt=checkpoints\flowers102_swin_tiny_seed2.pt time=3.5min
+[20:21:13] INFO   [E1] eval clean + per colorfulness bin
+[20:21:32] INFO   [E2] eval perturbasi warna
+[20:26:55] INFO   done swin_tiny seed2
+[20:26:55] INFO ALL DONE
+[00:05:21] INFO dataset=flowers102 models=['resnet50', 'convnext_tiny', 'vit_small', 'swin_tiny'] seeds=[3, 4] epochs=None
+[00:05:21] INFO ==== flowers102 / resnet50 / seed3 ====
+[00:05:23] INFO [train] flowers102/resnet50/seed3 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[00:05:55] INFO   ep1: train_loss=4.6245 val_acc=0.0078 val_f1=0.0007 val_uar=0.0078 lr=4.00e-05
+[00:05:57] INFO   ep2: train_loss=4.6154 val_acc=0.0206 val_f1=0.0110 val_uar=0.0206 lr=6.00e-05
+[00:06:00] INFO   ep3: train_loss=4.5963 val_acc=0.0324 val_f1=0.0200 val_uar=0.0324 lr=8.00e-05
+[00:06:02] INFO   ep4: train_loss=4.5726 val_acc=0.0431 val_f1=0.0313 val_uar=0.0431 lr=1.00e-04
+[00:06:05] INFO   ep5: train_loss=4.5356 val_acc=0.0971 val_f1=0.0762 val_uar=0.0971 lr=1.00e-04
+[00:06:07] INFO   ep6: train_loss=4.4881 val_acc=0.1471 val_f1=0.1223 val_uar=0.1471 lr=9.99e-05
+[00:06:10] INFO   ep7: train_loss=4.4259 val_acc=0.2167 val_f1=0.1946 val_uar=0.2167 lr=9.97e-05
+[00:06:13] INFO   ep8: train_loss=4.3533 val_acc=0.3088 val_f1=0.2947 val_uar=0.3088 lr=9.93e-05
+[00:06:15] INFO   ep9: train_loss=4.2590 val_acc=0.3941 val_f1=0.3845 val_uar=0.3941 lr=9.87e-05
+[00:06:18] INFO   ep10: train_loss=4.1365 val_acc=0.5069 val_f1=0.4943 val_uar=0.5069 lr=9.80e-05
+[00:06:20] INFO   ep11: train_loss=3.9820 val_acc=0.5765 val_f1=0.5609 val_uar=0.5765 lr=9.71e-05
+[00:06:23] INFO   ep12: train_loss=3.7910 val_acc=0.6049 val_f1=0.5930 val_uar=0.6049 lr=9.61e-05
+[00:06:25] INFO   ep13: train_loss=3.5593 val_acc=0.6314 val_f1=0.6165 val_uar=0.6314 lr=9.49e-05
+[00:06:28] INFO   ep14: train_loss=3.3097 val_acc=0.6657 val_f1=0.6497 val_uar=0.6657 lr=9.35e-05
+[00:06:31] INFO   ep15: train_loss=3.0593 val_acc=0.6931 val_f1=0.6776 val_uar=0.6931 lr=9.21e-05
+[00:06:33] INFO   ep16: train_loss=2.7956 val_acc=0.7127 val_f1=0.6942 val_uar=0.7127 lr=9.05e-05
+[00:06:36] INFO   ep17: train_loss=2.5515 val_acc=0.7314 val_f1=0.7155 val_uar=0.7314 lr=8.87e-05
+[00:06:38] INFO   ep18: train_loss=2.3347 val_acc=0.7431 val_f1=0.7249 val_uar=0.7431 lr=8.68e-05
+[00:06:41] INFO   ep19: train_loss=2.1131 val_acc=0.7549 val_f1=0.7386 val_uar=0.7549 lr=8.48e-05
+[00:06:43] INFO   ep20: train_loss=1.9509 val_acc=0.7716 val_f1=0.7577 val_uar=0.7716 lr=8.27e-05
+[00:06:46] INFO   ep21: train_loss=1.8145 val_acc=0.7882 val_f1=0.7737 val_uar=0.7882 lr=8.05e-05
+[00:06:49] INFO   ep22: train_loss=1.6808 val_acc=0.8039 val_f1=0.7941 val_uar=0.8039 lr=7.82e-05
+[00:06:51] INFO   ep23: train_loss=1.5706 val_acc=0.8137 val_f1=0.8031 val_uar=0.8137 lr=7.58e-05
+[00:06:54] INFO   ep24: train_loss=1.4598 val_acc=0.8127 val_f1=0.8036 val_uar=0.8127 lr=7.33e-05
+[00:06:56] INFO   ep25: train_loss=1.3997 val_acc=0.8353 val_f1=0.8284 val_uar=0.8353 lr=7.08e-05
+[00:06:59] INFO   ep26: train_loss=1.3230 val_acc=0.8461 val_f1=0.8406 val_uar=0.8461 lr=6.81e-05
+[00:07:01] INFO   ep27: train_loss=1.2615 val_acc=0.8549 val_f1=0.8501 val_uar=0.8549 lr=6.55e-05
+[00:07:04] INFO   ep28: train_loss=1.2273 val_acc=0.8539 val_f1=0.8499 val_uar=0.8539 lr=6.27e-05
+[00:07:07] INFO   ep29: train_loss=1.1901 val_acc=0.8627 val_f1=0.8593 val_uar=0.8627 lr=5.99e-05
+[00:07:09] INFO   ep30: train_loss=1.1606 val_acc=0.8569 val_f1=0.8530 val_uar=0.8569 lr=5.71e-05
+[00:07:12] INFO   ep31: train_loss=1.1232 val_acc=0.8618 val_f1=0.8582 val_uar=0.8618 lr=5.43e-05
+[00:07:14] INFO   ep32: train_loss=1.1095 val_acc=0.8716 val_f1=0.8690 val_uar=0.8716 lr=5.14e-05
+[00:07:17] INFO   ep33: train_loss=1.0934 val_acc=0.8686 val_f1=0.8658 val_uar=0.8686 lr=4.86e-05
+[00:07:19] INFO   ep34: train_loss=1.0627 val_acc=0.8706 val_f1=0.8683 val_uar=0.8706 lr=4.57e-05
+[00:07:22] INFO   ep35: train_loss=1.0521 val_acc=0.8735 val_f1=0.8717 val_uar=0.8735 lr=4.29e-05
+[00:07:24] INFO   ep36: train_loss=1.0408 val_acc=0.8686 val_f1=0.8668 val_uar=0.8686 lr=4.01e-05
+[00:07:27] INFO   ep37: train_loss=1.0307 val_acc=0.8735 val_f1=0.8711 val_uar=0.8735 lr=3.73e-05
+[00:07:29] INFO   ep38: train_loss=1.0189 val_acc=0.8745 val_f1=0.8726 val_uar=0.8745 lr=3.45e-05
+[00:07:32] INFO   ep39: train_loss=1.0078 val_acc=0.8755 val_f1=0.8745 val_uar=0.8755 lr=3.19e-05
+[00:07:34] INFO   ep40: train_loss=0.9952 val_acc=0.8765 val_f1=0.8747 val_uar=0.8765 lr=2.92e-05
+[00:07:37] INFO   ep41: train_loss=1.0010 val_acc=0.8804 val_f1=0.8789 val_uar=0.8804 lr=2.67e-05
+[00:07:40] INFO   ep42: train_loss=0.9919 val_acc=0.8804 val_f1=0.8782 val_uar=0.8804 lr=2.42e-05
+[00:07:42] INFO   ep43: train_loss=0.9882 val_acc=0.8784 val_f1=0.8768 val_uar=0.8784 lr=2.18e-05
+[00:07:44] INFO   ep44: train_loss=0.9679 val_acc=0.8775 val_f1=0.8761 val_uar=0.8775 lr=1.95e-05
+[00:07:47] INFO   ep45: train_loss=0.9800 val_acc=0.8824 val_f1=0.8809 val_uar=0.8824 lr=1.73e-05
+[00:07:50] INFO   ep46: train_loss=0.9739 val_acc=0.8814 val_f1=0.8797 val_uar=0.8814 lr=1.52e-05
+[00:07:52] INFO   ep47: train_loss=0.9723 val_acc=0.8804 val_f1=0.8793 val_uar=0.8804 lr=1.32e-05
+[00:07:55] INFO   ep48: train_loss=0.9746 val_acc=0.8814 val_f1=0.8802 val_uar=0.8814 lr=1.13e-05
+[00:07:57] INFO   ep49: train_loss=0.9735 val_acc=0.8843 val_f1=0.8824 val_uar=0.8843 lr=9.55e-06
+[00:08:00] INFO   ep50: train_loss=0.9656 val_acc=0.8863 val_f1=0.8850 val_uar=0.8863 lr=7.94e-06
+[00:08:02] INFO   ep51: train_loss=0.9695 val_acc=0.8833 val_f1=0.8817 val_uar=0.8833 lr=6.46e-06
+[00:08:05] INFO   ep52: train_loss=0.9605 val_acc=0.8853 val_f1=0.8833 val_uar=0.8853 lr=5.13e-06
+[00:08:07] INFO   ep53: train_loss=0.9548 val_acc=0.8873 val_f1=0.8858 val_uar=0.8873 lr=3.94e-06
+[00:08:10] INFO   ep54: train_loss=0.9666 val_acc=0.8843 val_f1=0.8830 val_uar=0.8843 lr=2.91e-06
+[00:08:12] INFO   ep55: train_loss=0.9544 val_acc=0.8873 val_f1=0.8855 val_uar=0.8873 lr=2.03e-06
+[00:08:15] INFO   ep56: train_loss=0.9619 val_acc=0.8843 val_f1=0.8832 val_uar=0.8843 lr=1.30e-06
+[00:08:17] INFO   ep57: train_loss=0.9527 val_acc=0.8824 val_f1=0.8806 val_uar=0.8824 lr=7.32e-07
+[00:08:20] INFO   ep58: train_loss=0.9571 val_acc=0.8833 val_f1=0.8815 val_uar=0.8833 lr=3.26e-07
+[00:08:22] INFO   ep59: train_loss=0.9629 val_acc=0.8833 val_f1=0.8820 val_uar=0.8833 lr=8.15e-08
+[00:08:25] INFO   ep60: train_loss=0.9609 val_acc=0.8863 val_f1=0.8846 val_uar=0.8863 lr=0.00e+00
+[00:08:25] INFO [done] best_val_acc=0.8873 ckpt=checkpoints\flowers102_resnet50_seed3.pt time=3.1min
+[00:08:26] INFO   [E1] eval clean + per colorfulness bin
+[00:08:51] INFO   [E2] eval perturbasi warna
+[00:14:08] INFO   done resnet50 seed3
+[00:14:08] INFO ==== flowers102 / resnet50 / seed4 ====
+[00:14:08] INFO [train] flowers102/resnet50/seed4 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[00:14:37] INFO   ep1: train_loss=4.6278 val_acc=0.0088 val_f1=0.0040 val_uar=0.0088 lr=4.00e-05
+[00:14:40] INFO   ep2: train_loss=4.6182 val_acc=0.0206 val_f1=0.0158 val_uar=0.0206 lr=6.00e-05
+[00:14:42] INFO   ep3: train_loss=4.5993 val_acc=0.0304 val_f1=0.0247 val_uar=0.0304 lr=8.00e-05
+[00:14:45] INFO   ep4: train_loss=4.5732 val_acc=0.0539 val_f1=0.0410 val_uar=0.0539 lr=1.00e-04
+[00:14:47] INFO   ep5: train_loss=4.5356 val_acc=0.0990 val_f1=0.0843 val_uar=0.0990 lr=1.00e-04
+[00:14:50] INFO   ep6: train_loss=4.4895 val_acc=0.1608 val_f1=0.1560 val_uar=0.1608 lr=9.99e-05
+[00:14:53] INFO   ep7: train_loss=4.4335 val_acc=0.2480 val_f1=0.2413 val_uar=0.2480 lr=9.97e-05
+[00:14:55] INFO   ep8: train_loss=4.3546 val_acc=0.3412 val_f1=0.3351 val_uar=0.3412 lr=9.93e-05
+[00:14:58] INFO   ep9: train_loss=4.2649 val_acc=0.4304 val_f1=0.4223 val_uar=0.4304 lr=9.87e-05
+[00:15:00] INFO   ep10: train_loss=4.1395 val_acc=0.4784 val_f1=0.4663 val_uar=0.4784 lr=9.80e-05
+[00:15:03] INFO   ep11: train_loss=3.9797 val_acc=0.5275 val_f1=0.5105 val_uar=0.5275 lr=9.71e-05
+[00:15:05] INFO   ep12: train_loss=3.7800 val_acc=0.5922 val_f1=0.5678 val_uar=0.5922 lr=9.61e-05
+[00:15:08] INFO   ep13: train_loss=3.5579 val_acc=0.6363 val_f1=0.6178 val_uar=0.6363 lr=9.49e-05
+[00:15:11] INFO   ep14: train_loss=3.3105 val_acc=0.6578 val_f1=0.6389 val_uar=0.6578 lr=9.35e-05
+[00:15:13] INFO   ep15: train_loss=3.0339 val_acc=0.6804 val_f1=0.6600 val_uar=0.6804 lr=9.21e-05
+[00:15:16] INFO   ep16: train_loss=2.7704 val_acc=0.6961 val_f1=0.6772 val_uar=0.6961 lr=9.05e-05
+[00:15:18] INFO   ep17: train_loss=2.5430 val_acc=0.7294 val_f1=0.7086 val_uar=0.7294 lr=8.87e-05
+[00:15:21] INFO   ep18: train_loss=2.3065 val_acc=0.7431 val_f1=0.7268 val_uar=0.7431 lr=8.68e-05
+[00:15:23] INFO   ep19: train_loss=2.1089 val_acc=0.7618 val_f1=0.7497 val_uar=0.7618 lr=8.48e-05
+[00:15:26] INFO   ep20: train_loss=1.9278 val_acc=0.7775 val_f1=0.7642 val_uar=0.7775 lr=8.27e-05
+[00:15:29] INFO   ep21: train_loss=1.7901 val_acc=0.8010 val_f1=0.7926 val_uar=0.8010 lr=8.05e-05
+[00:15:31] INFO   ep22: train_loss=1.6697 val_acc=0.7971 val_f1=0.7886 val_uar=0.7971 lr=7.82e-05
+[00:15:34] INFO   ep23: train_loss=1.5475 val_acc=0.8176 val_f1=0.8092 val_uar=0.8176 lr=7.58e-05
+[00:15:36] INFO   ep24: train_loss=1.4628 val_acc=0.8216 val_f1=0.8154 val_uar=0.8216 lr=7.33e-05
+[00:15:39] INFO   ep25: train_loss=1.3922 val_acc=0.8333 val_f1=0.8280 val_uar=0.8333 lr=7.08e-05
+[00:15:41] INFO   ep26: train_loss=1.3336 val_acc=0.8382 val_f1=0.8347 val_uar=0.8382 lr=6.81e-05
+[00:15:44] INFO   ep27: train_loss=1.2560 val_acc=0.8441 val_f1=0.8419 val_uar=0.8441 lr=6.55e-05
+[00:15:47] INFO   ep28: train_loss=1.2355 val_acc=0.8569 val_f1=0.8534 val_uar=0.8569 lr=6.27e-05
+[00:15:49] INFO   ep29: train_loss=1.1832 val_acc=0.8539 val_f1=0.8517 val_uar=0.8539 lr=5.99e-05
+[00:15:52] INFO   ep30: train_loss=1.1560 val_acc=0.8539 val_f1=0.8516 val_uar=0.8539 lr=5.71e-05
+[00:15:54] INFO   ep31: train_loss=1.1374 val_acc=0.8608 val_f1=0.8581 val_uar=0.8608 lr=5.43e-05
+[00:15:57] INFO   ep32: train_loss=1.0978 val_acc=0.8608 val_f1=0.8583 val_uar=0.8608 lr=5.14e-05
+[00:15:59] INFO   ep33: train_loss=1.0834 val_acc=0.8637 val_f1=0.8617 val_uar=0.8637 lr=4.86e-05
+[00:16:02] INFO   ep34: train_loss=1.0516 val_acc=0.8696 val_f1=0.8672 val_uar=0.8696 lr=4.57e-05
+[00:16:04] INFO   ep35: train_loss=1.0419 val_acc=0.8725 val_f1=0.8703 val_uar=0.8725 lr=4.29e-05
+[00:16:07] INFO   ep36: train_loss=1.0316 val_acc=0.8725 val_f1=0.8703 val_uar=0.8725 lr=4.01e-05
+[00:16:09] INFO   ep37: train_loss=1.0274 val_acc=0.8745 val_f1=0.8725 val_uar=0.8745 lr=3.73e-05
+[00:16:12] INFO   ep38: train_loss=1.0161 val_acc=0.8716 val_f1=0.8696 val_uar=0.8716 lr=3.45e-05
+[00:16:14] INFO   ep39: train_loss=1.0040 val_acc=0.8755 val_f1=0.8733 val_uar=0.8755 lr=3.19e-05
+[00:16:17] INFO   ep40: train_loss=0.9911 val_acc=0.8745 val_f1=0.8723 val_uar=0.8745 lr=2.92e-05
+[00:16:19] INFO   ep41: train_loss=0.9855 val_acc=0.8775 val_f1=0.8753 val_uar=0.8775 lr=2.67e-05
+[00:16:22] INFO   ep42: train_loss=0.9831 val_acc=0.8745 val_f1=0.8729 val_uar=0.8745 lr=2.42e-05
+[00:16:24] INFO   ep43: train_loss=0.9743 val_acc=0.8775 val_f1=0.8754 val_uar=0.8775 lr=2.18e-05
+[00:16:27] INFO   ep44: train_loss=0.9709 val_acc=0.8775 val_f1=0.8755 val_uar=0.8775 lr=1.95e-05
+[00:16:29] INFO   ep45: train_loss=0.9627 val_acc=0.8725 val_f1=0.8706 val_uar=0.8725 lr=1.73e-05
+[00:16:32] INFO   ep46: train_loss=0.9659 val_acc=0.8784 val_f1=0.8766 val_uar=0.8784 lr=1.52e-05
+[00:16:34] INFO   ep47: train_loss=0.9651 val_acc=0.8755 val_f1=0.8737 val_uar=0.8755 lr=1.32e-05
+[00:16:37] INFO   ep48: train_loss=0.9582 val_acc=0.8765 val_f1=0.8743 val_uar=0.8765 lr=1.13e-05
+[00:16:39] INFO   ep49: train_loss=0.9595 val_acc=0.8735 val_f1=0.8713 val_uar=0.8735 lr=9.55e-06
+[00:16:42] INFO   ep50: train_loss=0.9611 val_acc=0.8735 val_f1=0.8715 val_uar=0.8735 lr=7.94e-06
+[00:16:44] INFO   ep51: train_loss=0.9510 val_acc=0.8765 val_f1=0.8742 val_uar=0.8765 lr=6.46e-06
+[00:16:47] INFO   ep52: train_loss=0.9516 val_acc=0.8784 val_f1=0.8761 val_uar=0.8784 lr=5.13e-06
+[00:16:49] INFO   ep53: train_loss=0.9475 val_acc=0.8804 val_f1=0.8785 val_uar=0.8804 lr=3.94e-06
+[00:16:52] INFO   ep54: train_loss=0.9551 val_acc=0.8794 val_f1=0.8780 val_uar=0.8794 lr=2.91e-06
+[00:16:54] INFO   ep55: train_loss=0.9609 val_acc=0.8735 val_f1=0.8713 val_uar=0.8735 lr=2.03e-06
+[00:16:57] INFO   ep56: train_loss=0.9537 val_acc=0.8745 val_f1=0.8724 val_uar=0.8745 lr=1.30e-06
+[00:16:59] INFO   ep57: train_loss=0.9587 val_acc=0.8745 val_f1=0.8725 val_uar=0.8745 lr=7.32e-07
+[00:17:02] INFO   ep58: train_loss=0.9513 val_acc=0.8775 val_f1=0.8754 val_uar=0.8775 lr=3.26e-07
+[00:17:04] INFO   ep59: train_loss=0.9503 val_acc=0.8804 val_f1=0.8790 val_uar=0.8804 lr=8.15e-08
+[00:17:07] INFO   ep60: train_loss=0.9515 val_acc=0.8784 val_f1=0.8763 val_uar=0.8784 lr=0.00e+00
+[00:17:07] INFO [done] best_val_acc=0.8804 ckpt=checkpoints\flowers102_resnet50_seed4.pt time=3.0min
+[00:17:08] INFO   [E1] eval clean + per colorfulness bin
+[00:17:27] INFO   [E2] eval perturbasi warna
+[00:22:44] INFO   done resnet50 seed4
+[00:22:44] INFO ==== flowers102 / convnext_tiny / seed3 ====
+[00:22:44] INFO [train] flowers102/convnext_tiny/seed3 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[00:23:21] INFO   ep1: train_loss=4.6764 val_acc=0.1206 val_f1=0.0926 val_uar=0.1206 lr=4.00e-05
+[00:23:24] INFO   ep2: train_loss=3.4275 val_acc=0.7294 val_f1=0.7026 val_uar=0.7294 lr=6.00e-05
+[00:23:27] INFO   ep3: train_loss=1.4288 val_acc=0.9500 val_f1=0.9475 val_uar=0.9500 lr=8.00e-05
+[00:23:29] INFO   ep4: train_loss=0.8995 val_acc=0.9716 val_f1=0.9717 val_uar=0.9716 lr=1.00e-04
+[00:23:32] INFO   ep5: train_loss=0.8570 val_acc=0.9775 val_f1=0.9770 val_uar=0.9775 lr=1.00e-04
+[00:23:35] INFO   ep6: train_loss=0.8351 val_acc=0.9863 val_f1=0.9861 val_uar=0.9863 lr=9.99e-05
+[00:23:37] INFO   ep7: train_loss=0.8226 val_acc=0.9843 val_f1=0.9840 val_uar=0.9843 lr=9.97e-05
+[00:23:40] INFO   ep8: train_loss=0.8148 val_acc=0.9853 val_f1=0.9852 val_uar=0.9853 lr=9.93e-05
+[00:23:43] INFO   ep9: train_loss=0.8095 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=9.87e-05
+[00:23:45] INFO   ep10: train_loss=0.8061 val_acc=0.9843 val_f1=0.9842 val_uar=0.9843 lr=9.80e-05
+[00:23:48] INFO   ep11: train_loss=0.8040 val_acc=0.9902 val_f1=0.9900 val_uar=0.9902 lr=9.71e-05
+[00:23:51] INFO   ep12: train_loss=0.8020 val_acc=0.9882 val_f1=0.9884 val_uar=0.9882 lr=9.61e-05
+[00:23:53] INFO   ep13: train_loss=0.8009 val_acc=0.9912 val_f1=0.9911 val_uar=0.9912 lr=9.49e-05
+[00:23:56] INFO   ep14: train_loss=0.7997 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=9.35e-05
+[00:23:58] INFO   ep15: train_loss=0.7982 val_acc=0.9912 val_f1=0.9910 val_uar=0.9912 lr=9.21e-05
+[00:24:01] INFO   ep16: train_loss=0.7973 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=9.05e-05
+[00:24:04] INFO   ep17: train_loss=0.7969 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=8.87e-05
+[00:24:06] INFO   ep18: train_loss=0.7956 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=8.68e-05
+[00:24:09] INFO   ep19: train_loss=0.7949 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=8.48e-05
+[00:24:12] INFO   ep20: train_loss=0.7943 val_acc=0.9882 val_f1=0.9881 val_uar=0.9882 lr=8.27e-05
+[00:24:14] INFO   ep21: train_loss=0.7935 val_acc=0.9931 val_f1=0.9931 val_uar=0.9931 lr=8.05e-05
+[00:24:17] INFO   ep22: train_loss=0.7930 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=7.82e-05
+[00:24:20] INFO   ep23: train_loss=0.7923 val_acc=0.9902 val_f1=0.9899 val_uar=0.9902 lr=7.58e-05
+[00:24:22] INFO   ep24: train_loss=0.7919 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=7.33e-05
+[00:24:25] INFO   ep25: train_loss=0.7915 val_acc=0.9941 val_f1=0.9941 val_uar=0.9941 lr=7.08e-05
+[00:24:28] INFO   ep26: train_loss=0.7910 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=6.81e-05
+[00:24:30] INFO   ep27: train_loss=0.7905 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=6.55e-05
+[00:24:33] INFO   ep28: train_loss=0.7900 val_acc=0.9912 val_f1=0.9911 val_uar=0.9912 lr=6.27e-05
+[00:24:35] INFO   ep29: train_loss=0.7898 val_acc=0.9912 val_f1=0.9911 val_uar=0.9912 lr=5.99e-05
+[00:24:38] INFO   ep30: train_loss=0.7895 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=5.71e-05
+[00:24:41] INFO   ep31: train_loss=0.7891 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=5.43e-05
+[00:24:43] INFO   ep32: train_loss=0.7891 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=5.14e-05
+[00:24:46] INFO   ep33: train_loss=0.7885 val_acc=0.9912 val_f1=0.9911 val_uar=0.9912 lr=4.86e-05
+[00:24:48] INFO   ep34: train_loss=0.7883 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=4.57e-05
+[00:24:51] INFO   ep35: train_loss=0.7880 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=4.29e-05
+[00:24:54] INFO   ep36: train_loss=0.7878 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=4.01e-05
+[00:24:56] INFO   ep37: train_loss=0.7875 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.73e-05
+[00:24:59] INFO   ep38: train_loss=0.7874 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.45e-05
+[00:25:02] INFO   ep39: train_loss=0.7874 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.19e-05
+[00:25:04] INFO   ep40: train_loss=0.7870 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.92e-05
+[00:25:07] INFO   ep41: train_loss=0.7871 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.67e-05
+[00:25:09] INFO   ep42: train_loss=0.7868 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.42e-05
+[00:25:12] INFO   ep43: train_loss=0.7868 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.18e-05
+[00:25:15] INFO   ep44: train_loss=0.7866 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.95e-05
+[00:25:17] INFO   ep45: train_loss=0.7865 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.73e-05
+[00:25:20] INFO   ep46: train_loss=0.7864 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.52e-05
+[00:25:23] INFO   ep47: train_loss=0.7863 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.32e-05
+[00:25:25] INFO   ep48: train_loss=0.7862 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.13e-05
+[00:25:28] INFO   ep49: train_loss=0.7862 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.55e-06
+[00:25:30] INFO   ep50: train_loss=0.7861 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=7.94e-06
+[00:25:33] INFO   ep51: train_loss=0.7861 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=6.46e-06
+[00:25:36] INFO   ep52: train_loss=0.7860 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=5.13e-06
+[00:25:38] INFO   ep53: train_loss=0.7865 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.94e-06
+[00:25:41] INFO   ep54: train_loss=0.7860 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.91e-06
+[00:25:43] INFO   ep55: train_loss=0.7859 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.03e-06
+[00:25:46] INFO   ep56: train_loss=0.7860 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.30e-06
+[00:25:49] INFO   ep57: train_loss=0.7859 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=7.32e-07
+[00:25:51] INFO   ep58: train_loss=0.7860 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.26e-07
+[00:25:54] INFO   ep59: train_loss=0.7859 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=8.15e-08
+[00:25:57] INFO   ep60: train_loss=0.7859 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=0.00e+00
+[00:25:57] INFO [done] best_val_acc=0.9941 ckpt=checkpoints\flowers102_convnext_tiny_seed3.pt time=3.2min
+[00:25:58] INFO   [E1] eval clean + per colorfulness bin
+[00:26:18] INFO   [E2] eval perturbasi warna
+[00:31:34] INFO   done convnext_tiny seed3
+[00:31:34] INFO ==== flowers102 / convnext_tiny / seed4 ====
+[00:31:35] INFO [train] flowers102/convnext_tiny/seed4 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[00:32:04] INFO   ep1: train_loss=4.6514 val_acc=0.1225 val_f1=0.0807 val_uar=0.1225 lr=4.00e-05
+[00:32:06] INFO   ep2: train_loss=3.2868 val_acc=0.7392 val_f1=0.7270 val_uar=0.7392 lr=6.00e-05
+[00:32:09] INFO   ep3: train_loss=1.4076 val_acc=0.9549 val_f1=0.9536 val_uar=0.9549 lr=8.00e-05
+[00:32:12] INFO   ep4: train_loss=0.9076 val_acc=0.9716 val_f1=0.9719 val_uar=0.9716 lr=1.00e-04
+[00:32:14] INFO   ep5: train_loss=0.8580 val_acc=0.9775 val_f1=0.9778 val_uar=0.9775 lr=1.00e-04
+[00:32:17] INFO   ep6: train_loss=0.8340 val_acc=0.9892 val_f1=0.9891 val_uar=0.9892 lr=9.99e-05
+[00:32:20] INFO   ep7: train_loss=0.8251 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=9.97e-05
+[00:32:22] INFO   ep8: train_loss=0.8176 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.93e-05
+[00:32:25] INFO   ep9: train_loss=0.8124 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.87e-05
+[00:32:28] INFO   ep10: train_loss=0.8081 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.80e-05
+[00:32:30] INFO   ep11: train_loss=0.8059 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.71e-05
+[00:32:33] INFO   ep12: train_loss=0.8035 val_acc=0.9922 val_f1=0.9922 val_uar=0.9922 lr=9.61e-05
+[00:32:35] INFO   ep13: train_loss=0.8019 val_acc=0.9892 val_f1=0.9893 val_uar=0.9892 lr=9.49e-05
+[00:32:38] INFO   ep14: train_loss=0.8010 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.35e-05
+[00:32:41] INFO   ep15: train_loss=0.7995 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=9.21e-05
+[00:32:43] INFO   ep16: train_loss=0.7991 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=9.05e-05
+[00:32:46] INFO   ep17: train_loss=0.7975 val_acc=0.9882 val_f1=0.9882 val_uar=0.9882 lr=8.87e-05
+[00:32:48] INFO   ep18: train_loss=0.7969 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=8.68e-05
+[00:32:51] INFO   ep19: train_loss=0.7963 val_acc=0.9892 val_f1=0.9892 val_uar=0.9892 lr=8.48e-05
+[00:32:54] INFO   ep20: train_loss=0.7953 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=8.27e-05
+[00:32:56] INFO   ep21: train_loss=0.7944 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=8.05e-05
+[00:32:59] INFO   ep22: train_loss=0.7937 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=7.82e-05
+[00:33:01] INFO   ep23: train_loss=0.7929 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=7.58e-05
+[00:33:04] INFO   ep24: train_loss=0.7925 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=7.33e-05
+[00:33:07] INFO   ep25: train_loss=0.7924 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=7.08e-05
+[00:33:09] INFO   ep26: train_loss=0.7918 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=6.81e-05
+[00:33:12] INFO   ep27: train_loss=0.7913 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=6.55e-05
+[00:33:14] INFO   ep28: train_loss=0.7907 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=6.27e-05
+[00:33:17] INFO   ep29: train_loss=0.7901 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=5.99e-05
+[00:33:20] INFO   ep30: train_loss=0.7901 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=5.71e-05
+[00:33:22] INFO   ep31: train_loss=0.7896 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=5.43e-05
+[00:33:25] INFO   ep32: train_loss=0.7891 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=5.14e-05
+[00:33:27] INFO   ep33: train_loss=0.7888 val_acc=0.9902 val_f1=0.9902 val_uar=0.9902 lr=4.86e-05
+[00:33:30] INFO   ep34: train_loss=0.7886 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=4.57e-05
+[00:33:33] INFO   ep35: train_loss=0.7883 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=4.29e-05
+[00:33:35] INFO   ep36: train_loss=0.7880 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=4.01e-05
+[00:33:38] INFO   ep37: train_loss=0.7877 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.73e-05
+[00:33:40] INFO   ep38: train_loss=0.7878 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.45e-05
+[00:33:43] INFO   ep39: train_loss=0.7877 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=3.19e-05
+[00:33:46] INFO   ep40: train_loss=0.7876 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=2.92e-05
+[00:33:48] INFO   ep41: train_loss=0.7872 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.67e-05
+[00:33:51] INFO   ep42: train_loss=0.7880 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=2.42e-05
+[00:33:53] INFO   ep43: train_loss=0.7873 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=2.18e-05
+[00:33:56] INFO   ep44: train_loss=0.7871 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=1.95e-05
+[00:33:59] INFO   ep45: train_loss=0.7868 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=1.73e-05
+[00:34:01] INFO   ep46: train_loss=0.7867 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.52e-05
+[00:34:04] INFO   ep47: train_loss=0.7866 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.32e-05
+[00:34:06] INFO   ep48: train_loss=0.7864 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=1.13e-05
+[00:34:09] INFO   ep49: train_loss=0.7865 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=9.55e-06
+[00:34:12] INFO   ep50: train_loss=0.7865 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=7.94e-06
+[00:34:14] INFO   ep51: train_loss=0.7864 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=6.46e-06
+[00:34:17] INFO   ep52: train_loss=0.7863 val_acc=0.9912 val_f1=0.9912 val_uar=0.9912 lr=5.13e-06
+[00:34:20] INFO   ep53: train_loss=0.7863 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=3.94e-06
+[00:34:22] INFO   ep54: train_loss=0.7862 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=2.91e-06
+[00:34:25] INFO   ep55: train_loss=0.7863 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=2.03e-06
+[00:34:27] INFO   ep56: train_loss=0.7862 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=1.30e-06
+[00:34:30] INFO   ep57: train_loss=0.7862 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=7.32e-07
+[00:34:33] INFO   ep58: train_loss=0.7861 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=3.26e-07
+[00:34:35] INFO   ep59: train_loss=0.7862 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=8.15e-08
+[00:34:38] INFO   ep60: train_loss=0.7863 val_acc=0.9922 val_f1=0.9921 val_uar=0.9922 lr=0.00e+00
+[00:34:38] INFO [done] best_val_acc=0.9922 ckpt=checkpoints\flowers102_convnext_tiny_seed4.pt time=3.1min
+[00:34:39] INFO   [E1] eval clean + per colorfulness bin
+[00:34:59] INFO   [E2] eval perturbasi warna
+[00:40:23] INFO   done convnext_tiny seed4
+[00:40:23] INFO ==== flowers102 / vit_small / seed3 ====
+[00:40:24] INFO [train] flowers102/vit_small/seed3 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[00:40:53] INFO   ep1: train_loss=4.9086 val_acc=0.0294 val_f1=0.0240 val_uar=0.0294 lr=4.00e-05
+[00:40:55] INFO   ep2: train_loss=4.1527 val_acc=0.2598 val_f1=0.2154 val_uar=0.2598 lr=6.00e-05
+[00:40:57] INFO   ep3: train_loss=3.0087 val_acc=0.6392 val_f1=0.6068 val_uar=0.6392 lr=8.00e-05
+[00:41:00] INFO   ep4: train_loss=1.8117 val_acc=0.8745 val_f1=0.8683 val_uar=0.8745 lr=1.00e-04
+[00:41:02] INFO   ep5: train_loss=1.1156 val_acc=0.9314 val_f1=0.9306 val_uar=0.9314 lr=1.00e-04
+[00:41:04] INFO   ep6: train_loss=0.9066 val_acc=0.9539 val_f1=0.9537 val_uar=0.9539 lr=9.99e-05
+[00:41:06] INFO   ep7: train_loss=0.8554 val_acc=0.9627 val_f1=0.9626 val_uar=0.9627 lr=9.97e-05
+[00:41:09] INFO   ep8: train_loss=0.8439 val_acc=0.9676 val_f1=0.9679 val_uar=0.9676 lr=9.93e-05
+[00:41:11] INFO   ep9: train_loss=0.8381 val_acc=0.9637 val_f1=0.9636 val_uar=0.9637 lr=9.87e-05
+[00:41:13] INFO   ep10: train_loss=0.8323 val_acc=0.9657 val_f1=0.9656 val_uar=0.9657 lr=9.80e-05
+[00:41:15] INFO   ep11: train_loss=0.8297 val_acc=0.9667 val_f1=0.9664 val_uar=0.9667 lr=9.71e-05
+[00:41:17] INFO   ep12: train_loss=0.8272 val_acc=0.9657 val_f1=0.9653 val_uar=0.9657 lr=9.61e-05
+[00:41:19] INFO   ep13: train_loss=0.8243 val_acc=0.9667 val_f1=0.9666 val_uar=0.9667 lr=9.49e-05
+[00:41:21] INFO   ep14: train_loss=0.8222 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=9.35e-05
+[00:41:24] INFO   ep15: train_loss=0.8209 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=9.21e-05
+[00:41:26] INFO   ep16: train_loss=0.8200 val_acc=0.9676 val_f1=0.9675 val_uar=0.9676 lr=9.05e-05
+[00:41:28] INFO   ep17: train_loss=0.8183 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=8.87e-05
+[00:41:30] INFO   ep18: train_loss=0.8157 val_acc=0.9676 val_f1=0.9677 val_uar=0.9676 lr=8.68e-05
+[00:41:33] INFO   ep19: train_loss=0.8151 val_acc=0.9676 val_f1=0.9675 val_uar=0.9676 lr=8.48e-05
+[00:41:35] INFO   ep20: train_loss=0.8139 val_acc=0.9676 val_f1=0.9675 val_uar=0.9676 lr=8.27e-05
+[00:41:37] INFO   ep21: train_loss=0.8128 val_acc=0.9706 val_f1=0.9706 val_uar=0.9706 lr=8.05e-05
+[00:41:39] INFO   ep22: train_loss=0.8118 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=7.82e-05
+[00:41:41] INFO   ep23: train_loss=0.8109 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=7.58e-05
+[00:41:43] INFO   ep24: train_loss=0.8105 val_acc=0.9676 val_f1=0.9676 val_uar=0.9676 lr=7.33e-05
+[00:41:46] INFO   ep25: train_loss=0.8088 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=7.08e-05
+[00:41:48] INFO   ep26: train_loss=0.8081 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=6.81e-05
+[00:41:50] INFO   ep27: train_loss=0.8069 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=6.55e-05
+[00:41:52] INFO   ep28: train_loss=0.8064 val_acc=0.9696 val_f1=0.9697 val_uar=0.9696 lr=6.27e-05
+[00:41:54] INFO   ep29: train_loss=0.8060 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=5.99e-05
+[00:41:57] INFO   ep30: train_loss=0.8052 val_acc=0.9686 val_f1=0.9686 val_uar=0.9686 lr=5.71e-05
+[00:41:59] INFO   ep31: train_loss=0.8050 val_acc=0.9676 val_f1=0.9676 val_uar=0.9676 lr=5.43e-05
+[00:42:01] INFO   ep32: train_loss=0.8047 val_acc=0.9647 val_f1=0.9649 val_uar=0.9647 lr=5.14e-05
+[00:42:03] INFO   ep33: train_loss=0.8036 val_acc=0.9686 val_f1=0.9685 val_uar=0.9686 lr=4.86e-05
+[00:42:05] INFO   ep34: train_loss=0.8037 val_acc=0.9676 val_f1=0.9677 val_uar=0.9676 lr=4.57e-05
+[00:42:07] INFO   ep35: train_loss=0.8030 val_acc=0.9696 val_f1=0.9695 val_uar=0.9696 lr=4.29e-05
+[00:42:10] INFO   ep36: train_loss=0.8025 val_acc=0.9696 val_f1=0.9696 val_uar=0.9696 lr=4.01e-05
+[00:42:12] INFO   ep37: train_loss=0.8022 val_acc=0.9686 val_f1=0.9686 val_uar=0.9686 lr=3.73e-05
+[00:42:14] INFO   ep38: train_loss=0.8022 val_acc=0.9686 val_f1=0.9685 val_uar=0.9686 lr=3.45e-05
+[00:42:16] INFO   ep39: train_loss=0.8014 val_acc=0.9686 val_f1=0.9687 val_uar=0.9686 lr=3.19e-05
+[00:42:18] INFO   ep40: train_loss=0.8012 val_acc=0.9696 val_f1=0.9696 val_uar=0.9696 lr=2.92e-05
+[00:42:20] INFO   ep41: train_loss=0.8008 val_acc=0.9686 val_f1=0.9687 val_uar=0.9686 lr=2.67e-05
+[00:42:23] INFO   ep42: train_loss=0.8008 val_acc=0.9686 val_f1=0.9688 val_uar=0.9686 lr=2.42e-05
+[00:42:25] INFO   ep43: train_loss=0.8009 val_acc=0.9686 val_f1=0.9687 val_uar=0.9686 lr=2.18e-05
+[00:42:27] INFO   ep44: train_loss=0.8005 val_acc=0.9696 val_f1=0.9697 val_uar=0.9696 lr=1.95e-05
+[00:42:29] INFO   ep45: train_loss=0.8003 val_acc=0.9706 val_f1=0.9706 val_uar=0.9706 lr=1.73e-05
+[00:42:31] INFO   ep46: train_loss=0.7999 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=1.52e-05
+[00:42:33] INFO   ep47: train_loss=0.8001 val_acc=0.9706 val_f1=0.9705 val_uar=0.9706 lr=1.32e-05
+[00:42:36] INFO   ep48: train_loss=0.8002 val_acc=0.9686 val_f1=0.9687 val_uar=0.9686 lr=1.13e-05
+[00:42:38] INFO   ep49: train_loss=0.7997 val_acc=0.9686 val_f1=0.9687 val_uar=0.9686 lr=9.55e-06
+[00:42:40] INFO   ep50: train_loss=0.7997 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=7.94e-06
+[00:42:42] INFO   ep51: train_loss=0.7996 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=6.46e-06
+[00:42:44] INFO   ep52: train_loss=0.7995 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=5.13e-06
+[00:42:46] INFO   ep53: train_loss=0.7994 val_acc=0.9716 val_f1=0.9715 val_uar=0.9716 lr=3.94e-06
+[00:42:49] INFO   ep54: train_loss=0.8007 val_acc=0.9716 val_f1=0.9715 val_uar=0.9716 lr=2.91e-06
+[00:42:51] INFO   ep55: train_loss=0.7992 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=2.03e-06
+[00:42:53] INFO   ep56: train_loss=0.7993 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=1.30e-06
+[00:42:55] INFO   ep57: train_loss=0.7997 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=7.32e-07
+[00:42:57] INFO   ep58: train_loss=0.7991 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=3.26e-07
+[00:43:00] INFO   ep59: train_loss=0.7991 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=8.15e-08
+[00:43:02] INFO   ep60: train_loss=0.7992 val_acc=0.9716 val_f1=0.9716 val_uar=0.9716 lr=0.00e+00
+[00:43:02] INFO [done] best_val_acc=0.9716 ckpt=checkpoints\flowers102_vit_small_seed3.pt time=2.6min
+[00:43:03] INFO   [E1] eval clean + per colorfulness bin
+[00:43:22] INFO   [E2] eval perturbasi warna
+[00:48:38] INFO   done vit_small seed3
+[00:48:38] INFO ==== flowers102 / vit_small / seed4 ====
+[00:48:38] INFO [train] flowers102/vit_small/seed4 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[00:49:07] INFO   ep1: train_loss=4.8163 val_acc=0.0461 val_f1=0.0426 val_uar=0.0461 lr=4.00e-05
+[00:49:09] INFO   ep2: train_loss=3.9097 val_acc=0.3441 val_f1=0.3046 val_uar=0.3441 lr=6.00e-05
+[00:49:11] INFO   ep3: train_loss=2.7201 val_acc=0.7422 val_f1=0.7274 val_uar=0.7422 lr=8.00e-05
+[00:49:13] INFO   ep4: train_loss=1.6020 val_acc=0.8980 val_f1=0.8941 val_uar=0.8980 lr=1.00e-04
+[00:49:16] INFO   ep5: train_loss=1.0294 val_acc=0.9500 val_f1=0.9487 val_uar=0.9500 lr=1.00e-04
+[00:49:18] INFO   ep6: train_loss=0.8777 val_acc=0.9578 val_f1=0.9579 val_uar=0.9578 lr=9.99e-05
+[00:49:20] INFO   ep7: train_loss=0.8473 val_acc=0.9608 val_f1=0.9606 val_uar=0.9608 lr=9.97e-05
+[00:49:22] INFO   ep8: train_loss=0.8394 val_acc=0.9667 val_f1=0.9665 val_uar=0.9667 lr=9.93e-05
+[00:49:24] INFO   ep9: train_loss=0.8335 val_acc=0.9676 val_f1=0.9673 val_uar=0.9676 lr=9.87e-05
+[00:49:27] INFO   ep10: train_loss=0.8295 val_acc=0.9667 val_f1=0.9665 val_uar=0.9667 lr=9.80e-05
+[00:49:29] INFO   ep11: train_loss=0.8266 val_acc=0.9657 val_f1=0.9656 val_uar=0.9657 lr=9.71e-05
+[00:49:31] INFO   ep12: train_loss=0.8244 val_acc=0.9686 val_f1=0.9683 val_uar=0.9686 lr=9.61e-05
+[00:49:33] INFO   ep13: train_loss=0.8216 val_acc=0.9667 val_f1=0.9662 val_uar=0.9667 lr=9.49e-05
+[00:49:35] INFO   ep14: train_loss=0.8208 val_acc=0.9716 val_f1=0.9713 val_uar=0.9716 lr=9.35e-05
+[00:49:38] INFO   ep15: train_loss=0.8189 val_acc=0.9706 val_f1=0.9701 val_uar=0.9706 lr=9.21e-05
+[00:49:40] INFO   ep16: train_loss=0.8169 val_acc=0.9676 val_f1=0.9672 val_uar=0.9676 lr=9.05e-05
+[00:49:42] INFO   ep17: train_loss=0.8155 val_acc=0.9735 val_f1=0.9732 val_uar=0.9735 lr=8.87e-05
+[00:49:44] INFO   ep18: train_loss=0.8143 val_acc=0.9716 val_f1=0.9714 val_uar=0.9716 lr=8.68e-05
+[00:49:46] INFO   ep19: train_loss=0.8135 val_acc=0.9706 val_f1=0.9703 val_uar=0.9706 lr=8.48e-05
+[00:49:48] INFO   ep20: train_loss=0.8123 val_acc=0.9696 val_f1=0.9694 val_uar=0.9696 lr=8.27e-05
+[00:49:50] INFO   ep21: train_loss=0.8110 val_acc=0.9725 val_f1=0.9724 val_uar=0.9725 lr=8.05e-05
+[00:49:53] INFO   ep22: train_loss=0.8101 val_acc=0.9755 val_f1=0.9753 val_uar=0.9755 lr=7.82e-05
+[00:49:55] INFO   ep23: train_loss=0.8094 val_acc=0.9725 val_f1=0.9725 val_uar=0.9725 lr=7.58e-05
+[00:49:57] INFO   ep24: train_loss=0.8083 val_acc=0.9745 val_f1=0.9744 val_uar=0.9745 lr=7.33e-05
+[00:49:59] INFO   ep25: train_loss=0.8080 val_acc=0.9735 val_f1=0.9730 val_uar=0.9735 lr=7.08e-05
+[00:50:01] INFO   ep26: train_loss=0.8074 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=6.81e-05
+[00:50:04] INFO   ep27: train_loss=0.8071 val_acc=0.9765 val_f1=0.9763 val_uar=0.9765 lr=6.55e-05
+[00:50:06] INFO   ep28: train_loss=0.8059 val_acc=0.9745 val_f1=0.9743 val_uar=0.9745 lr=6.27e-05
+[00:50:08] INFO   ep29: train_loss=0.8051 val_acc=0.9775 val_f1=0.9773 val_uar=0.9775 lr=5.99e-05
+[00:50:10] INFO   ep30: train_loss=0.8049 val_acc=0.9745 val_f1=0.9742 val_uar=0.9745 lr=5.71e-05
+[00:50:12] INFO   ep31: train_loss=0.8045 val_acc=0.9765 val_f1=0.9762 val_uar=0.9765 lr=5.43e-05
+[00:50:14] INFO   ep32: train_loss=0.8036 val_acc=0.9765 val_f1=0.9762 val_uar=0.9765 lr=5.14e-05
+[00:50:16] INFO   ep33: train_loss=0.8034 val_acc=0.9755 val_f1=0.9750 val_uar=0.9755 lr=4.86e-05
+[00:50:19] INFO   ep34: train_loss=0.8027 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=4.57e-05
+[00:50:21] INFO   ep35: train_loss=0.8022 val_acc=0.9775 val_f1=0.9771 val_uar=0.9775 lr=4.29e-05
+[00:50:23] INFO   ep36: train_loss=0.8020 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=4.01e-05
+[00:50:25] INFO   ep37: train_loss=0.8013 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=3.73e-05
+[00:50:27] INFO   ep38: train_loss=0.8011 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=3.45e-05
+[00:50:29] INFO   ep39: train_loss=0.8011 val_acc=0.9765 val_f1=0.9762 val_uar=0.9765 lr=3.19e-05
+[00:50:32] INFO   ep40: train_loss=0.8006 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=2.92e-05
+[00:50:34] INFO   ep41: train_loss=0.8005 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=2.67e-05
+[00:50:36] INFO   ep42: train_loss=0.8002 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=2.42e-05
+[00:50:38] INFO   ep43: train_loss=0.8001 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=2.18e-05
+[00:50:40] INFO   ep44: train_loss=0.7998 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=1.95e-05
+[00:50:43] INFO   ep45: train_loss=0.7995 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=1.73e-05
+[00:50:45] INFO   ep46: train_loss=0.7993 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=1.52e-05
+[00:50:47] INFO   ep47: train_loss=0.7995 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=1.32e-05
+[00:50:49] INFO   ep48: train_loss=0.7992 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=1.13e-05
+[00:50:51] INFO   ep49: train_loss=0.7990 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=9.55e-06
+[00:50:53] INFO   ep50: train_loss=0.7989 val_acc=0.9775 val_f1=0.9772 val_uar=0.9775 lr=7.94e-06
+[00:50:55] INFO   ep51: train_loss=0.7989 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=6.46e-06
+[00:50:58] INFO   ep52: train_loss=0.7987 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=5.13e-06
+[00:51:00] INFO   ep53: train_loss=0.7987 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=3.94e-06
+[00:51:02] INFO   ep54: train_loss=0.7988 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=2.91e-06
+[00:51:04] INFO   ep55: train_loss=0.7989 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=2.03e-06
+[00:51:06] INFO   ep56: train_loss=0.7986 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=1.30e-06
+[00:51:08] INFO   ep57: train_loss=0.7985 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=7.32e-07
+[00:51:10] INFO   ep58: train_loss=0.7986 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=3.26e-07
+[00:51:12] INFO   ep59: train_loss=0.7987 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=8.15e-08
+[00:51:15] INFO   ep60: train_loss=0.7985 val_acc=0.9784 val_f1=0.9782 val_uar=0.9784 lr=0.00e+00
+[00:51:15] INFO [done] best_val_acc=0.9784 ckpt=checkpoints\flowers102_vit_small_seed4.pt time=2.6min
+[00:51:16] INFO   [E1] eval clean + per colorfulness bin
+[00:51:35] INFO   [E2] eval perturbasi warna
+[00:56:51] INFO   done vit_small seed4
+[00:56:51] INFO ==== flowers102 / swin_tiny / seed3 ====
+[00:56:51] INFO [train] flowers102/swin_tiny/seed3 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[00:57:21] INFO   ep1: train_loss=4.6531 val_acc=0.0294 val_f1=0.0129 val_uar=0.0294 lr=4.00e-05
+[00:57:24] INFO   ep2: train_loss=4.4756 val_acc=0.1265 val_f1=0.0944 val_uar=0.1265 lr=6.00e-05
+[00:57:27] INFO   ep3: train_loss=3.8884 val_acc=0.4392 val_f1=0.3964 val_uar=0.4392 lr=8.00e-05
+[00:57:30] INFO   ep4: train_loss=2.5925 val_acc=0.7402 val_f1=0.7188 val_uar=0.7402 lr=1.00e-04
+[00:57:33] INFO   ep5: train_loss=1.5503 val_acc=0.8598 val_f1=0.8574 val_uar=0.8598 lr=1.00e-04
+[00:57:36] INFO   ep6: train_loss=1.1859 val_acc=0.8912 val_f1=0.8911 val_uar=0.8912 lr=9.99e-05
+[00:57:39] INFO   ep7: train_loss=1.0458 val_acc=0.9118 val_f1=0.9103 val_uar=0.9118 lr=9.97e-05
+[00:57:42] INFO   ep8: train_loss=0.9661 val_acc=0.9137 val_f1=0.9137 val_uar=0.9137 lr=9.93e-05
+[00:57:45] INFO   ep9: train_loss=0.9719 val_acc=0.9245 val_f1=0.9242 val_uar=0.9245 lr=9.87e-05
+[00:57:48] INFO   ep10: train_loss=0.9351 val_acc=0.9324 val_f1=0.9320 val_uar=0.9324 lr=9.80e-05
+[00:57:51] INFO   ep11: train_loss=0.9163 val_acc=0.9343 val_f1=0.9338 val_uar=0.9343 lr=9.71e-05
+[00:57:54] INFO   ep12: train_loss=0.9098 val_acc=0.9382 val_f1=0.9379 val_uar=0.9382 lr=9.61e-05
+[00:57:58] INFO   ep13: train_loss=0.8930 val_acc=0.9382 val_f1=0.9378 val_uar=0.9382 lr=9.49e-05
+[00:58:01] INFO   ep14: train_loss=0.8883 val_acc=0.9431 val_f1=0.9425 val_uar=0.9431 lr=9.35e-05
+[00:58:04] INFO   ep15: train_loss=0.8826 val_acc=0.9451 val_f1=0.9449 val_uar=0.9451 lr=9.21e-05
+[00:58:07] INFO   ep16: train_loss=0.8770 val_acc=0.9431 val_f1=0.9428 val_uar=0.9431 lr=9.05e-05
+[00:58:10] INFO   ep17: train_loss=0.8629 val_acc=0.9431 val_f1=0.9422 val_uar=0.9431 lr=8.87e-05
+[00:58:13] INFO   ep18: train_loss=0.8762 val_acc=0.9431 val_f1=0.9427 val_uar=0.9431 lr=8.68e-05
+[00:58:16] INFO   ep19: train_loss=0.8526 val_acc=0.9422 val_f1=0.9418 val_uar=0.9422 lr=8.48e-05
+[00:58:19] INFO   ep20: train_loss=0.8520 val_acc=0.9451 val_f1=0.9437 val_uar=0.9451 lr=8.27e-05
+[00:58:22] INFO   ep21: train_loss=0.8527 val_acc=0.9461 val_f1=0.9456 val_uar=0.9461 lr=8.05e-05
+[00:58:25] INFO   ep22: train_loss=0.8457 val_acc=0.9500 val_f1=0.9495 val_uar=0.9500 lr=7.82e-05
+[00:58:28] INFO   ep23: train_loss=0.8376 val_acc=0.9471 val_f1=0.9462 val_uar=0.9471 lr=7.58e-05
+[00:58:31] INFO   ep24: train_loss=0.8526 val_acc=0.9451 val_f1=0.9444 val_uar=0.9451 lr=7.33e-05
+[00:58:34] INFO   ep25: train_loss=0.8363 val_acc=0.9451 val_f1=0.9442 val_uar=0.9451 lr=7.08e-05
+[00:58:37] INFO   ep26: train_loss=0.8464 val_acc=0.9431 val_f1=0.9419 val_uar=0.9431 lr=6.81e-05
+[00:58:40] INFO   ep27: train_loss=0.8362 val_acc=0.9431 val_f1=0.9418 val_uar=0.9431 lr=6.55e-05
+[00:58:43] INFO   ep28: train_loss=0.8331 val_acc=0.9520 val_f1=0.9511 val_uar=0.9520 lr=6.27e-05
+[00:58:46] INFO   ep29: train_loss=0.8319 val_acc=0.9490 val_f1=0.9483 val_uar=0.9490 lr=5.99e-05
+[00:58:49] INFO   ep30: train_loss=0.8334 val_acc=0.9471 val_f1=0.9462 val_uar=0.9471 lr=5.71e-05
+[00:58:52] INFO   ep31: train_loss=0.8235 val_acc=0.9461 val_f1=0.9449 val_uar=0.9461 lr=5.43e-05
+[00:58:55] INFO   ep32: train_loss=0.8276 val_acc=0.9549 val_f1=0.9541 val_uar=0.9549 lr=5.14e-05
+[00:58:58] INFO   ep33: train_loss=0.8253 val_acc=0.9559 val_f1=0.9556 val_uar=0.9559 lr=4.86e-05
+[00:59:01] INFO   ep34: train_loss=0.8249 val_acc=0.9569 val_f1=0.9563 val_uar=0.9569 lr=4.57e-05
+[00:59:05] INFO   ep35: train_loss=0.8237 val_acc=0.9539 val_f1=0.9534 val_uar=0.9539 lr=4.29e-05
+[00:59:08] INFO   ep36: train_loss=0.8223 val_acc=0.9529 val_f1=0.9524 val_uar=0.9529 lr=4.01e-05
+[00:59:10] INFO   ep37: train_loss=0.8179 val_acc=0.9520 val_f1=0.9513 val_uar=0.9520 lr=3.73e-05
+[00:59:13] INFO   ep38: train_loss=0.8220 val_acc=0.9510 val_f1=0.9504 val_uar=0.9510 lr=3.45e-05
+[00:59:16] INFO   ep39: train_loss=0.8214 val_acc=0.9520 val_f1=0.9517 val_uar=0.9520 lr=3.19e-05
+[00:59:19] INFO   ep40: train_loss=0.8244 val_acc=0.9539 val_f1=0.9535 val_uar=0.9539 lr=2.92e-05
+[00:59:23] INFO   ep41: train_loss=0.8197 val_acc=0.9490 val_f1=0.9484 val_uar=0.9490 lr=2.67e-05
+[00:59:26] INFO   ep42: train_loss=0.8191 val_acc=0.9520 val_f1=0.9511 val_uar=0.9520 lr=2.42e-05
+[00:59:29] INFO   ep43: train_loss=0.8172 val_acc=0.9500 val_f1=0.9496 val_uar=0.9500 lr=2.18e-05
+[00:59:32] INFO   ep44: train_loss=0.8200 val_acc=0.9529 val_f1=0.9524 val_uar=0.9529 lr=1.95e-05
+[00:59:35] INFO   ep45: train_loss=0.8207 val_acc=0.9539 val_f1=0.9533 val_uar=0.9539 lr=1.73e-05
+[00:59:38] INFO   ep46: train_loss=0.8190 val_acc=0.9500 val_f1=0.9493 val_uar=0.9500 lr=1.52e-05
+[00:59:41] INFO   ep47: train_loss=0.8185 val_acc=0.9490 val_f1=0.9484 val_uar=0.9490 lr=1.32e-05
+[00:59:44] INFO   ep48: train_loss=0.8178 val_acc=0.9529 val_f1=0.9525 val_uar=0.9529 lr=1.13e-05
+[00:59:47] INFO   ep49: train_loss=0.8147 val_acc=0.9539 val_f1=0.9534 val_uar=0.9539 lr=9.55e-06
+[00:59:50] INFO   ep50: train_loss=0.8115 val_acc=0.9500 val_f1=0.9494 val_uar=0.9500 lr=7.94e-06
+[00:59:53] INFO   ep51: train_loss=0.8146 val_acc=0.9510 val_f1=0.9504 val_uar=0.9510 lr=6.46e-06
+[00:59:56] INFO   ep52: train_loss=0.8153 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=5.13e-06
+[00:59:59] INFO   ep53: train_loss=0.8135 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=3.94e-06
+[01:00:02] INFO   ep54: train_loss=0.8118 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=2.91e-06
+[01:00:05] INFO   ep55: train_loss=0.8154 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=2.03e-06
+[01:00:08] INFO   ep56: train_loss=0.8124 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=1.30e-06
+[01:00:11] INFO   ep57: train_loss=0.8223 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=7.32e-07
+[01:00:14] INFO   ep58: train_loss=0.8131 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=3.26e-07
+[01:00:17] INFO   ep59: train_loss=0.8142 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=8.15e-08
+[01:00:20] INFO   ep60: train_loss=0.8129 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=0.00e+00
+[01:00:20] INFO [done] best_val_acc=0.9569 ckpt=checkpoints\flowers102_swin_tiny_seed3.pt time=3.5min
+[01:00:21] INFO   [E1] eval clean + per colorfulness bin
+[01:00:41] INFO   [E2] eval perturbasi warna
+[01:06:03] INFO   done swin_tiny seed3
+[01:06:03] INFO ==== flowers102 / swin_tiny / seed4 ====
+[01:06:04] INFO [train] flowers102/swin_tiny/seed4 epochs=60 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[01:06:33] INFO   ep1: train_loss=4.6195 val_acc=0.0412 val_f1=0.0267 val_uar=0.0412 lr=4.00e-05
+[01:06:36] INFO   ep2: train_loss=4.3934 val_acc=0.1598 val_f1=0.1223 val_uar=0.1598 lr=6.00e-05
+[01:06:39] INFO   ep3: train_loss=3.6514 val_acc=0.5216 val_f1=0.4809 val_uar=0.5216 lr=8.00e-05
+[01:06:42] INFO   ep4: train_loss=2.4025 val_acc=0.7598 val_f1=0.7464 val_uar=0.7598 lr=1.00e-04
+[01:06:45] INFO   ep5: train_loss=1.5079 val_acc=0.8637 val_f1=0.8627 val_uar=0.8637 lr=1.00e-04
+[01:06:48] INFO   ep6: train_loss=1.1327 val_acc=0.9118 val_f1=0.9113 val_uar=0.9118 lr=9.99e-05
+[01:06:52] INFO   ep7: train_loss=1.0443 val_acc=0.9108 val_f1=0.9099 val_uar=0.9108 lr=9.97e-05
+[01:06:55] INFO   ep8: train_loss=0.9929 val_acc=0.9206 val_f1=0.9207 val_uar=0.9206 lr=9.93e-05
+[01:06:58] INFO   ep9: train_loss=0.9734 val_acc=0.9275 val_f1=0.9278 val_uar=0.9275 lr=9.87e-05
+[01:07:01] INFO   ep10: train_loss=0.9437 val_acc=0.9333 val_f1=0.9336 val_uar=0.9333 lr=9.80e-05
+[01:07:04] INFO   ep11: train_loss=0.9218 val_acc=0.9382 val_f1=0.9374 val_uar=0.9382 lr=9.71e-05
+[01:07:07] INFO   ep12: train_loss=0.9145 val_acc=0.9333 val_f1=0.9329 val_uar=0.9333 lr=9.61e-05
+[01:07:10] INFO   ep13: train_loss=0.8897 val_acc=0.9412 val_f1=0.9403 val_uar=0.9412 lr=9.49e-05
+[01:07:13] INFO   ep14: train_loss=0.8937 val_acc=0.9402 val_f1=0.9395 val_uar=0.9402 lr=9.35e-05
+[01:07:16] INFO   ep15: train_loss=0.8836 val_acc=0.9471 val_f1=0.9465 val_uar=0.9471 lr=9.21e-05
+[01:07:19] INFO   ep16: train_loss=0.8722 val_acc=0.9471 val_f1=0.9471 val_uar=0.9471 lr=9.05e-05
+[01:07:22] INFO   ep17: train_loss=0.8706 val_acc=0.9431 val_f1=0.9428 val_uar=0.9431 lr=8.87e-05
+[01:07:25] INFO   ep18: train_loss=0.8691 val_acc=0.9451 val_f1=0.9447 val_uar=0.9451 lr=8.68e-05
+[01:07:28] INFO   ep19: train_loss=0.8614 val_acc=0.9510 val_f1=0.9507 val_uar=0.9510 lr=8.48e-05
+[01:07:31] INFO   ep20: train_loss=0.8561 val_acc=0.9549 val_f1=0.9544 val_uar=0.9549 lr=8.27e-05
+[01:07:34] INFO   ep21: train_loss=0.8453 val_acc=0.9500 val_f1=0.9491 val_uar=0.9500 lr=8.05e-05
+[01:07:37] INFO   ep22: train_loss=0.8458 val_acc=0.9529 val_f1=0.9524 val_uar=0.9529 lr=7.82e-05
+[01:07:40] INFO   ep23: train_loss=0.8398 val_acc=0.9510 val_f1=0.9505 val_uar=0.9510 lr=7.58e-05
+[01:07:43] INFO   ep24: train_loss=0.8393 val_acc=0.9520 val_f1=0.9518 val_uar=0.9520 lr=7.33e-05
+[01:07:46] INFO   ep25: train_loss=0.8406 val_acc=0.9578 val_f1=0.9576 val_uar=0.9578 lr=7.08e-05
+[01:07:49] INFO   ep26: train_loss=0.8436 val_acc=0.9529 val_f1=0.9530 val_uar=0.9529 lr=6.81e-05
+[01:07:52] INFO   ep27: train_loss=0.8440 val_acc=0.9549 val_f1=0.9545 val_uar=0.9549 lr=6.55e-05
+[01:07:55] INFO   ep28: train_loss=0.8320 val_acc=0.9549 val_f1=0.9542 val_uar=0.9549 lr=6.27e-05
+[01:07:58] INFO   ep29: train_loss=0.8258 val_acc=0.9510 val_f1=0.9503 val_uar=0.9510 lr=5.99e-05
+[01:08:01] INFO   ep30: train_loss=0.8288 val_acc=0.9539 val_f1=0.9534 val_uar=0.9539 lr=5.71e-05
+[01:08:04] INFO   ep31: train_loss=0.8284 val_acc=0.9539 val_f1=0.9535 val_uar=0.9539 lr=5.43e-05
+[01:08:07] INFO   ep32: train_loss=0.8273 val_acc=0.9598 val_f1=0.9593 val_uar=0.9598 lr=5.14e-05
+[01:08:11] INFO   ep33: train_loss=0.8303 val_acc=0.9569 val_f1=0.9564 val_uar=0.9569 lr=4.86e-05
+[01:08:14] INFO   ep34: train_loss=0.8230 val_acc=0.9588 val_f1=0.9585 val_uar=0.9588 lr=4.57e-05
+[01:08:17] INFO   ep35: train_loss=0.8257 val_acc=0.9539 val_f1=0.9533 val_uar=0.9539 lr=4.29e-05
+[01:08:20] INFO   ep36: train_loss=0.8226 val_acc=0.9549 val_f1=0.9545 val_uar=0.9549 lr=4.01e-05
+[01:08:23] INFO   ep37: train_loss=0.8226 val_acc=0.9588 val_f1=0.9584 val_uar=0.9588 lr=3.73e-05
+[01:08:26] INFO   ep38: train_loss=0.8223 val_acc=0.9598 val_f1=0.9594 val_uar=0.9598 lr=3.45e-05
+[01:08:29] INFO   ep39: train_loss=0.8183 val_acc=0.9608 val_f1=0.9605 val_uar=0.9608 lr=3.19e-05
+[01:08:32] INFO   ep40: train_loss=0.8240 val_acc=0.9618 val_f1=0.9613 val_uar=0.9618 lr=2.92e-05
+[01:08:35] INFO   ep41: train_loss=0.8149 val_acc=0.9618 val_f1=0.9614 val_uar=0.9618 lr=2.67e-05
+[01:08:38] INFO   ep42: train_loss=0.8205 val_acc=0.9627 val_f1=0.9625 val_uar=0.9627 lr=2.42e-05
+[01:08:41] INFO   ep43: train_loss=0.8232 val_acc=0.9618 val_f1=0.9615 val_uar=0.9618 lr=2.18e-05
+[01:08:44] INFO   ep44: train_loss=0.8190 val_acc=0.9578 val_f1=0.9574 val_uar=0.9578 lr=1.95e-05
+[01:08:47] INFO   ep45: train_loss=0.8186 val_acc=0.9578 val_f1=0.9576 val_uar=0.9578 lr=1.73e-05
+[01:08:50] INFO   ep46: train_loss=0.8198 val_acc=0.9578 val_f1=0.9576 val_uar=0.9578 lr=1.52e-05
+[01:08:53] INFO   ep47: train_loss=0.8166 val_acc=0.9588 val_f1=0.9584 val_uar=0.9588 lr=1.32e-05
+[01:08:56] INFO   ep48: train_loss=0.8155 val_acc=0.9627 val_f1=0.9625 val_uar=0.9627 lr=1.13e-05
+[01:08:59] INFO   ep49: train_loss=0.8182 val_acc=0.9618 val_f1=0.9614 val_uar=0.9618 lr=9.55e-06
+[01:09:02] INFO   ep50: train_loss=0.8125 val_acc=0.9657 val_f1=0.9654 val_uar=0.9657 lr=7.94e-06
+[01:09:05] INFO   ep51: train_loss=0.8169 val_acc=0.9657 val_f1=0.9653 val_uar=0.9657 lr=6.46e-06
+[01:09:08] INFO   ep52: train_loss=0.8163 val_acc=0.9647 val_f1=0.9644 val_uar=0.9647 lr=5.13e-06
+[01:09:11] INFO   ep53: train_loss=0.8140 val_acc=0.9657 val_f1=0.9653 val_uar=0.9657 lr=3.94e-06
+[01:09:14] INFO   ep54: train_loss=0.8179 val_acc=0.9637 val_f1=0.9634 val_uar=0.9637 lr=2.91e-06
+[01:09:17] INFO   ep55: train_loss=0.8126 val_acc=0.9647 val_f1=0.9644 val_uar=0.9647 lr=2.03e-06
+[01:09:20] INFO   ep56: train_loss=0.8180 val_acc=0.9647 val_f1=0.9644 val_uar=0.9647 lr=1.30e-06
+[01:09:23] INFO   ep57: train_loss=0.8132 val_acc=0.9657 val_f1=0.9653 val_uar=0.9657 lr=7.32e-07
+[01:09:26] INFO   ep58: train_loss=0.8129 val_acc=0.9657 val_f1=0.9653 val_uar=0.9657 lr=3.26e-07
+[01:09:29] INFO   ep59: train_loss=0.8128 val_acc=0.9657 val_f1=0.9653 val_uar=0.9657 lr=8.15e-08
+[01:09:32] INFO   ep60: train_loss=0.8145 val_acc=0.9657 val_f1=0.9653 val_uar=0.9657 lr=0.00e+00
+[01:09:32] INFO [done] best_val_acc=0.9657 ckpt=checkpoints\flowers102_swin_tiny_seed4.pt time=3.5min
+[01:09:34] INFO   [E1] eval clean + per colorfulness bin
+[01:09:53] INFO   [E2] eval perturbasi warna
+[01:15:18] INFO   done swin_tiny seed4
+[01:15:18] INFO ALL DONE

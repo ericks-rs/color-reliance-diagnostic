@@ -1,0 +1,10 @@
+[17:59:10] INFO cuda=True dev=NVIDIA GeForce RTX 5080 Laptop GPU
+[17:59:19] INFO [train] flowers102/resnet50/seed0 epochs=2 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[17:59:51] INFO   ep1: train_loss=4.6251 val_acc=0.0108 val_f1=0.0038 val_uar=0.0108 lr=4.00e-05
+[17:59:53] INFO   ep2: train_loss=4.6148 val_acc=0.0108 val_f1=0.0051 val_uar=0.0108 lr=6.00e-05
+[17:59:53] INFO [done] best_val_acc=0.0108 ckpt=checkpoints\flowers102_resnet50_seed0.pt time=0.7min
+[17:59:55] INFO === SMOKE SUMMARY ===
+[17:59:55] INFO epoch1 loss=4.6251 -> epoch2 loss=4.6148  (turun: True)
+[17:59:55] INFO best_val_acc=0.0108
+[17:59:55] INFO checkpoint exists=True size=95.2MB
+[17:59:55] INFO time=0.7 min

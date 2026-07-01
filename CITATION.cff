@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Color-Reliance Diagnostic: Convolution vs Attention in Fine-Grained Recognition"
+authors:
+  - family-names: "Swedia"
+    given-names: "Ericks Rachmat"
+  - family-names: "Darmayantie"
+    given-names: "Astie"
+  - family-names: "Marwan"
+    given-names: "Mochammad Akbar"
+  - family-names: "Muslim"
+    given-names: "Aries"
+preferred-citation:
+  type: article
+  title: "A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification"
+  authors:
+    - family-names: "Swedia"
+      given-names: "Ericks Rachmat"
+    - family-names: "Darmayantie"
+      given-names: "Astie"
+    - family-names: "Marwan"
+      given-names: "Mochammad Akbar"
+    - family-names: "Muslim"
+      given-names: "Aries"
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Submitted; under review."

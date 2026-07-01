@@ -1,0 +1,66 @@
+# ============================================================
+# Color Complexity: Convolution vs Attention
+# Diagnostic study config — LOCKED training recipe (identik antar arsitektur)
+# ============================================================
+
+seed_everything: true
+seeds: [0, 1, 2]          # minimal; bisa ditambah [3, 4] kalau waktu cukup
+
+# ---- Datasets ----
+datasets:
+  flowers102:
+    name: flowers102
+    num_classes: 102
+    root: data
+  cub200:
+    name: cub200
+    num_classes: 200
+    root: data/CUB_200_2011
+
+# ---- Model zoo (semua pretrained ImageNet-1k via timm) ----
+models:
+  resnet50:        { timm_name: resnet50,                    role: cnn_classic }
+  convnext_tiny:   { timm_name: convnext_tiny,               role: cnn_modern_vit_recipe }  # kontrol confound
+  vit_small:       { timm_name: vit_small_patch16_224,       role: vit_pure }
+  swin_tiny:       { timm_name: swin_tiny_patch4_window7_224, role: attention_hierarchical }
+
+# ---- LOCKED training recipe (jangan tuning per-model) ----
+train:
+  image_size: 224
+  batch_size: 64
+  grad_accum_steps: 1        # naikkan + turunkan batch kalau OOM, jaga effective batch = 64
+  epochs: 60
+  warmup_epochs: 5
+  optimizer: adamw
+  lr: 1.0e-4
+  weight_decay: 0.05
+  scheduler: cosine
+  label_smoothing: 0.1
+  amp: true
+  num_workers: 4
+  # train transform: RandomResizedCrop scale=(0.6,1.0) + HFlip ONLY. NO color aug.
+  rrc_scale: [0.6, 1.0]
+
+eval:
+  resize: 256
+  center_crop: 224
+  batch_size: 128
+
+# ---- Colorfulness (Hasler-Susstrunk) stratifikasi ----
+colorfulness:
+  tertile_low: 0.333
+  tertile_high: 0.667
+
+# ---- E2 perturbations (test-time only) ----
+perturb:
+  hue_factors: [-0.5, -0.25, -0.083, 0.083, 0.25, 0.5]
+  quant_levels: [2, 4, 8, 16]
+  # channel shuffle: semua 5 permutasi RGB non-identitas, dirata-rata
+
+# ---- Paths ----
+paths:
+  checkpoints: checkpoints
+  results: results
+  tables: tables
+  figures: figures
+  logs: logs

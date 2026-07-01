@@ -1,0 +1,11 @@
+[18:01:02] INFO [train] flowers102/resnet50/seed0 epochs=6 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[18:01:32] INFO   ep1: train_loss=4.6251 val_acc=0.0108 val_f1=0.0038 val_uar=0.0108 lr=4.00e-05
+[18:01:34] INFO   ep2: train_loss=4.6148 val_acc=0.0108 val_f1=0.0051 val_uar=0.0108 lr=6.00e-05
+[18:01:37] INFO   ep3: train_loss=4.5959 val_acc=0.0255 val_f1=0.0158 val_uar=0.0255 lr=8.00e-05
+[18:01:39] INFO   ep4: train_loss=4.5685 val_acc=0.0510 val_f1=0.0388 val_uar=0.0510 lr=1.00e-04
+[18:01:42] INFO   ep5: train_loss=4.5351 val_acc=0.1029 val_f1=0.0935 val_uar=0.1029 lr=1.00e-04
+[18:01:44] INFO   ep6: train_loss=4.4849 val_acc=0.1539 val_f1=0.1425 val_uar=0.1539 lr=0.00e+00
+[18:01:45] INFO [done] best_val_acc=0.1539 ckpt=checkpoints\flowers102_resnet50_seed0.pt time=0.8min
+[18:01:46] INFO === CONFIRM ===
+[18:01:46] INFO val_acc per epoch: 0.011, 0.011, 0.025, 0.051, 0.103, 0.154
+[18:01:46] INFO best_val_acc=0.1539  (naik signifikan: False)

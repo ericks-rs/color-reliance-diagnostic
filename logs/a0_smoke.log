@@ -1,0 +1,10 @@
+[18:48:44] INFO [train] flowers102/resnet50_sgd/seed0 recipe=sgd opt=sgd lr=0.01 wd=0.0001 epochs=2 device=cuda n_train=1020 n_val=1020 bs=64 accum=1
+[18:49:21] INFO   ep1: train_loss=4.6258 val_acc=0.0108 val_f1=0.0051 val_uar=0.0108 lr=4.00e-03
+[18:49:25] INFO   ep2: train_loss=4.6163 val_acc=0.0206 val_f1=0.0153 val_uar=0.0206 lr=6.00e-03
+[18:49:25] INFO [done] resnet50_sgd best_val_acc=0.0206 lr_used=0.01 ckpt=checkpoints\flowers102_resnet50_sgd_seed0.pt time=0.8min
+[18:49:27] INFO === A0 SMOKE SUMMARY ===
+[18:49:27] INFO arm=resnet50_sgd recipe=sgd lr_used=0.01
+[18:49:27] INFO ep1 loss=4.6258 -> ep2 loss=4.6163 (turun: True, finite: True)
+[18:49:27] INFO new ckpt=flowers102_resnet50_sgd_seed0.pt exists=True size=95.2MB
+[18:49:27] INFO arm lama (resnet50 adamw) UTUH (tak tertimpa): True
+[18:49:27] INFO time=0.8min
