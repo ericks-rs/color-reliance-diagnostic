@@ -1,0 +1,4 @@
+[S11] cub200 arm=resnet50_tv_sgd recipe=sgd gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S11\cub200  (py+5pt+csv+log)
+[S11] flowers102 arm=resnet50_tv_sgd recipe=sgd gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S11\flowers102  (py+5pt+csv+log)

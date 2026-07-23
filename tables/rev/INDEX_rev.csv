@@ -1,0 +1,13 @@
+file,contents,sources
+table1_colorfulness_rev.csv,"colourfulness statistics, whole image and foreground",T1_colorfulness.csv
+table2_model_specs_rev.csv,backbone specifications with checkpoint tags,T2_model_specs.csv
+table3_clean_accuracy_rev.csv,"clean top-1 accuracy, macro-F1, UAR",T2_clean_acc_{ds}.csv
+table4_perbin_whole_vs_foreground_rev.csv,"per-bin clean, grayscale, CR under both bin definitions",V4_perbin_wholeimg_{ds}.csv; V5_perbin_foreground_{ds}.csv
+table5_perbin_foreground_rev.csv,"per-bin foreground only, kept separate in case Table 5 stays standalone",V5_perbin_foreground_{ds}.csv
+table6_colour_reliance_rev.csv,"clean, grayscale, and colour reliance",T4_color_reliance_{ds}.csv
+table7_paired_diff_ci_rev.csv,"pairwise contrasts, difference with 95% CI",A4_table7_paired_diffCI.csv
+table8_resnet_configurations_rev.csv,ResNet-50 under four configurations with ConvNeXt-T reference,A5_table8_resnet4cfg.csv
+table9_confound_pretraining_rev.csv,"R1.2 confound, equalized against non-equalized checkpoints",A6_table_confound.csv
+table10_grayscale_training_matrix_rev.csv,"R2.3 three-cell matrix, train mode against test mode",A7_table_R23_matrix.csv
+table11_gap_by_bin_rev.csv,"accuracy gap to convolutional baselines per bin, supports Fig. 2",T3_gap_by_bin_{ds}.csv
+table12_architecture_contrast_rev.csv,"R1.3 architecture contrast, point differences without intervals",A8_arch_contrast_R13.csv

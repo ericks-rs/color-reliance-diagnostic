@@ -1,0 +1,19 @@
+=== tv@1e-3 + strip DIRECT start 07-19 07:51:00 ===
+>>> cub200 resnet50_tv @ adamw_lr1e3 start 07:51:00
+    [rc=0] cub200 tv@1e-3 selesai 08:57:46
+>>> flowers102 resnet50_tv @ adamw_lr1e3 start 08:57:46
+    [rc=0] flowers102 tv@1e-3 selesai 09:43:35
+=== tv SELESAI, strip CSV stale gray 09:43:35 ===
+  e1_clean_flowers102.csv: buang 40 baris ['convnext_tiny_gray', 'vit_small_gray']
+  e1_clean_cub200.csv: buang 40 baris ['convnext_tiny_gray', 'vit_small_gray']
+  e2_perturb_flowers102.csv: buang 170 baris ['convnext_tiny_gray', 'vit_small_gray']
+  e2_perturb_cub200.csv: buang 170 baris ['convnext_tiny_gray', 'vit_small_gray']
+
+TOTAL baris stale dibuang: 420
+
+=== arm _gray tersisa per file (harus cuma 4 equalized) ===
+  e1_clean_flowers102.csv: ['convnext_tiny_in1k_gray', 'resnet50_gray', 'swin_tiny_gray', 'vit_small_in1k_gray']
+  e1_clean_cub200.csv: ['convnext_tiny_in1k_gray', 'resnet50_gray', 'swin_tiny_gray', 'vit_small_in1k_gray']
+  e2_perturb_flowers102.csv: ['convnext_tiny_in1k_gray', 'resnet50_gray', 'swin_tiny_gray', 'vit_small_in1k_gray']
+  e2_perturb_cub200.csv: ['convnext_tiny_in1k_gray', 'resnet50_gray', 'swin_tiny_gray', 'vit_small_in1k_gray']
+=== SEMUA SELESAI 07-19 09:43:36 ===

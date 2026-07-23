@@ -1,0 +1,36 @@
+
+===== RESUME start 07-20 12:31:27 =====
+>>> S10 flowers102 (force)  (12:31:27)
+    [OK] S10 flowers102 (force) 45.9 min
+    S10 seeds={'cub200': 5, 'flowers102': 5}
+>>> S11 (resnet50_tv_sgd)  (13:17:21)
+    [OK] S11 (resnet50_tv_sgd) 112.9 min
+    S11 seeds={'cub200': 5, 'flowers102': 5}
+>>> S12 (resnet50_adamw_lr1e3)  (15:10:12)
+    [OK] S12 (resnet50_adamw_lr1e3) 111.3 min
+    S12 seeds={'cub200': 5, 'flowers102': 5}
+>>> S13 (resnet50_sgd)  (17:01:30)
+    [OK] S13 (resnet50_sgd) 110.7 min
+    S13 seeds={'cub200': 5, 'flowers102': 5}
+
+--- STEP 3 EVAL ---
+>>> eval_predictions (S1-S4)  (18:52:12)
+    [OK] eval_predictions (S1-S4) 30.3 min
+>>> eval_from_preds V5+V7  (19:22:31)
+    [OK] eval_from_preds V5+V7 0.0 min
+>>> eval_gradcam V6 (CUB)  (19:22:33)
+    [OK] eval_gradcam V6 (CUB) 0.2 min
+
+--- STEP 4 BUILD ---
+>>> analyze (T1-T6+fig)  (19:22:46)
+    [OK] analyze (T1-T6+fig) 0.1 min
+>>> analyze_extra  (19:22:51)
+    [OK] analyze_extra 0.1 min
+>>> analyze_ablation  (19:22:55)
+    [OK] analyze_ablation 0.1 min
+>>> make_runs_index  (19:22:59)
+    [OK] make_runs_index 0.0 min
+>>> manifest_status  (19:23:00)
+    [OK] manifest_status 0.0 min
+
+===== RESUME SELESAI 07-20 19:23:00 =====

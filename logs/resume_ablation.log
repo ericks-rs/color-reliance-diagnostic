@@ -1,0 +1,24 @@
+
+=== ABLATION RESEP (Flowers-102) ===
+  acc: AdamW=0.8492  SGD=0.7660  ConvNeXt=0.9898
+  dAcc_recipe (SGD-AdamW) = -0.0832 (p=<0.001 ***, dz=-10.29)
+  recipe gap recovered = -59.1% dari jurang ResNet->ConvNeXt
+  sisa gap SGD->ConvNeXt = +0.2238 (p=<0.001 ***)
+  dCR_recipe (SGD-AdamW) = +0.0363 (p=0.011 *)  [CR turun = lebih sedikit nyandar warna]
+  >> INTERPRETASI: condong SKENARIO B (optimizer bukan penyebab utama: sisa gap ke ConvNeXt tetap signifikan)
+
+=== ABLATION RESEP (CUB-200) ===
+  acc: AdamW=0.7873  SGD=0.7525  ConvNeXt=0.8866
+  dAcc_recipe (SGD-AdamW) = -0.0347 (p=<0.001 ***, dz=-16.81)
+  recipe gap recovered = -35.0% dari jurang ResNet->ConvNeXt
+  sisa gap SGD->ConvNeXt = +0.1341 (p=<0.001 ***)
+  dCR_recipe (SGD-AdamW) = -0.0091 (p=0.130 ns)  [CR turun = lebih sedikit nyandar warna]
+  >> INTERPRETASI: condong SKENARIO B (optimizer bukan penyebab utama: sisa gap ke ConvNeXt tetap signifikan)
+
+  [table] T6_recipe_ablation -> tables/T6_recipe_ablation.md/.tex
+
+=== figures ===
+  [fig] figures\ablation_recipe.png
+  [fig] figures\pub\ablation_recipe_pub.png
+
+=== analyze_ablation done ===

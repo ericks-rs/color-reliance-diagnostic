@@ -1,0 +1,8 @@
+  -> tables\T2_clean_acc_flowers102.md
+  -> tables\T3_acc_by_bin_flowers102.md
+  -> tables\T3_gap_by_bin_flowers102.md
+  -> tables\T4_color_reliance_flowers102.md
+  -> tables\T2_clean_acc_cub200.md
+  -> tables\T3_acc_by_bin_cub200.md
+  -> tables\T3_gap_by_bin_cub200.md
+  -> tables\T4_color_reliance_cub200.md

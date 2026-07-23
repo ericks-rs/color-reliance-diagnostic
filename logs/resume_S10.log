@@ -1,0 +1,2 @@
+[S10] flowers102 arm=swin_tiny_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S10\flowers102  (py+5pt+csv+log)

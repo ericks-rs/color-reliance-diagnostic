@@ -1,0 +1,5 @@
+arm,backbone,role,params_M,GFLOPs,checkpoint_tag,pretraining_data
+resnet50,ResNet-50,classic convolutional,23.72,8.26,a1_in1k,ImageNet-1k
+convnext_tiny_in1k,ConvNeXt-T,modern convolutional,27.9,8.91,fb_in1k,ImageNet-1k
+vit_small_in1k,ViT-S,global attention,21.7,8.48,augreg_in1k,ImageNet-1k
+swin_tiny,Swin-T,hierarchical attention,27.6,8.74,ms_in1k,ImageNet-1k

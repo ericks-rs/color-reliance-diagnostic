@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------------------
+# Color-Reliance Diagnostic — repository ignore rules
+#
+# Tracked: all code, configs, seeds, and the final artifacts (result CSVs,
+# logs, tables, figures) needed to reproduce every number and plot in the paper.
+#
+# Not tracked, and why:
+#   - checkpoints/ and runs/ are regenerable. Run the pipeline with the fixed
+#     seeds and they reproduce; hosting ~26 GB of weights is unnecessary.
+#   - data/ holds the two public datasets, which download automatically.
+#   - *.npy are raw per-sample arrays; the summary CSVs built from them are kept.
+# ---------------------------------------------------------------------------
+
+# Regenerable heavy outputs
+checkpoints/
+runs/
+runs_archive/
+data/
+*.pt
+*.pth
+*.ckpt
+
+# Raw intermediate arrays (summary CSVs are kept)
+*.npy
+
+# Python
+__pycache__/
+*.py[codz]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,38 @@
+watcher start 23:53:57 — nunggu PID 47744 (resnet50_tv) exit...
+resnet50_tv EXIT terdeteksi 00:03:33. Launch B (40 run gray equalize)...
+GRAY EQUALIZE | 8 job x 5 seed = 40 run | py=C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe
+
+>>> cub200/resnet50 (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_cub200_resnet50.log
+    [OK] 68.2 min
+
+>>> cub200/swin_tiny (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_cub200_swin_tiny.log
+    [OK] 80.1 min
+
+>>> cub200/convnext_tiny_in1k (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_cub200_convnext_tiny_in1k.log
+    [OK] 70.9 min
+
+>>> cub200/vit_small_in1k (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_cub200_vit_small_in1k.log
+    [OK] 64.8 min
+
+>>> flowers102/resnet50 (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_flowers102_resnet50.log
+    [OK] 45.4 min
+
+>>> flowers102/swin_tiny (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_flowers102_swin_tiny.log
+    [OK] 46.8 min
+
+>>> flowers102/convnext_tiny_in1k (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_flowers102_convnext_tiny_in1k.log
+    [OK] 45.3 min
+
+>>> flowers102/vit_small_in1k (grayscale)
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\gray_equalize_flowers102_vit_small_in1k.log
+    [OK] 44.5 min
+
+SELESAI (466.1 min). SEMUA OK
+=== gray equalize B SELESAI 07:49:36 ===

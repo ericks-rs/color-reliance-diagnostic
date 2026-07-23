@@ -1,0 +1,4 @@
+[S12] cub200 arm=resnet50_adamw_lr1e3 recipe=adamw_lr1e3 gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S12\cub200  (py+5pt+csv+log)
+[S12] flowers102 arm=resnet50_adamw_lr1e3 recipe=adamw_lr1e3 gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S12\flowers102  (py+5pt+csv+log)

@@ -1,0 +1,22 @@
+=== V7 per-species CR ===
+  cub200/ResNet-50: mean CR=0.412 corr(colorfulness_kelas,CR)=0.580 top-CR classes={69: 0.987, 176: 0.973, 76: 0.967}
+  cub200/ConvNeXt-T: mean CR=0.411 corr(colorfulness_kelas,CR)=0.622 top-CR classes={69: 1.0, 175: 0.993, 11: 0.985}
+  cub200/ViT-S: mean CR=0.494 corr(colorfulness_kelas,CR)=0.604 top-CR classes={69: 0.993, 168: 0.986, 176: 0.98}
+  cub200/Swin-T: mean CR=0.425 corr(colorfulness_kelas,CR)=0.586 top-CR classes={69: 1.0, 133: 0.993, 168: 0.993}
+  -> results\per_species_CR_cub200.csv
+  flowers102/ResNet-50: mean CR=0.340 corr(colorfulness_kelas,CR)=0.662 top-CR classes={57: 0.977, 58: 0.974, 15: 0.914}
+  flowers102/ConvNeXt-T: mean CR=0.261 corr(colorfulness_kelas,CR)=0.591 top-CR classes={15: 0.924, 49: 0.914, 89: 0.848}
+  flowers102/ViT-S: mean CR=0.555 corr(colorfulness_kelas,CR)=0.510 top-CR classes={99: 0.986, 58: 0.979, 65: 0.976}
+  flowers102/Swin-T: mean CR=0.284 corr(colorfulness_kelas,CR)=0.542 top-CR classes={4: 0.884, 15: 0.819, 61: 0.811}
+  -> results\per_species_CR_flowers102.csv
+=== V5 per-bin foreground (vs whole-image) ===
+  -> tables\V5_perbin_foreground_cub200.csv
+    ResNet-50: {'low': '0.747', 'mid': '0.801', 'high': '0.813'}
+    ConvNeXt-T: {'low': '0.804', 'mid': '0.851', 'high': '0.858'}
+    ViT-S: {'low': '0.758', 'mid': '0.811', 'high': '0.817'}
+    Swin-T: {'low': '0.813', 'mid': '0.858', 'high': '0.869'}
+  -> tables\V5_perbin_foreground_flowers102.csv
+    ResNet-50: {'low': '0.857', 'mid': '0.849', 'high': '0.842'}
+    ConvNeXt-T: {'low': '0.941', 'mid': '0.932', 'high': '0.916'}
+    ViT-S: {'low': '0.894', 'mid': '0.879', 'high': '0.856'}
+    Swin-T: {'low': '0.950', 'mid': '0.941', 'high': '0.918'}

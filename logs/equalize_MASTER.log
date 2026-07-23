@@ -1,0 +1,19 @@
+EQUALIZE IN1k | 4 job per-model x 5 seed = 20 run | py=C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe
+
+>>> cub200/convnext_tiny_in1k
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\equalize_cub200_convnext_tiny_in1k.log
+    [OK] 72.6 min
+
+>>> cub200/vit_small_in1k
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\equalize_cub200_vit_small_in1k.log
+    [OK] 66.1 min
+
+>>> flowers102/convnext_tiny_in1k
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\equalize_flowers102_convnext_tiny_in1k.log
+    [OK] 45.8 min
+
+>>> flowers102/vit_small_in1k
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\equalize_flowers102_vit_small_in1k.log
+    [OK] 43.8 min
+
+SELESAI (228.2 min). SEMUA OK

@@ -1,0 +1,94 @@
+[S1] cub200 arm=resnet50 recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S1\cub200  (py+5pt+csv+log)
+[S1] flowers102 arm=resnet50 recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S1\flowers102  (py+5pt+csv+log)
+[S2] cub200 arm=convnext_tiny_in1k recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S2\cub200  (py+5pt+csv+log)
+[S2] flowers102 arm=convnext_tiny_in1k recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S2\flowers102  (py+5pt+csv+log)
+[S3] cub200 arm=vit_small_in1k recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S3\cub200  (py+5pt+csv+log)
+[S3] flowers102 arm=vit_small_in1k recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S3\flowers102  (py+5pt+csv+log)
+[S4] cub200 arm=swin_tiny recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S4\cub200  (py+5pt+csv+log)
+[S4] flowers102 arm=swin_tiny recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S4\flowers102  (py+5pt+csv+log)
+[S5] cub200 arm=convnext_tiny recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S5\cub200  (py+5pt+csv+log)
+[S5] flowers102 arm=convnext_tiny recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S5\flowers102  (py+5pt+csv+log)
+[S6] cub200 arm=vit_small recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S6\cub200  (py+5pt+csv+log)
+[S6] flowers102 arm=vit_small recipe=adamw gray=False TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S6\flowers102  (py+5pt+csv+log)
+[S7] cub200 arm=resnet50_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S7\cub200  (py+5pt+csv+log)
+[S7] flowers102 arm=resnet50_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S7\flowers102  (py+5pt+csv+log)
+[S8] cub200 arm=convnext_tiny_in1k_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S8\cub200  (py+5pt+csv+log)
+[S8] flowers102 arm=convnext_tiny_in1k_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S8\flowers102  (py+5pt+csv+log)
+[S9] cub200 arm=vit_small_in1k_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S9\cub200  (py+5pt+csv+log)
+[S9] flowers102 arm=vit_small_in1k_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S9\flowers102  (py+5pt+csv+log)
+[S10] cub200 arm=swin_tiny_gray recipe=adamw gray=True TRAIN
+  -> D:\MyPaper\ColorReliance\color_complexity\runs\S10\cub200  (py+5pt+csv+log)
+[S10] flowers102 arm=swin_tiny_gray recipe=adamw gray=True TRAIN
+  [FAIL rc=1073807364] lihat D:\MyPaper\ColorReliance\color_complexity\runs\S10\flowers102\run.log
+[S11] cub200 arm=resnet50_tv_sgd recipe=sgd gray=False TRAIN
+  [FAIL rc=3221226091] lihat D:\MyPaper\ColorReliance\color_complexity\runs\S11\cub200\run.log
+[S11] flowers102 arm=resnet50_tv_sgd recipe=sgd gray=False TRAIN
+  [FAIL rc=3221226091] lihat D:\MyPaper\ColorReliance\color_complexity\runs\S11\flowers102\run.log
+[S12] cub200 arm=resnet50_adamw_lr1e3 recipe=adamw_lr1e3 gray=False TRAIN
+  [FAIL rc=3221226091] lihat D:\MyPaper\ColorReliance\color_complexity\runs\S12\cub200\run.log
+[S12] flowers102 arm=resnet50_adamw_lr1e3 recipe=adamw_lr1e3 gray=False TRAIN
+  [FAIL rc=3221226091] lihat D:\MyPaper\ColorReliance\color_complexity\runs\S12\flowers102\run.log
+[S13] cub200 arm=resnet50_sgd recipe=sgd gray=False TRAIN
+  [FAIL rc=3221226091] lihat D:\MyPaper\ColorReliance\color_complexity\runs\S13\cub200\run.log
+[S13] flowers102 arm=resnet50_sgd recipe=sgd gray=False TRAIN
+  [FAIL rc=3221226091] lihat D:\MyPaper\ColorReliance\color_complexity\runs\S13\flowers102\run.log
+
+>>> S1 (resnet50) start 13:24:49
+    S1 [OK] seeds={'cub200': 5, 'flowers102': 5} 112.5 min
+
+>>> S2 (convnext_tiny_in1k) start 15:17:21
+    S2 [OK] seeds={'cub200': 5, 'flowers102': 5} 111.3 min
+
+>>> S3 (vit_small_in1k) start 17:08:38
+    S3 [OK] seeds={'cub200': 5, 'flowers102': 5} 108.2 min
+
+>>> S4 (swin_tiny) start 18:56:51
+    S4 [OK] seeds={'cub200': 5, 'flowers102': 5} 125.4 min
+
+>>> S5 (convnext_tiny) start 21:02:16
+    S5 [OK] seeds={'cub200': 5, 'flowers102': 5} 115.4 min
+
+>>> S6 (vit_small) start 22:57:40
+    S6 [OK] seeds={'cub200': 5, 'flowers102': 5} 106.0 min
+
+>>> S7 (resnet50_gray) start 00:43:39
+    S7 [OK] seeds={'cub200': 5, 'flowers102': 5} 115.4 min
+
+>>> S8 (convnext_tiny_in1k_gray) start 02:39:01
+    S8 [OK] seeds={'cub200': 5, 'flowers102': 5} 115.3 min
+
+>>> S9 (vit_small_in1k_gray) start 04:34:18
+    S9 [OK] seeds={'cub200': 5, 'flowers102': 5} 110.5 min
+
+>>> S10 (swin_tiny_gray) start 06:24:48
+    S10 [INCOMPLETE] seeds={'cub200': 5, 'flowers102': 2} 91.3 min
+
+>>> S11 (resnet50_tv_sgd) start 07:56:07
+    S11 [INCOMPLETE] seeds={'cub200': 0, 'flowers102': 0} 0.0 min
+
+>>> S12 (resnet50_adamw_lr1e3) start 07:56:07
+    S12 [INCOMPLETE] seeds={'cub200': 0, 'flowers102': 0} 0.0 min
+
+>>> S13 (resnet50_sgd) start 07:56:07
+    S13 [INCOMPLETE] seeds={'cub200': 0, 'flowers102': 0} 0.0 min
+
+=== TRAIN ALL SELESAI (1111.3 min) 07-20 07:56:07 ===
+INCOMPLETE: ["S10(swin_tiny_gray) seeds={'cub200': 5, 'flowers102': 2}", "S11(resnet50_tv_sgd) seeds={'cub200': 0, 'flowers102': 0}", "S12(resnet50_adamw_lr1e3) seeds={'cub200': 0, 'flowers102': 0}", "S13(resnet50_sgd) seeds={'cub200': 0, 'flowers102': 0}"]

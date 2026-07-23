@@ -1,0 +1,30 @@
+REVISI run | phases=['A', 'B', 'P', 'G'] seeds=[0, 1, 2, 3, 4] | py=C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe
+
+===== FASE A =====
+
+>>> C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe run_all.py --dataset cub200 --models resnet50 convnext_tiny vit_small swin_tiny --seeds 0 1 2 3 4
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\revision_A_cub_core.log
+    [OK] 293.6 min
+
+===== FASE B =====
+
+>>> C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe run_all.py --dataset cub200 --models resnet50 --recipe sgd --seeds 0 1 2 3 4
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\revision_B_cub_sgd.log
+    [OK] 69.3 min
+
+===== FASE P =====
+
+>>> C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe run_all.py --dataset cub200 --models resnet50 --recipe adamw_lr1e3 --seeds 0 1 2 3 4
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\revision_P_cub_resnet_proper.log
+    [OK] 69.5 min
+
+>>> C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe run_all.py --dataset flowers102 --models resnet50 --recipe adamw_lr1e3 --seeds 0 1 2 3 4
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\revision_P_flowers_resnet_proper.log
+    [OK] 45.5 min
+
+===== FASE G =====
+
+>>> C:\Users\ERS-ASUS\.conda\envs\colorreliance\python.exe run_all.py --dataset flowers102 --grayscale --models resnet50 convnext_tiny vit_small swin_tiny --seeds 0 1 2 3 4
+    log -> D:\MyPaper\ColorReliance\color_complexity\logs\revision_G_flowers_gray.log
+    [FAIL(rc=1)] 85.6 min
+phase gagal, cek D:\MyPaper\ColorReliance\color_complexity\logs\revision_G_flowers_gray.log

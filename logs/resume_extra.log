@@ -1,0 +1,22 @@
+=== T5 paired stats ===
+  [table] T5_paired_stats -> tables/T5_paired_stats.md/.tex
+
+=== publication figures ===
+  [fig] figures\pub\P1_clean_acc.png
+  [fig] figures\pub\P2_color_reliance.png
+  [fig] figures\pub\P4_drop_curves.png
+  [fig] figures\pub\P3_gap_vs_bin.png
+
+=== RINGKASAN SIGNIFIKANSI (RQ3, clean_acc) ===
+  [flowers102] ViT-S vs ResNet-50: diff=+0.1194 p_t=<0.001 dz=+23.02 ***
+  [flowers102] ViT-S vs ConvNeXt-T: diff=-0.0212 p_t=0.001 dz=-3.57 **
+  [flowers102] Swin-T vs ResNet-50: diff=+0.0873 p_t=<0.001 dz=+15.01 ***
+  [flowers102] Swin-T vs ConvNeXt-T: diff=-0.0533 p_t=<0.001 dz=-14.27 ***
+  [flowers102] ResNet-50 vs ConvNeXt-T: diff=-0.1406 p_t=<0.001 dz=-42.62 ***
+  [cub200] ViT-S vs ResNet-50: diff=+0.0626 p_t=<0.001 dz=+89.81 ***
+  [cub200] ViT-S vs ConvNeXt-T: diff=-0.0368 p_t=<0.001 dz=-7.60 ***
+  [cub200] Swin-T vs ResNet-50: diff=+0.0595 p_t=<0.001 dz=+15.53 ***
+  [cub200] Swin-T vs ConvNeXt-T: diff=-0.0398 p_t=<0.001 dz=-10.54 ***
+  [cub200] ResNet-50 vs ConvNeXt-T: diff=-0.0993 p_t=<0.001 dz=-20.29 ***
+
+=== analyze_extra done ===

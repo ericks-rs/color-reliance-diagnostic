@@ -1,0 +1,43 @@
+ID   stage    task                        rev       STATUS   detail
+------------------------------------------------------------------------------------------
+P1   0-prep   colorfulness_wholeimg       core      DONE     colorfulness_*.csv
+P2   0-prep   colorfulness_foreground     R2.2      DONE     colorfulness_fg_*.csv
+P3   0-prep   carve_val_cub               R1.6      DONE     carved val 1000 (config)
+S1   1-train  resnet50                    core      DONE     resnet50 5+5 seed
+S2   1-train  convnext_in1k               core      DONE     convnext_tiny_in1k 5+5 seed
+S3   1-train  vit_in1k                    core      DONE     vit_small_in1k 5+5 seed
+S4   1-train  swin                        core      DONE     swin_tiny 5+5 seed
+S5   2-train  convnext_in12k              R1.2      DONE     convnext_tiny 5+5 seed
+S6   2-train  vit_in21k                   R1.2      DONE     vit_small 5+5 seed
+S7   3-train  resnet50_gray               R2.3      DONE     resnet50_gray 5+5 seed
+S8   3-train  convnext_in1k_gray          R2.3      DONE     convnext_tiny_in1k_gray 5+5 seed
+S9   3-train  vit_in1k_gray               R2.3      DONE     vit_small_in1k_gray 5+5 seed
+S10  3-train  swin_gray                   R2.3      DONE     swin_tiny_gray 5+5 seed
+S11  4-train  resnet50_tv                 R1.3/R1.5 TODO     recipe/pack belum ada
+S12  4-train  resnet50_proper             R1.5      DONE     resnet50_adamw_lr1e3 5+5 seed
+S13  4-train  resnet50_sgd                R1.5      DONE     resnet50_sgd 5+5 seed
+V1   5-eval   clean_acc                   core      DONE*    turunan e1/e2 (regen di analisis)
+V2   5-eval   grayscale_test_CR           core      DONE*    turunan e1/e2 (regen di analisis)
+V3   5-eval   degradation_suite           core      DONE*    turunan e1/e2 (regen di analisis)
+V4   5-eval   perbin_wholeimg             core      DONE*    turunan e1/e2 (regen di analisis)
+V5   5-eval   perbin_foreground           R2.2/R1.7 PARTIAL  korelasi FG done; per-bin eval belum
+V6a  5-eval   gradcam_resnet              R2.1      TODO     handler gradcam belum dibangun
+V6b  5-eval   gradcam_convnext            R2.1      TODO     handler gradcam belum dibangun
+V6c  5-eval   attnrollout_vit             R2.1      TODO     handler gradcam belum dibangun
+V6d  5-eval   gradcam_swin                R2.1      TODO     handler gradcam belum dibangun
+V7   5-eval   perspecies_CR               R2.4      TODO     handler per-species belum dibangun
+V8   5-eval   confound_eval_nonEq         R1.2      DONE*    turunan e1/e2 (regen di analisis)
+V9   5-eval   grayscale_eval_gray_arms    R2.3      DONE*    turunan e1/e2 (regen di analisis)
+A1   6-build  table3_clean                core      PENDING  regen setelah consist + eval baru
+A2   6-build  table4_5_perbin             core+R2.2 PENDING  regen setelah consist + eval baru
+A3   6-build  table6_CR                   core      PENDING  regen setelah consist + eval baru
+A4   6-build  table7_paired_diffCI        R1.4      PENDING  regen setelah consist + eval baru
+A5   6-build  table8_resnet4cfg           R1.5      PENDING  regen setelah consist + eval baru
+A6   6-build  table_confound              R1.2      PENDING  regen setelah consist + eval baru
+A7   6-build  table_R2.3_matrix           R2.3      PENDING  regen setelah consist + eval baru
+A8   6-build  ladder_R1.3                 R1.3      PENDING  regen setelah consist + eval baru
+A9   6-build  figs_1_5                    core      PENDING  regen setelah consist + eval baru
+------------------------------------------------------------------------------------------
+TALLY: DONE=15, DONE*=6, PARTIAL=1, PENDING=9, TODO=6
+
+DONE* = angka ada (turunan CSV), tinggal diregen di tahap analisis (A*).

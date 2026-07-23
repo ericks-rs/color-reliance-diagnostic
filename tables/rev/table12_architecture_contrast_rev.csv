@@ -1,0 +1,5 @@
+dataset,contrast,resnet,convnext,diff,reading
+flowers102,S12 -> S2 (ResNet 1e-3 vs ConvNeXt 1e-4),0.9075947308505448,0.9296145714750365,0.0220198406244916,conservative lower bound
+flowers102,"S1 -> S2 (both 1e-4, matched)",0.8491787282484957,0.9296145714750365,0.0804358432265407,upper bound (ResNet under-tuned)
+cub200,S12 -> S2 (ResNet 1e-3 vs ConvNeXt 1e-4),0.8187435277873663,0.8374525371073525,0.0187090093199862,conservative lower bound
+cub200,"S1 -> S2 (both 1e-4, matched)",0.7872626855367622,0.8374525371073525,0.0501898515705903,upper bound (ResNet under-tuned)

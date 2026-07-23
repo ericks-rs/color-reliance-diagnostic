@@ -1,0 +1,23 @@
+=== T1 params/FLOPs ===
+  [table] T1_params_flops_flowers102 -> tables\T1_params_flops_flowers102.md/.tex
+
+######## dataset: flowers102 ########
+  [table] T2_clean_acc_flowers102 -> tables\T2_clean_acc_flowers102.md/.tex
+  [table] T3_e1_acc_by_bin_flowers102 -> tables\T3_e1_acc_by_bin_flowers102.md/.tex
+  [table] T3_e1_gap_by_bin_flowers102 -> tables\T3_e1_gap_by_bin_flowers102.md/.tex
+  [fig] figures\F1_gap_vs_bin_flowers102.png
+  [table] T4_color_reliance_flowers102 -> tables\T4_color_reliance_flowers102.md/.tex
+  [fig] figures\F2_drop_curve_flowers102.png
+  [fig] figures\F3_color_reliance_flowers102.png
+  [fig] figures\F4_confusion_flowers102.png
+
+=== INTERPRETASI (flowers102) ===
+  paling color-reliant: vit_small_in1k (CR=0.5353)
+  paling struktural   : resnet50_gray (CR=-0.7977)
+  gap atensi vs konv (kolom high):
+    ViT-S - ResNet-50: high=+0.1299 trend(high-low)=+0.0127
+    ViT-S - ConvNeXt-T: high=-0.0362 trend(high-low)=-0.0218
+    Swin-T - ResNet-50: high=+0.0850 trend(high-low)=-0.0086
+    Swin-T - ConvNeXt-T: high=-0.0812 trend(high-low)=-0.0432
+
+=== analyze done ===
