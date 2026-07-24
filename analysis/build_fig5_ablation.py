@@ -88,7 +88,7 @@ def build(data, datasets, out_png):
         lims[k] = (max(0.0, bot - 0.10) if k == "acc" else 0.0, top + 0.085)
 
     nrow = len(datasets)
-    fig, axes = plt.subplots(nrow, 2, figsize=(TEXTWIDTH_IN, 2.55 * nrow + 0.5),
+    fig, axes = plt.subplots(nrow, 2, figsize=(TEXTWIDTH_IN, 2.8 * nrow + 0.6),
                              squeeze=False)
     x = np.arange(len(order))
     for r, ds in enumerate(datasets):
@@ -127,7 +127,7 @@ def build(data, datasets, out_png):
           "changes checkpoint and optimizer", "seeds (n = 5)"]
     fig.legend(h, lb, loc="lower center", ncol=4, fontsize=8, frameon=False,
                bbox_to_anchor=(0.5, 0.004), columnspacing=1.3, handlelength=1.6)
-    fig.tight_layout(rect=(0, 0.062, 1, 1))
+    fig.tight_layout(rect=(0, 0.055, 1, 1), h_pad=3.0)   # jarak vertikal antar baris panel
     fig.savefig(out_png, dpi=600)
     plt.close(fig)
 

@@ -88,7 +88,7 @@ def build(e2, datasets, out_png):
     nrow = len(datasets)
     # tinggi per baris 2.55 in -> panel 3.4 x 2.55, rasio wajar untuk kurva garis.
     # +0.55 in di bawah untuk legenda bersama.
-    fig, axes = plt.subplots(nrow, 2, figsize=(TEXTWIDTH_IN, 2.55 * nrow + 0.55),
+    fig, axes = plt.subplots(nrow, 2, figsize=(TEXTWIDTH_IN, 3.3 * nrow + 0.8),
                              squeeze=False)
 
     # Rentang Y disamakan ANTARA PANEL KIRI DAN KANAN pada baris yang sama, yaitu
@@ -189,7 +189,7 @@ def build(e2, datasets, out_png):
                loc="lower center", ncol=6, fontsize=8, frameon=False,
                bbox_to_anchor=(0.5, 0.0), columnspacing=1.1, handlelength=1.6)
     # rect menyisakan pita bawah untuk legenda; tight_layout MEMPERTAHANKAN figsize.
-    fig.tight_layout(rect=(0, 0.055, 1, 1))
+    fig.tight_layout(rect=(0, 0.055, 1, 1), h_pad=3.0)   # jarak vertikal antar baris panel
     # TANPA bbox_inches="tight": itu akan memangkas kanvas dan mengubah lebar
     # keluaran, sehingga jaminan "8 pt = 8 pt" hilang.
     fig.savefig(out_png, dpi=600)

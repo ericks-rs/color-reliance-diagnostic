@@ -28,6 +28,7 @@ from src.utils import load_config, chdir_to_root
 from analysis.arms import MAIN_ARMS as MODEL_ORDER, MLAB, MCOLOR, DSLAB, check
 
 TEXTWIDTH_IN = 6.989
+COLWIDTH_IN = 3.36   # \columnwidth ieeeaccess.cls (single column)
 
 
 def _print_style():
@@ -42,18 +43,20 @@ def _print_style():
 
 def build(perclass, datasets, out_png):
     _print_style()
-    fig, axes = plt.subplots(1, len(datasets), figsize=(TEXTWIDTH_IN, 2.9),
+    # single-column: dua dataset ditumpuk ATAS-BAWAH (bukan kiri-kanan), tiap
+    # panel dapat lebar kolom penuh.
+    fig, axes = plt.subplots(len(datasets), 1, figsize=(COLWIDTH_IN, 3.8),
                              squeeze=False)
     # rentang-Y disamakan lintas panel: kedua dataset punya CR per-kelas di kisaran
     # yang sama (~-0.3 sampai 1.0), jadi bentuk distribusi bisa dibandingkan langsung.
     lo = float(perclass.CR_mean.min()) - 0.05
     hi = 1.02
     for c, ds in enumerate(datasets):
-        ax = axes[0][c]
+        ax = axes[c][0]
         sub = perclass[perclass.dataset == ds]
         data = [sub[sub.arm == m].CR_mean.dropna().values for m in MODEL_ORDER]
         pos = list(range(len(MODEL_ORDER)))
-        parts = ax.violinplot(data, positions=pos, widths=0.8,
+        parts = ax.violinplot(data, positions=pos, widths=0.32,
                               showmeans=False, showextrema=False, showmedians=True)
         for body, m in zip(parts["bodies"], MODEL_ORDER):
             body.set_facecolor(MCOLOR[m]); body.set_edgecolor("0.3")
@@ -61,12 +64,11 @@ def build(perclass, datasets, out_png):
         parts["cmedians"].set_color("0.15"); parts["cmedians"].set_linewidth(1.1)
         ax.axhline(0.0, color="0.45", ls=":", lw=0.9, zorder=1)   # acuan CR = 0
         ax.set_xticks(pos)
-        ax.set_xticklabels([MLAB[m] for m in MODEL_ORDER], rotation=0)
+        ax.set_xticklabels([MLAB[m] for m in MODEL_ORDER], rotation=20, ha="right")
         ax.set_ylim(lo, hi)
         ax.set_title(DSLAB[ds])
-        if c == 0:
-            ax.set_ylabel("per-class Color-Reliance")
-    fig.tight_layout()
+        ax.set_ylabel("per-class Color-Reliance")   # tiap panel (kini ditumpuk)
+    fig.tight_layout(h_pad=3.0)            # jarak vertikal antar panel atas-bawah
     fig.savefig(out_png, dpi=600)          # TANPA bbox_inches="tight"
     plt.close(fig)
 
