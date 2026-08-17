@@ -1,6 +1,6 @@
 # Color-Reliance Diagnostic
 
-Reproducibility code for the paper **"A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification"** (under review, IEEE Access).
+Reproducibility code for the paper **"A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification"** (accepted for publication in IEEE Access, 2026, doi: [10.1109/ACCESS.2026.3725483](https://doi.org/10.1109/ACCESS.2026.3725483)).
 
 This repository holds the code, configuration, random seeds, per-run result CSVs, logs, tables, and figures that reproduce every number and plot in the paper. Trained weights and the datasets are not tracked: the weights regenerate from the fixed seeds, and the two datasets are public and download on first run. See [Reproducing the results](#reproducing-the-results).
 
@@ -139,7 +139,16 @@ The trained weights are not tracked; they regenerate from the fixed seeds by run
 
 ## Citation
 
-A BibTeX entry will be added once the paper has a DOI.
+```bibtex
+@article{swedia2026colorreliance,
+  author  = {Swedia, Ericks Rachmat and Darmayantie, Astie and Marwan, Mochammad Akbar and Muslim, Aries},
+  title   = {A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification},
+  journal = {IEEE Access},
+  volume  = {14},
+  year    = {2026},
+  doi     = {10.1109/ACCESS.2026.3725483}
+}
+```
 
 ## License
 
