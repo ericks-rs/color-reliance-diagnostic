@@ -1,4 +1,6 @@
-# Color-Reliance Diagnostic
+<img src="assets/banner.png" alt="Color-Reliance Diagnostic" width="100%">
+
+# A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification
 
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FACCESS.2026.3725483-00629B)](https://doi.org/10.1109/ACCESS.2026.3725483)
 [![Published in IEEE Access](https://img.shields.io/badge/Published%20in-IEEE%20Access-00629B)](https://doi.org/10.1109/ACCESS.2026.3725483)
@@ -7,12 +9,12 @@
 
 **Authors**
 
-[![Ericks Rachmat Swedia](https://img.shields.io/badge/Ericks%20Rachmat%20Swedia-Gunadarma%20University-00629B?logo=orcid&logoColor=A6CE39)](https://orcid.org/0000-0002-9436-0300)
-![Astie Darmayantie](https://img.shields.io/badge/Astie%20Darmayantie-Gunadarma%20University-00629B)
-![Mochammad Akbar Marwan](https://img.shields.io/badge/Mochammad%20Akbar%20Marwan-Gunadarma%20University-00629B)
-![Aries Muslim](https://img.shields.io/badge/Aries%20Muslim-Gunadarma%20University-00629B)
+![Ericks Rachmat Swedia](https://img.shields.io/badge/Ericks%20Rachmat%20Swedia-5C2D91)<br>
+![Astie Darmayantie](https://img.shields.io/badge/Astie%20Darmayantie-5C2D91)<br>
+![Mochammad Akbar Marwan](https://img.shields.io/badge/Mochammad%20Akbar%20Marwan-5C2D91)<br>
+![Aries Muslim](https://img.shields.io/badge/Aries%20Muslim-5C2D91)
 
-Reproducibility code for the paper **"A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification"** (accepted for publication in IEEE Access, 2026, doi: [10.1109/ACCESS.2026.3725483](https://doi.org/10.1109/ACCESS.2026.3725483)).
+Reproducibility code for the paper, accepted for publication in IEEE Access.
 
 This repository holds the code, configuration, random seeds, per-run result CSVs, logs, tables, and figures that reproduce every number and plot in the paper. Trained weights and the datasets are not tracked: the weights regenerate from the fixed seeds, and the two datasets are public and download on first run. See [Reproducing the results](#reproducing-the-results).
 
