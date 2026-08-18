@@ -1,5 +1,10 @@
 # Color-Reliance Diagnostic
 
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FACCESS.2026.3725483-00629B)](https://doi.org/10.1109/ACCESS.2026.3725483)
+[![Published in IEEE Access](https://img.shields.io/badge/Published%20in-IEEE%20Access-00629B)](https://doi.org/10.1109/ACCESS.2026.3725483)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB)](requirements.txt)
+
 Reproducibility code for the paper **"A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification"** (accepted for publication in IEEE Access, 2026, doi: [10.1109/ACCESS.2026.3725483](https://doi.org/10.1109/ACCESS.2026.3725483)).
 
 This repository holds the code, configuration, random seeds, per-run result CSVs, logs, tables, and figures that reproduce every number and plot in the paper. Trained weights and the datasets are not tracked: the weights regenerate from the fixed seeds, and the two datasets are public and download on first run. See [Reproducing the results](#reproducing-the-results).
