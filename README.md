@@ -7,8 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB)](requirements.txt)
 
-**Authors**
-
+**Authors**<br>
 ![Ericks Rachmat Swedia](https://img.shields.io/badge/Ericks%20Rachmat%20Swedia-5C2D91)<br>
 ![Astie Darmayantie](https://img.shields.io/badge/Astie%20Darmayantie-5C2D91)<br>
 ![Mochammad Akbar Marwan](https://img.shields.io/badge/Mochammad%20Akbar%20Marwan-5C2D91)<br>
