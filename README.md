@@ -5,6 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB)](requirements.txt)
 
+[![Ericks Rachmat Swedia](https://img.shields.io/badge/Ericks%20Rachmat%20Swedia-0000--0002--9436--0300-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-9436-0300)
+![Astie Darmayantie](https://img.shields.io/badge/Astie%20Darmayantie-Gunadarma%20University-555555)
+![Mochammad Akbar Marwan](https://img.shields.io/badge/Mochammad%20Akbar%20Marwan-Gunadarma%20University-555555)
+![Aries Muslim](https://img.shields.io/badge/Aries%20Muslim-Gunadarma%20University-555555)
+
 Reproducibility code for the paper **"A Colorfulness-Stratified Diagnostic of Color Reliance in Convolutional and Attention Models for Fine-Grained Classification"** (accepted for publication in IEEE Access, 2026, doi: [10.1109/ACCESS.2026.3725483](https://doi.org/10.1109/ACCESS.2026.3725483)).
 
 This repository holds the code, configuration, random seeds, per-run result CSVs, logs, tables, and figures that reproduce every number and plot in the paper. Trained weights and the datasets are not tracked: the weights regenerate from the fixed seeds, and the two datasets are public and download on first run. See [Reproducing the results](#reproducing-the-results).
